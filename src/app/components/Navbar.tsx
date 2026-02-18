@@ -164,11 +164,11 @@ export const Navbar = () => {
               {/* Short Underline */}
               <div className="absolute -bottom-[0px] w-full flex justify-center pointer-events-none">
                 <div 
-                  className={`bg-[#ceae5a] h-[1.5px] transition-all duration-300 ${
+                  className={`bg-[#ceae5a] h-[2px] transition-all duration-300 ${
                     (location.pathname === item.path || 
                      (item.name === "About Us" && location.pathname.startsWith('/about')) || 
                      (item.name === "Business Sectors" && location.pathname.startsWith('/services'))) 
-                    ? "w-[30px]" : "w-0 group-hover:w-[30px]"
+                    ? "w-full" : "w-0 group-hover:w-full"
                   }`} 
                 />
               </div>
