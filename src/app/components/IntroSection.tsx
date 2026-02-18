@@ -6,24 +6,24 @@ import { ArrowRight } from "lucide-react";
 
 export const IntroSection = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[120px] px-4 sm:px-6 lg:px-[80px]">
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
+    <section className="bg-white py-[60px] lg:py-[90px] px-4 sm:px-6 lg:px-[80px]">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
         {/* Left column: image (~40–45%) then headline directly below with minimal gap */}
         <div className="lg:col-span-5 w-full min-w-0">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="flex flex-col gap-5"
+            className="flex flex-col gap-4"
           >
             <div className="rounded-[8px] overflow-hidden w-full">
               <ImageWithFallback
                 src={imgBackground1}
                 alt="Who We Are"
-                className="w-full h-auto object-cover min-h-[320px] lg:min-h-[400px]"
+                className="w-full h-[220px] sm:h-[240px] lg:h-[260px] object-cover"
               />
             </div>
-            <p className="text-[#1a1a1a] font-['Plus_Jakarta_Sans'] text-[22px] lg:text-[26px] font-bold leading-[1.4] tracking-tight text-left">
+            <p className="text-[#1a1a1a] font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] font-semibold leading-[1.5] tracking-tight text-left">
               At EDG Gold & Petroleum DMCC, we are more than a commodities trading company—we are a strategic partner in powering global markets and enabling responsible growth.
             </p>
           </motion.div>
@@ -35,9 +35,9 @@ export const IntroSection = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="flex flex-col gap-6"
+            className="flex flex-col gap-5"
           >
-            <div className="flex flex-col gap-6 text-[#1a1a1a] text-[15px] lg:text-[16px] font-['Plus_Jakarta_Sans'] leading-[1.8]">
+            <div className="flex flex-col gap-4 text-[#1a1a1a] text-[14px] lg:text-[15px] font-['Plus_Jakarta_Sans'] leading-[1.7]">
               <p>
                 With a focus on the ethical and efficient trading of petroleum products and precious metals, we operate across key geographies including the Middle East, Africa, and beyond. Our business model spans the full supply chain—from sourcing and transportation to storage and distribution—ensuring product availability, quality, and reliability for both public and private sectors.
               </p>
@@ -52,7 +52,7 @@ export const IntroSection = () => {
               </p>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-6">
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
