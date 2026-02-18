@@ -63,7 +63,6 @@ export const Footer = () => {
                 <Link to="/services/gold-trading" className="hover:text-[#CEAE5A] transition-colors">Precious metals, led by gold</Link>
               </div>
               <div className="flex flex-col gap-[10px]">
-                <Link to="/news" className="hover:text-[#CEAE5A] transition-colors font-normal text-[16px]">News</Link>
                 <Link to="/contact" className="hover:text-[#CEAE5A] transition-colors font-normal text-[16px]">Contact Us</Link>
               </div>
             </div>

@@ -38,7 +38,6 @@ export const Navbar = () => {
       ]
     },
     { name: "Operations", path: "/operations" },
-    { name: "News", path: "/news" },
   ];
 
   const closeMobileMenu = () => setIsMobileOpen(false);
@@ -212,18 +211,6 @@ export const Navbar = () => {
           </div>
 
           <div className="hidden sm:flex items-center gap-[18px] sm:gap-[24px]">
-            {/* EN */}
-            <div className="flex items-center gap-[6px] cursor-pointer group">
-              <span className="font-['Plus_Jakarta_Sans'] font-normal text-white text-[14px] group-hover:text-[#ceae5a] transition-colors">
-                EN
-              </span>
-              <div className="w-[8px] h-[5px] shrink-0">
-                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9.72973 6">
-                  <path d={svgPaths.p314c0200} fill="white" />
-                </svg>
-              </div>
-            </div>
-
             <Link to="/contact">
               <button className="bg-[#ceae5a] h-[44px] w-[130px] rounded-[6px] font-['Plus_Jakarta_Sans'] font-bold text-[13px] text-center text-white capitalize flex items-center justify-center hover:bg-[#b89b4f] transition-all hover:shadow-lg active:scale-95">
                 Contact us

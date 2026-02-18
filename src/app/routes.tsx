@@ -15,8 +15,6 @@ import { BusinessApproachPage } from "./pages/BusinessApproachPage";
 import { PetroleumProductsPage } from "./pages/PetroleumProductsPage";
 import { GoldTradingPage } from "./pages/GoldTradingPage";
 import { OperationsPage } from "./pages/OperationsPage";
-import { NewsPage } from "./pages/NewsPage";
-import { NewsDetailPage } from "./pages/NewsDetailPage";
 import { ContactPage } from "./pages/ContactPage";
 
 const HomePage = () => (
@@ -56,8 +54,6 @@ export const router = createHashRouter([
       { path: "services/petroleum-products", Component: PetroleumProductsPage },
       { path: "services/gold-trading", Component: GoldTradingPage },
       { path: "operations", Component: OperationsPage },
-      { path: "news", Component: NewsPage },
-      { path: "news/:id", Component: NewsDetailPage },
       { path: "contact", Component: ContactPage },
     ],
   },

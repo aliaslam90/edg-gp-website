@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgRightContent from "@/assets/4738369dabf096199f374956d2410fe7d923ac7c.png";
+import imgChairman from "@/assets/chairman.jpg";
 import svgPaths from "../../imports/svg-ixy99k2xf7";
 
 export const ChairmanMessage = () => {
@@ -17,7 +17,7 @@ export const ChairmanMessage = () => {
           className="lg:col-span-5 relative w-full aspect-[4/5] rounded-sm overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)]"
         >
           <img
-            src={imgRightContent}
+            src={imgChairman}
             alt="Chairman"
             className="absolute max-w-none object-cover size-full grayscale-[20%] hover:grayscale-0 transition-all duration-700"
           />
