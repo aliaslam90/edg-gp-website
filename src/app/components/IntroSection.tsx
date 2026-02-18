@@ -7,37 +7,37 @@ import { ArrowRight } from "lucide-react";
 export const IntroSection = () => {
   return (
     <section className="bg-white py-[80px] lg:py-[120px] px-4 sm:px-6 lg:px-[80px]">
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-        {/* Left Column: Image (~40–45%) + intro text below, aligned with image */}
-        <div className="lg:col-span-5 w-full">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
+        {/* Left column: image (~40–45%) then headline directly below with minimal gap */}
+        <div className="lg:col-span-5 w-full min-w-0">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="flex flex-col gap-8"
+            className="flex flex-col gap-5"
           >
-            <div className="rounded-[8px] overflow-hidden">
+            <div className="rounded-[8px] overflow-hidden w-full">
               <ImageWithFallback
                 src={imgBackground1}
                 alt="Who We Are"
-                className="max-w-none w-full h-auto object-cover aspect-[4/5] lg:aspect-auto"
+                className="w-full h-auto object-cover min-h-[320px] lg:min-h-[400px]"
               />
             </div>
-            <p className="text-black font-['Plus_Jakarta_Sans'] text-[18px] lg:text-[20px] font-medium leading-[1.5] tracking-tight text-left">
+            <p className="text-[#1a1a1a] font-['Plus_Jakarta_Sans'] text-[22px] lg:text-[26px] font-bold leading-[1.4] tracking-tight text-left">
               At EDG Gold & Petroleum DMCC, we are more than a commodities trading company—we are a strategic partner in powering global markets and enabling responsible growth.
             </p>
           </motion.div>
         </div>
 
-        {/* Right Column: Body text (~55–60%) + CTA right-aligned */}
-        <div className="lg:col-span-7">
+        {/* Right column: body text + CTA left-aligned with body text */}
+        <div className="lg:col-span-7 min-w-0">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="flex flex-col gap-8"
+            className="flex flex-col gap-6"
           >
-            <div className="flex flex-col gap-6 text-[#333] text-[15px] lg:text-[16px] font-['Plus_Jakarta_Sans'] leading-[1.8]">
+            <div className="flex flex-col gap-6 text-[#1a1a1a] text-[15px] lg:text-[16px] font-['Plus_Jakarta_Sans'] leading-[1.8]">
               <p>
                 With a focus on the ethical and efficient trading of petroleum products and precious metals, we operate across key geographies including the Middle East, Africa, and beyond. Our business model spans the full supply chain—from sourcing and transportation to storage and distribution—ensuring product availability, quality, and reliability for both public and private sectors.
               </p>
@@ -52,11 +52,11 @@ export const IntroSection = () => {
               </p>
             </div>
 
-            <div className="flex justify-end">
+            <div className="mt-8">
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="group flex items-center gap-0 bg-[#E5C189] text-[#1a1a1a] pl-6 pr-2 py-3 rounded-[8px] font-semibold text-[14px] tracking-tight transition-all"
+                className="group inline-flex items-center gap-0 bg-[#E6C291] text-[#1a1a1a] pl-6 pr-2 py-3.5 rounded-[8px] font-semibold text-[14px] tracking-tight transition-all"
               >
                 Request A Quote
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#1a1a1a] text-white ml-2 group-hover:bg-[#333] transition-colors">
