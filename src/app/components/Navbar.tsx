@@ -103,13 +103,23 @@ export const Navbar = () => {
             >
               {item.dropdown ? (
                 <div className="flex items-center gap-1 cursor-pointer">
-                  <span className={`font-['Plus_Jakarta_Sans'] font-medium text-[14px] xl:text-[15px] whitespace-nowrap transition-colors ${
-                    (item.name === "About Us" && location.pathname.startsWith('/about')) || 
-                    (item.name === "Business Sectors" && location.pathname.startsWith('/services')) 
-                    ? "text-white" : "text-white/80 hover:text-[#ceae5a]"
-                  }`}>
-                    {item.name}
-                  </span>
+                  <div className="relative inline-block">
+                    <span className={`font-['Plus_Jakarta_Sans'] font-medium text-[14px] xl:text-[15px] whitespace-nowrap transition-colors ${
+                      (item.name === "About Us" && location.pathname.startsWith('/about')) || 
+                      (item.name === "Business Sectors" && location.pathname.startsWith('/services')) 
+                      ? "text-white" : "text-white/80 hover:text-[#ceae5a]"
+                    }`}>
+                      {item.name}
+                    </span>
+                    {/* Underline under text only (centered), for dropdown items */}
+                    <div 
+                      className={`absolute left-0 right-0 bottom-0 h-[2px] bg-[#ceae5a] transition-all duration-300 ${
+                        (item.name === "About Us" && location.pathname.startsWith('/about')) || 
+                        (item.name === "Business Sectors" && location.pathname.startsWith('/services')) 
+                        ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+                      }`} 
+                    />
+                  </div>
                   <svg className={`size-3 transition-transform duration-300 ${
                     (item.name === "About Us" && isAboutOpen) || (item.name === "Business Sectors" && isSectorsOpen) ? "rotate-180" : ""
                   }`} fill="none" viewBox="0 0 10 6">
@@ -119,11 +129,17 @@ export const Navbar = () => {
               ) : (
                 <Link
                   to={item.path}
-                  className={`font-['Plus_Jakarta_Sans'] font-medium text-[14px] xl:text-[15px] leading-tight whitespace-nowrap transition-colors ${
+                  className={`relative inline-block font-['Plus_Jakarta_Sans'] font-medium text-[14px] xl:text-[15px] leading-tight whitespace-nowrap transition-colors ${
                     location.pathname === item.path ? "text-white" : "text-white/80 hover:text-[#ceae5a]"
                   }`}
                 >
                   {item.name}
+                  {/* Underline under text (centered), for direct links */}
+                  <span 
+                    className={`absolute left-0 right-0 bottom-0 h-[2px] bg-[#ceae5a] transition-all duration-300 ${
+                      location.pathname === item.path ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+                    }`} 
+                  />
                 </Link>
               )}
 
@@ -160,18 +176,6 @@ export const Navbar = () => {
                   )}
                 </AnimatePresence>
               )}
-
-              {/* Short Underline */}
-              <div className="absolute -bottom-[0px] w-full flex justify-center pointer-events-none">
-                <div 
-                  className={`bg-[#ceae5a] h-[2px] transition-all duration-300 ${
-                    (location.pathname === item.path || 
-                     (item.name === "About Us" && location.pathname.startsWith('/about')) || 
-                     (item.name === "Business Sectors" && location.pathname.startsWith('/services'))) 
-                    ? "w-full" : "w-0 group-hover:w-full"
-                  }`} 
-                />
-              </div>
             </div>
           ))}
         </nav>
