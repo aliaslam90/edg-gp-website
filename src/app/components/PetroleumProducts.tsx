@@ -1,0 +1,83 @@
+import React from "react";
+import { motion } from "motion/react";
+import imgFuelOil from "figma:asset/b925ee07aeb310be99bcb39a950d6350436d7ef6.png";
+import imgGasoil from "figma:asset/7afa48a607155eedfa56e133a93a31ec25ae49e.png";
+import imgGasoline from "figma:asset/5ec062669d7a5dfcdda047cf836da43350d96139.png";
+import { ArrowUpRight } from "lucide-react";
+
+const products = [
+  {
+    title: "Fuel Oil",
+    desc: "A vital source of energy for industrial applications, marine transport, and large-scale power generation. Our fuel oil supply meets international standards and is backed by reliable logistics and storage options.",
+    image: imgFuelOil
+  },
+  {
+    title: "Gasoil (D2)",
+    desc: "A highly sought-after low-sulfur diesel fuel used in automotive engines, heavy equipment, and commercial fleets. We offer both low and ultra-low sulfur grades to support environmental compliance and operational efficiency.",
+    image: imgGasoil
+  },
+  {
+    title: "Gasoline (Mogas)",
+    desc: "Refined to perform under a variety of engine types and environmental conditions, our gasoline products are distributed with strict quality assurance protocols and tailored to the regulatory specifications of each market.",
+    image: imgGasoline
+  }
+];
+
+export const PetroleumProducts = () => {
+  return (
+    <section className="bg-white py-[80px] lg:py-[140px] px-[45px]">
+      <div className="max-w-[1920px] mx-auto flex flex-col items-center">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-[60px] lg:mb-[80px] max-w-[1119px]"
+        >
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black mb-6">
+            Our Products
+          </h2>
+          <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+            Conforms to Clients country standards: Petroleum products supplies are formulated to meet the latest standards for diesel fuel, Gasoline, etc.. ensuring that it meets the highest quality and performance standards.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[5px] w-full">
+          {products.map((product, idx) => (
+            <motion.div 
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: idx * 0.1 }}
+              viewport={{ once: true }}
+              className="relative h-[590px] rounded-[10px] overflow-hidden group cursor-pointer"
+            >
+              <img src={product.image} alt={product.title} className="absolute inset-0 max-w-none object-cover size-full group-hover:scale-110 transition-transform duration-700" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#000435]/90 via-[#000435]/20 to-transparent z-10" />
+              
+              <div className="absolute inset-0 z-20 p-[45px] flex flex-col justify-between">
+                <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[30px] lg:text-[37px] text-white tracking-[-1px]">
+                  {product.title}
+                </h3>
+                
+                <div className="flex flex-col gap-8">
+                  <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-white/90 leading-relaxed">
+                    {product.desc}
+                  </p>
+                  
+                  <div className="pt-6 border-t border-white/30 flex items-center justify-between group/btn">
+                    <span className="font-['Plus_Jakarta_Sans'] font-bold text-[14.6px] text-white">
+                      Get A Quote
+                    </span>
+                    <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover/btn:scale-110 transition-transform">
+                      <ArrowUpRight className="size-4 text-[#000435]" strokeWidth={3} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};

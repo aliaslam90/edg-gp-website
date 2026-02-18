@@ -1,0 +1,53 @@
+import React from "react";
+import { motion } from "motion/react";
+import imgBackground from "figma:asset/7d6efaa958460cabdaf35603cb1f6b6f408a939a.png";
+import { ArrowRight } from "lucide-react";
+
+export const PetroleumHero = () => {
+  return (
+    <section className="relative h-[600px] lg:h-[800px] w-full overflow-hidden">
+      {/* Background Image */}
+      <img
+        src={imgBackground}
+        alt="Petroleum Hero"
+        className="absolute inset-0 max-w-none object-cover size-full scale-105"
+      />
+      
+      {/* Overlays */}
+      <div className="absolute inset-0 bg-black/40 z-10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 z-10" />
+
+      <div className="relative z-20 max-w-[1920px] mx-auto h-full px-[45px] flex flex-col justify-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="max-w-[900px]"
+        >
+          <div className="bg-[#ceae5a] w-fit px-[16px] py-[10px] rounded-[6px] mb-8">
+            <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[16px] text-white uppercase tracking-wider">
+              Energy Division
+            </span>
+          </div>
+          
+          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[67px] text-white leading-tight mb-6">
+            Driving Energy Forward with Precision and Integrity
+          </h1>
+          
+          <p className="font-['Plus_Jakarta_Sans'] text-[18px] lg:text-[20px] text-white/90 leading-relaxed mb-10 max-w-[700px]">
+            Delivering world-class petroleum trading solutions—fueling industries, empowering nations, and ensuring excellence across every transaction.
+          </p>
+          
+          <button className="flex items-center gap-[18px] bg-white hover:bg-[#ceae5a] hover:text-white transition-all px-[32px] py-[16px] rounded-[8px] group">
+            <span className="font-['Plus_Jakarta_Sans'] font-bold text-[15px] text-black group-hover:text-white transition-colors">
+              Contact Us
+            </span>
+            <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover:bg-white transition-colors">
+              <ArrowRight className="size-4 text-white group-hover:text-[#ceae5a]" strokeWidth={3} />
+            </div>
+          </button>
+        </motion.div>
+      </div>
+    </section>
+  );
+};
