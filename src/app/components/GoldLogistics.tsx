@@ -12,7 +12,7 @@ const investments = [
 
 export const GoldLogistics = () => {
   return (
-    <section className="bg-[#fafafa] py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-[#fafafa] py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-center">
         {/* Left: Content */}
         <motion.div 
@@ -21,7 +21,7 @@ export const GoldLogistics = () => {
           viewport={{ once: true }}
           className="flex flex-col gap-10"
         >
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[50px] text-black leading-tight">
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight">
             Logistics & Infrastructure Investments
           </h2>
           
@@ -48,7 +48,7 @@ export const GoldLogistics = () => {
           <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors" />
           
           <div className="absolute bottom-[60px] left-[60px] z-10">
-            <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[45px] text-white">
+            <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[20px] lg:text-[24px] text-white">
               Precious Metals Sector<span className="text-[#ceae5a]">.</span>
             </h3>
           </div>

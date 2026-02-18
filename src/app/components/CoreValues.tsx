@@ -35,18 +35,18 @@ const values = [
 
 export const CoreValues = () => {
   return (
-    <section className="bg-[#F8F9FA] py-[120px] px-8 md:px-[80px]">
+    <section className="bg-[#F8F9FA] py-[56px] lg:py-[72px] px-8 md:px-[80px]">
       <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start mb-[80px] gap-12">
           <div className="flex flex-col gap-4">
             <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.3em] font-['Plus_Jakarta_Sans']">
               OUR FOUNDATION
             </span>
-            <h2 className="text-[42px] font-bold text-[#0B2B3F] font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+            <h2 className="text-[18px] lg:text-[20px] lg:text-[28px] font-bold text-[#0B2B3F] font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
               Our Core values
             </h2>
           </div>
-          <p className="max-w-[400px] text-[#555] text-[15px] font-['Plus_Jakarta_Sans'] leading-[1.7] mt-2">
+          <p className="max-w-[400px] text-[#555] text-[14px] lg:text-[15px] font-['Plus_Jakarta_Sans'] leading-[1.7] mt-2">
             At EDG Gold & Petroleum DMCC, our core values define who we are and how we operate, guiding us towards excellence in every endeavor.
           </p>
         </div>
@@ -59,7 +59,7 @@ export const CoreValues = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-[8px] p-[40px] border border-[#E9ECEF] hover:shadow-[0_20px_50px_-10px_rgba(0,0,0,0.08)] transition-all duration-500 group"
+              className="bg-white rounded-[8px] p-6 lg:p-8 border border-[#E9ECEF] hover:shadow-[0_20px_50px_-10px_rgba(0,0,0,0.08)] transition-all duration-500 group"
             >
               <div className="flex flex-col gap-[24px]">
                 <div className="flex justify-between items-start">
@@ -75,10 +75,10 @@ export const CoreValues = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-[24px] font-bold text-[#0B2B3F] mb-3 font-['Plus_Jakarta_Sans'] tracking-tight">
+                  <h3 className="text-[18px] lg:text-[20px] font-bold text-[#0B2B3F] mb-3 font-['Plus_Jakarta_Sans'] tracking-tight">
                     {value.title}
                   </h3>
-                  <p className="text-[#555] text-[15px] leading-[1.6] font-['Plus_Jakarta_Sans']">
+                  <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.6] font-['Plus_Jakarta_Sans']">
                     {value.description}
                   </p>
                 </div>

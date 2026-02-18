@@ -4,7 +4,7 @@ import imgHeroHeader from "@/assets/8fefd188229e3a9ca69fac13417d3ec9eba5d830.png
 
 export const Hero = () => {
   return (
-    <section className="relative h-[90vh] min-h-[750px] overflow-hidden flex items-center">
+    <section className="relative h-[75vh] min-h-[480px] overflow-hidden flex items-center">
       {/* Background with Parallax effect simulation */}
       <motion.div 
         initial={{ scale: 1.15 }}
@@ -42,12 +42,12 @@ export const Hero = () => {
             </motion.span>
           </div>
           
-          <h1 className="text-white text-[44px] md:text-[64px] leading-[1.1] font-light tracking-[-0.03em] mb-8 font-['Plus_Jakarta_Sans']">
+          <h1 className="text-white text-[32px] md:text-[40px] leading-[1.15] font-light tracking-[-0.03em] mb-6 font-['Plus_Jakarta_Sans']">
             Bridging markets,<br />
             Fueling <span className="text-[#ceae5a] font-normal italic">prosperity</span>
           </h1>
           
-          <p className="text-white/70 text-[16px] md:text-[17px] leading-[1.8] font-normal mb-12 max-w-[600px] font-['Plus_Jakarta_Sans'] tracking-wide">
+          <p className="text-white/70 text-[14px] md:text-[15px] leading-[1.7] font-normal mb-8 max-w-[540px] font-['Plus_Jakarta_Sans'] tracking-wide">
             At EDG Gold & Petroleum, we create lasting value through responsible global trade, building trust across energy and precious metals markets from the UAE to the Middle East and Africa.
           </p>
           
@@ -73,14 +73,16 @@ export const Hero = () => {
         </motion.div>
       </div>
       
-      {/* Scroll indicator - desktop only, left-aligned with content */}
+      {/* Scroll indicator - desktop only, centered at bottom */}
       <motion.div 
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-12 left-8 md:left-[80px] z-10 hidden lg:flex flex-col items-start gap-4"
+        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 hidden lg:flex flex-col items-center gap-3"
       >
-        <span className="text-white/30 text-[10px] uppercase tracking-[0.4em] rotate-90 origin-left translate-x-3 mb-12">Scroll</span>
-        <div className="w-[1px] h-[80px] bg-gradient-to-b from-[#ceae5a] via-[#ceae5a]/50 to-transparent" />
+        <span className="text-white/40 text-[10px] uppercase tracking-[0.4em] mb-1 font-['Plus_Jakarta_Sans']">
+          Scroll
+        </span>
+        <div className="w-px h-[72px] bg-gradient-to-b from-[#ceae5a] via-[#ceae5a]/50 to-transparent" />
       </motion.div>
     </section>
   );

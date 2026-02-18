@@ -4,7 +4,7 @@ import imgGoldBars from "@/assets/84931d3a55c6572e58b6cf68823bfd549e51110b.png";
 
 export const GoldIntegrity = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-center">
         {/* Left: Gold Bars Image */}
         <motion.div 
@@ -28,7 +28,7 @@ export const GoldIntegrity = () => {
             <span className="font-['Plus_Jakarta_Sans'] text-[#ceae5a] text-[14px] uppercase tracking-widest font-bold">
               ETHICAL STANDARDS
             </span>
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[50px] text-black leading-tight">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight">
               Gold Trading with Integrity and Precision
             </h2>
           </div>
@@ -46,7 +46,7 @@ export const GoldIntegrity = () => {
           </div>
           
           <div className="border-t border-gray-100 pt-8">
-            <p className="font-['Plus_Jakarta_Sans'] font-bold text-[24px] lg:text-[28px] text-black leading-tight italic">
+            <p className="font-['Plus_Jakarta_Sans'] font-bold text-[18px] lg:text-[20px] text-black leading-tight italic">
               "From the mine to the market—we trade with integrity, fueled by value and vision."
             </p>
           </div>

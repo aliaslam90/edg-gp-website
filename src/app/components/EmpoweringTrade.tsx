@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export const EmpoweringTrade = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-center">
         
         {/* Left: Image Container */}
@@ -36,7 +36,7 @@ export const EmpoweringTrade = () => {
             <div className="w-full h-px bg-gray-200" />
           </div>
           
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[50px] text-[#151515] leading-tight">
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-[#151515] leading-tight">
             Empowering Trade. Delivering Value. Fueling Progress.
           </h2>
           

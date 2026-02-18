@@ -20,10 +20,10 @@ export const BusinessIntro = () => {
   ];
 
   return (
-    <section className="bg-white py-[60px] lg:py-[100px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
         {/* Col 1: Tall portrait oil rig image — height matches center column content */}
-        <div className="lg:col-span-4 h-[320px] sm:h-[360px] lg:h-[480px] rounded-[8px] overflow-hidden">
+        <div className="lg:col-span-4 h-[260px] sm:h-[300px] lg:h-[380px] rounded-[8px] overflow-hidden">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -39,7 +39,7 @@ export const BusinessIntro = () => {
         </div>
 
         {/* Col 2: Gold bars image + bold text + Contact Us button (same total height as col 1) */}
-        <div className="lg:col-span-4 flex flex-col gap-5 lg:gap-6 lg:h-[480px]">
+        <div className="lg:col-span-4 flex flex-col gap-5 lg:gap-6 lg:h-[380px]">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

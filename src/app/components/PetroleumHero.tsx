@@ -30,11 +30,11 @@ export const PetroleumHero = () => {
             </span>
           </div>
           
-          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[67px] text-white leading-tight mb-6">
+          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-6">
             Driving Energy Forward with Precision and Integrity
           </h1>
           
-          <p className="font-['Plus_Jakarta_Sans'] text-[18px] lg:text-[20px] text-white/90 leading-relaxed mb-10 max-w-[700px]">
+          <p className="font-['Plus_Jakarta_Sans'] text-[14px] lg:text-[15px] text-white/90 leading-relaxed mb-10 max-w-[700px]">
             Delivering world-class petroleum trading solutions—fueling industries, empowering nations, and ensuring excellence across every transaction.
           </p>
           

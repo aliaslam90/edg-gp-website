@@ -34,7 +34,7 @@ export const HeroCEOMessage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[55.4px] text-white leading-tight mb-8">
+          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-8">
             Chairman's Message
           </h1>
           

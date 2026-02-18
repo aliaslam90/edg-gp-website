@@ -6,7 +6,7 @@ import imgRightContent from "@/assets/4738369dabf096199f374956d2410fe7d923ac7c.p
 
 export const CEOMessageContent = () => {
   return (
-    <section className="bg-white py-[120px] px-8 md:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-8 md:px-[45px]">
       <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row gap-[80px] items-start">
         {/* Left Column: CEO Image */}
         <div className="flex-1 w-full lg:sticky lg:top-[120px]">
@@ -45,7 +45,7 @@ export const CEOMessageContent = () => {
               <span className="text-[#CEAE5A] font-medium text-[16px] font-['Plus_Jakarta_Sans']">
                 Chairman's Message
               </span>
-              <h2 className="text-[42px] font-bold text-black font-['Plus_Jakarta_Sans'] leading-[1.2] tracking-tight">
+              <h2 className="text-[24px] lg:text-[28px] font-bold text-black font-['Plus_Jakarta_Sans'] leading-[1.2] tracking-tight">
                 Charting Growth. <br />
                 Fueling Trust. Forging the Future.
               </h2>

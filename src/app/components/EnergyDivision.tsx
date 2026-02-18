@@ -71,10 +71,10 @@ export const EnergyDivision = () => {
               viewport={{ once: true }}
               transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
             >
-              <h2 className="font-['Plus_Jakarta_Sans'] text-[40px] md:text-[56px] font-light text-white leading-[1.1] mb-2 tracking-[-0.03em]">
+              <h2 className="font-['Plus_Jakarta_Sans'] text-[24px] md:text-[30px] font-light text-white leading-[1.1] mb-2 tracking-[-0.03em]">
                 Energy Division.
               </h2>
-              <h2 className="font-['Plus_Jakarta_Sans'] text-[40px] md:text-[56px] font-normal italic text-[#ceae5a] leading-[1.1] mb-10 tracking-[-0.03em]">
+              <h2 className="font-['Plus_Jakarta_Sans'] text-[24px] md:text-[30px] font-normal italic text-[#ceae5a] leading-[1.1] mb-10 tracking-[-0.03em]">
                 Petroleum Trading Excellence
               </h2>
             </motion.div>

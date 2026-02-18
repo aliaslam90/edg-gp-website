@@ -35,7 +35,7 @@ export const NewsHero = () => {
           transition={{ duration: 0.8 }}
           className="flex flex-col gap-6"
         >
-          <h1 className="text-white text-[48px] md:text-[64px] font-bold font-['Plus_Jakarta_Sans'] leading-tight">
+          <h1 className="text-white text-[28px] md:text-[36px] font-bold font-['Plus_Jakarta_Sans'] leading-tight">
             News
           </h1>
           

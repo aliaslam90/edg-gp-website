@@ -11,7 +11,7 @@ const focusItems = [
 
 export const FocusOnMEA = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-center">
         <motion.div 
           initial={{ opacity: 0, x: -30 }}
@@ -19,7 +19,7 @@ export const FocusOnMEA = () => {
           viewport={{ once: true }}
           className="flex flex-col gap-10"
         >
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black leading-tight">
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight">
             Why We Focus on MEA
           </h2>
           
@@ -41,7 +41,7 @@ export const FocusOnMEA = () => {
           viewport={{ once: true }}
           className="bg-[#fafafa] p-10 lg:p-[60px] rounded-[10px] border border-gray-100"
         >
-          <p className="font-['Plus_Jakarta_Sans'] text-[20px] lg:text-[24px] text-[#151515] leading-relaxed mb-8 italic">
+          <p className="font-['Plus_Jakarta_Sans'] text-[14px] lg:text-[16px] text-[#151515] leading-relaxed mb-8 italic">
             "At EDG Gold & Petroleum, our work in the Middle East and Africa is more than business—it’s a commitment to shared prosperity, sustainable trade, and long-term value creation. We don’t just serve these markets—we grow with them."
           </p>
           <div className="w-[60px] h-[2px] bg-[#ceae5a]" />

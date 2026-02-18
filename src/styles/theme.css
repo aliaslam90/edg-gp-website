@@ -134,31 +134,31 @@
   */
 
   html {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 1.875rem;   /* 30px – luxury compact */
     font-weight: 300;
     line-height: 1.2;
     letter-spacing: -0.02em;
   }
 
   h2 {
-    font-size: 2.25rem;
-    font-weight: 300;
-    line-height: 1.2;
+    font-size: 1.5rem;    /* 24px */
+    font-weight: 400;
+    line-height: 1.25;
     letter-spacing: -0.01em;
   }
 
   h3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.4;
+    font-size: 1.125rem;  /* 18px */
+    font-weight: 500;
+    line-height: 1.35;
   }
 
   h4 {
-    font-size: var(--text-base);
+    font-size: 0.9375rem; /* 15px */
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
   }

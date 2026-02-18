@@ -5,7 +5,7 @@ import svgPaths from "../../imports/svg-ixy99k2xf7";
 
 export const ChairmanMessage = () => {
   return (
-    <section className="bg-white py-[120px] px-8 md:px-[80px] overflow-hidden">
+    <section className="bg-white py-[56px] lg:py-[72px] px-8 md:px-[80px] overflow-hidden">
       <div className="max-w-[1440px] mx-auto flex flex-col lg:grid lg:grid-cols-12 gap-16 lg:gap-24 items-center">
         
         {/* Left Image - Refined Scale */}
@@ -43,7 +43,7 @@ export const ChairmanMessage = () => {
                 <span className="text-[#ceae5a] text-[12px] font-bold uppercase tracking-[0.5em] mb-6 block font-['Plus_Jakarta_Sans']">
                     Chairman’s Message
                 </span>
-                <h2 className="text-[32px] md:text-[48px] font-light text-black leading-[1.2] font-['Plus_Jakarta_Sans'] tracking-[-0.03em]">
+                <h2 className="text-[22px] md:text-[28px] font-light text-black leading-[1.2] font-['Plus_Jakarta_Sans'] tracking-[-0.03em]">
                     Charting Growth.<br />
                     Fueling Trust. <span className="text-[#ceae5a] font-normal italic">Forging the Future.</span>
                 </h2>
@@ -51,7 +51,7 @@ export const ChairmanMessage = () => {
           </div>
 
           {/* Body Text - Refined Spacing */}
-          <div className="text-black/60 text-[15px] md:text-[16px] leading-[1.8] font-normal font-['Plus_Jakarta_Sans'] space-y-8 max-w-[650px]">
+          <div className="text-black/60 text-[14px] md:text-[15px] leading-[1.8] font-normal font-['Plus_Jakarta_Sans'] space-y-8 max-w-[650px]">
             <p className="tracking-wide">
                 At EDG Gold & Petroleum, our journey has always been guided by a singular purpose: to create lasting value through responsible global trade. From the heart of the UAE to emerging and established markets, our company has evolved into a trusted name in energy and precious metals trading. 
             </p>

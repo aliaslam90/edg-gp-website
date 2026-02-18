@@ -67,7 +67,7 @@ export const StrategicRegions = () => {
           <span className="text-[#ceae5a] text-[12px] font-bold uppercase tracking-[0.5em] mb-10 block font-['Plus_Jakarta_Sans']">
             Strategic Growth
           </span>
-          <h2 className="text-white text-[40px] md:text-[56px] font-light leading-[1.1] mb-10 font-['Plus_Jakarta_Sans'] tracking-[-0.03em]">
+          <h2 className="text-white text-[24px] md:text-[30px] font-light leading-[1.1] mb-10 font-['Plus_Jakarta_Sans'] tracking-[-0.03em]">
             Strategic Regions.<br />
             <span className="text-[#ceae5a] italic font-normal">Expansive Opportunities.</span><br />
             Lasting Impact.

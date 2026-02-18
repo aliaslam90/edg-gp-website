@@ -16,12 +16,12 @@ const portfolioItems = [
 
 export const PetroleumPortfolio = () => {
   return (
-    <section className="bg-[#f2f5fb] py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-[#f2f5fb] py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[50.4px] text-black leading-tight max-w-[710px]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[710px]">
               Petroleum Products Portfolio
             </h2>
             <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-10 flex items-center">
@@ -46,7 +46,7 @@ export const PetroleumPortfolio = () => {
           {/* Left Content (Blue Box) */}
           <div className="w-full lg:w-[1301px] bg-[#000435] p-10 lg:p-[60px] flex flex-col justify-center relative z-10">
             <div className="flex items-center justify-between mb-12">
-              <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[30px] lg:text-[37px] text-white">
+              <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[18px] lg:text-[22px] text-white">
                 Light Distillates
               </h3>
               <span className="text-[#ceae5a]/30 font-bold text-[100px] lg:text-[141px] leading-none">01</span>
@@ -55,7 +55,7 @@ export const PetroleumPortfolio = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[100px] gap-y-10">
               {portfolioItems.map((item, idx) => (
                 <div key={idx} className="flex flex-col gap-2">
-                  <h4 className="font-['Plus_Jakarta_Sans'] font-semibold text-[20px] lg:text-[23px] text-[#ceae5a]">
+                  <h4 className="font-['Plus_Jakarta_Sans'] font-semibold text-[14px] lg:text-[16px] text-[#ceae5a]">
                     {item.label}
                   </h4>
                   <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-white/80 leading-relaxed">

@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 export const ContactFormSection = () => {
   return (
-    <section className="py-[120px] px-8 md:px-[80px] bg-white relative overflow-hidden">
+    <section className="py-[56px] lg:py-[72px] px-8 md:px-[80px] bg-white relative overflow-hidden">
       {/* Background World Map Graphic would go here if asset was available as a standalone SVG, 
           but we'll stick to the layout structure */}
       
@@ -21,7 +21,7 @@ export const ContactFormSection = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-black text-[40px] md:text-[50px] font-bold font-['Plus_Jakarta_Sans'] leading-[1.1] tracking-tight"
+              className="text-black text-[24px] md:text-[28px] font-bold font-['Plus_Jakarta_Sans'] leading-[1.1] tracking-tight"
             >
               Feel free to reach out for collaborations or just to say hello!
             </motion.h2>
@@ -67,7 +67,7 @@ export const ContactFormSection = () => {
               viewport={{ once: true }}
               className="bg-[#FAFAFA] p-8 md:p-[60px] rounded-[10px]"
             >
-              <h3 className="text-black text-[36px] md:text-[45px] font-bold font-['Plus_Jakarta_Sans'] mb-12">
+              <h3 className="text-black text-[20px] md:text-[24px] font-bold font-['Plus_Jakarta_Sans'] mb-12">
                 Leave a message
               </h3>
               

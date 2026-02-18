@@ -47,7 +47,7 @@ export const KeyStrengths = () => {
   };
 
   return (
-    <section className="bg-[#fafafa] py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px] overflow-hidden">
+    <section className="bg-[#fafafa] py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px] overflow-hidden">
       <div className="max-w-[1440px] mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-[60px] lg:mb-[80px]">
@@ -60,7 +60,7 @@ export const KeyStrengths = () => {
             <span className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[24px] text-[#ceae5a] block mb-4">
               Key Strengths
             </span>
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[50.4px] text-black leading-tight max-w-[1010px]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[1010px]">
               Beyond bullet points, our strengths define our story.
             </h2>
           </motion.div>
@@ -96,7 +96,7 @@ export const KeyStrengths = () => {
             {strengths.map((item) => (
               <div 
                 key={item.id}
-                className="min-w-[320px] lg:min-w-[422px] bg-white rounded-[15px] p-10 lg:p-[40px] shadow-[0px_4px_5px_0px_rgba(0,0,0,0.02)] border border-gray-50"
+                className="min-w-[260px] lg:min-w-[320px] bg-white rounded-[15px] p-6 lg:p-8 shadow-[0px_4px_5px_0px_rgba(0,0,0,0.02)] border border-gray-50"
               >
                 <div className="flex items-center justify-between mb-[26px]">
                   <div className="w-[84px] h-[84px] rounded-full bg-[#7CC03F] flex items-center justify-center text-white">
@@ -107,7 +107,7 @@ export const KeyStrengths = () => {
                   </span>
                 </div>
                 
-                <h3 className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[23px] text-[#151515] leading-[1.6] mb-[14px]">
+                <h3 className="font-['Plus_Jakarta_Sans'] font-medium text-[16px] lg:text-[18px] text-[#151515] leading-[1.6] mb-[14px]">
                   {item.title}
                 </h3>
                 <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">

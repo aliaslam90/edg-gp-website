@@ -23,7 +23,7 @@ const clients = [
 
 export const PetroleumClients = () => {
   return (
-    <section className="bg-[#f2f5fb] py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-[#f2f5fb] py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto flex flex-col gap-[48px] lg:gap-[68px]">
         {/* Header */}
         <div className="flex flex-col gap-[30px]">
@@ -38,7 +38,7 @@ export const PetroleumClients = () => {
           
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
             <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16 flex-1">
-              <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[50.4px] text-black leading-tight max-w-[474px]">
+              <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[474px]">
                 Our Clients
               </h2>
               <div className="h-full border-l-3 border-[#ceae5a] pl-8 flex items-center">

@@ -70,7 +70,7 @@ const newsItems = [
 
 export const NewsGrid = () => {
   return (
-    <section className="py-[100px] px-8 md:px-[80px] bg-white">
+    <section className="py-[56px] lg:py-[72px] px-8 md:px-[80px] bg-white">
       <div className="max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
           {newsItems.map((item, index) => (
@@ -97,7 +97,7 @@ export const NewsGrid = () => {
                   <span className="text-[#8C8C8C] text-[14px] font-['Plus_Jakarta_Sans']">
                     {item.date}
                   </span>
-                  <h3 className="text-[#000000] text-[24px] md:text-[27px] font-semibold font-['Plus_Jakarta_Sans'] leading-[1.3] tracking-tight group-hover:text-[#CEAE5A] transition-colors">
+                  <h3 className="text-[#000000] text-[18px] md:text-[20px] font-semibold font-['Plus_Jakarta_Sans'] leading-[1.3] tracking-tight group-hover:text-[#CEAE5A] transition-colors">
                     {item.title}
                   </h3>
                 </div>

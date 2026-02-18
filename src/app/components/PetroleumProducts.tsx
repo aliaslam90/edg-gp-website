@@ -25,7 +25,7 @@ const products = [
 
 export const PetroleumProducts = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto flex flex-col items-center">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,7 @@ export const PetroleumProducts = () => {
           viewport={{ once: true }}
           className="text-center mb-[60px] lg:mb-[80px] max-w-[1119px]"
         >
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black mb-6">
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black mb-6">
             Our Products
           </h2>
           <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
@@ -55,7 +55,7 @@ export const PetroleumProducts = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-[#000435]/90 via-[#000435]/20 to-transparent z-10" />
               
               <div className="absolute inset-0 z-20 p-[45px] flex flex-col justify-between">
-                <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[30px] lg:text-[37px] text-white tracking-[-1px]">
+                <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[18px] lg:text-[22px] text-white tracking-[-1px]">
                   {product.title}
                 </h3>
                 

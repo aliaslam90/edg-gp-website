@@ -5,7 +5,7 @@ import imgSection from "@/assets/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
 
 export const EnergyOpportunity = () => {
   return (
-    <section className="bg-white py-[120px] px-8 md:px-[80px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-8 md:px-[80px]">
       <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center gap-[60px]">
         <div className="flex-1">
           <motion.div
@@ -18,7 +18,7 @@ export const EnergyOpportunity = () => {
               <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.3em] font-['Plus_Jakarta_Sans']">
                 STRATEGIC VISION
               </span>
-              <h2 className="text-[42px] font-bold text-[#0B2B3F] font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+              <h2 className="text-[24px] lg:text-[28px] font-bold text-[#0B2B3F] font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
                 Energy & Opportunity Aligned
               </h2>
             </div>

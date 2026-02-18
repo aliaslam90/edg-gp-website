@@ -10,14 +10,14 @@ const highlights = [
 
 export const PetroleumOperations = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
         <div className="relative h-[774px] rounded-[10px] overflow-hidden group shadow-2xl flex items-center">
           <img src={imgPumpjack} alt="Oil Operations" className="absolute inset-0 max-w-none object-cover size-full transition-transform duration-1000 group-hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
           
           <div className="relative z-10 p-10 lg:p-[72px] max-w-[700px]">
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[30px] lg:text-[35px] text-white leading-tight">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[18px] lg:text-[22px] text-white leading-tight">
               Our petroleum division operates across key trade corridors in the Middle East, Africa, and Asia, ensuring: <span className="text-[#ceae5a]">.</span>
             </h2>
           </div>
@@ -34,7 +34,7 @@ export const PetroleumOperations = () => {
                 <div key={idx} className="flex items-center gap-6 py-10 border-b border-gray-100 last:border-0 group/item">
                   <div className="w-[14px] h-[14px] rounded-full bg-[#ceae5a] shrink-0" />
                   <div className="flex flex-col gap-2">
-                    <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[22px] lg:text-[25px] text-black">
+                    <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[15px] lg:text-[17px] text-black">
                       {item.label}
                     </span>
                     <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555]">

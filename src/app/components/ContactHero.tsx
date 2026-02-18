@@ -34,7 +34,7 @@ export const ContactHero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="flex flex-col gap-6"
         >
-          <h1 className="text-white text-[55px] md:text-[65px] font-bold font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+          <h1 className="text-white text-[28px] md:text-[36px] font-bold font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
             Contact Us
           </h1>
           

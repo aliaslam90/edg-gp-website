@@ -5,16 +5,16 @@ import { ArrowRight } from "lucide-react";
 
 export const PetroleumMarkets = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto flex flex-col gap-[45px]">
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-12">
           <div className="flex flex-col gap-4">
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black leading-tight">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight">
               Bridging Markets. <br /> Fueling Prosperity.
             </h2>
           </div>
-          <p className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[21.9px] text-black max-w-[998px] leading-relaxed tracking-tight">
+          <p className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-black max-w-[998px] leading-relaxed tracking-tight">
             At EDG Gold & Petroleum, we operate at the heart of global trade—where opportunity meets expertise. Our business is built on a foundation of trust, agility, and strategic insight, enabling us to navigate the complexities of international commodity markets with confidence and precision.
           </p>
         </div>
@@ -35,7 +35,7 @@ export const PetroleumMarkets = () => {
             </div>
             
             <div className="bg-[#fafafa] border border-gray-100 p-8 lg:p-10 rounded-[10px]">
-              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[22.9px] text-[#555] leading-relaxed tracking-tight">
+              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-[#555] leading-relaxed tracking-tight">
                 We don’t just trade—we build bridges between demand and supply, markets and momentum, vision and value.
               </p>
             </div>

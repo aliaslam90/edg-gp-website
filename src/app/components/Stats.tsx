@@ -24,7 +24,7 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
                <path d={iconPath} fill="#CEAE5A" />
             </svg>
           </div>
-          <span className={`text-[56px] leading-none font-normal tracking-[-2px] ${isDark ? "text-white" : "text-black"} font-['Plus_Jakarta_Sans']`}>
+          <span className={`text-[40px] lg:text-[44px] leading-none font-normal tracking-[-2px] ${isDark ? "text-white" : "text-black"} font-['Plus_Jakarta_Sans']`}>
             {value}
           </span>
         </div>
@@ -43,7 +43,7 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
 
 export const Stats = () => {
   return (
-    <section className="bg-white py-[60px] px-8 md:px-[80px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-8 md:px-[80px]">
       <div className="max-w-[1200px] mx-auto flex flex-col lg:grid lg:grid-cols-4 gap-[24px]">
         <StatCard
           title="Years of experience"

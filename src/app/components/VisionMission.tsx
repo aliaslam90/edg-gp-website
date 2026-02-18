@@ -28,7 +28,7 @@ export const VisionMission = () => {
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-8 md:px-[80px] pb-[100px]">
+      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-8 md:px-[80px] pb-16 lg:pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-1">
           
           {/* Vision Card */}

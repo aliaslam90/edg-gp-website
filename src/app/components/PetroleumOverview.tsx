@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export const PetroleumOverview = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-gray-200 pb-6 mb-12">
           <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
@@ -48,12 +48,12 @@ export const PetroleumOverview = () => {
             viewport={{ once: true }}
             className="flex flex-col gap-10"
           >
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black">
               Overview<span className="text-[#ceae5a]">.</span>
             </h2>
             
             <div className="flex flex-col gap-8">
-              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[21.9px] text-[#151515] leading-[1.4] tracking-tight">
+              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-[#151515] leading-[1.4] tracking-tight">
                 We supply a wide range of refined oil products tailored to meet the evolving needs of government agencies, public institutions, and private corporations. Our operational strength lies in our ability to offer reliable, on-time delivery with competitive pricing and full compliance with international quality standards.
               </p>
               

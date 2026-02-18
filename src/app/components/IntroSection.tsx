@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export const IntroSection = () => {
   return (
-    <section className="bg-white py-[60px] lg:py-[90px] px-4 sm:px-6 lg:px-[80px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[80px]">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
         {/* Left column: image (~40–45%) then headline directly below with minimal gap */}
         <div className="lg:col-span-5 w-full min-w-0">

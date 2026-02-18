@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export const GoldOverview = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-gray-200 pb-6 mb-12">
           <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-black font-medium tracking-[0.28px] uppercase">
@@ -27,7 +27,7 @@ export const GoldOverview = () => {
               className="w-full lg:w-[338px] h-[305px] rounded-[10px] bg-[#ffffef] flex items-center justify-center border border-[#ceae5a]/20 shadow-sm"
             >
               <div className="text-center p-8">
-                <div className="font-['Plus_Jakarta_Sans'] font-bold text-[32px] leading-tight mb-2">
+                <div className="font-['Plus_Jakarta_Sans'] font-bold text-[24px] leading-tight mb-2">
                   Gold Trading <br />
                   <span className="text-[#ceae5a]">with Integrity</span>
                 </div>
@@ -53,12 +53,12 @@ export const GoldOverview = () => {
             viewport={{ once: true }}
             className="flex flex-col gap-10"
           >
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black">
               Overview<span className="text-[#ceae5a]">.</span>
             </h2>
             
             <div className="flex flex-col gap-8">
-              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[21.9px] text-[#151515] leading-[1.4] tracking-tight">
+              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-[#151515] leading-[1.4] tracking-tight">
                 In parallel with our energy operations, EDG-GP DMCC is a trusted player in the gold and precious metals trade. We offer end-to-end precious metal services—from sourcing and aggregation to refinement and distribution—ensuring full traceability, compliance, and quality at every step.
               </p>
               

@@ -35,11 +35,11 @@ export const GoldHero = () => {
             </span>
           </div>
           
-          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[67px] text-white leading-tight mb-6 drop-shadow-md">
+          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-6 drop-shadow-md">
             Connecting Markets. Refining Value. Building Trust.
           </h1>
           
-          <p className="font-['Plus_Jakarta_Sans'] text-[18px] lg:text-[20px] text-white/95 leading-relaxed mb-10 max-w-[700px]">
+          <p className="font-['Plus_Jakarta_Sans'] text-[14px] lg:text-[15px] text-white/95 leading-relaxed mb-10 max-w-[700px]">
             Delivering excellence in precious metals trading—from ethical sourcing to global distribution, ensuring integrity at every step.
           </p>
           

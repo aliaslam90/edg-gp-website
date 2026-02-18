@@ -15,7 +15,7 @@ const pins = [
 
 export const MarketPresence = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-start">
         <motion.div 
           initial={{ opacity: 0, x: -30 }}
@@ -24,15 +24,15 @@ export const MarketPresence = () => {
           className="flex flex-col gap-10"
         >
           <div className="flex flex-col gap-4">
-            <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[24px] lg:text-[30px] text-black uppercase">
+            <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[16px] lg:text-[18px] text-black uppercase">
               Our Market Presence
             </span>
-            <span className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[24px] text-[#ceae5a]">
+            <span className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-[#ceae5a]">
               Middle East & Africa
             </span>
           </div>
 
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black leading-[1.1]">
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-[1.1]">
             Strategic Regions. <br />
             Expansive Opportunities. <br />
             Lasting Impact.

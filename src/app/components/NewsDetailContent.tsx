@@ -5,7 +5,7 @@ import imgSection from "@/assets/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
 
 export const NewsDetailContent = () => {
   return (
-    <section className="py-[100px] px-8 md:px-[80px] bg-white">
+    <section className="py-[56px] lg:py-[72px] px-8 md:px-[80px] bg-white">
       <div className="max-w-[1440px] mx-auto">
         
         {/* Date and Title */}
@@ -22,7 +22,7 @@ export const NewsDetailContent = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-black text-[36px] md:text-[56px] lg:text-[65px] font-bold font-['Plus_Jakarta_Sans'] leading-[1.1] tracking-tight"
+            className="text-black text-[24px] md:text-[28px] lg:text-[32px] font-bold font-['Plus_Jakarta_Sans'] leading-[1.1] tracking-tight"
           >
             Oil slips as Novorossiysk resumes loadings after Ukrainian attack
           </motion.h1>
@@ -61,7 +61,7 @@ export const NewsDetailContent = () => {
 
           {/* Subheading Section */}
           <div className="flex flex-col gap-8 mt-4">
-            <h2 className="text-black text-[32px] md:text-[48px] font-bold font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+            <h2 className="text-black text-[20px] md:text-[24px] font-bold font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
               Western sanctions on Russian energy companies
             </h2>
             <p>
@@ -99,7 +99,7 @@ export const NewsDetailContent = () => {
 
           {/* Comment Form */}
           <div className="mt-20 max-w-[800px]">
-            <h3 className="text-black text-[32px] md:text-[40px] font-bold font-['Plus_Jakarta_Sans'] mb-4">
+            <h3 className="text-black text-[18px] md:text-[20px] font-bold font-['Plus_Jakarta_Sans'] mb-4">
               Leave a Reply
             </h3>
             <p className="text-[#8C8C8C] text-[16px] mb-10">

@@ -23,10 +23,10 @@ export const StrategicSectors = () => {
             viewport={{ once: true }}
             className="max-w-[700px]"
           >
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[50px] text-white leading-tight mb-6">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-white leading-tight mb-6">
               Bridging Two Strategic Sectors
             </h2>
-            <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[20px] text-white/90 leading-relaxed">
+            <p className="font-['Plus_Jakarta_Sans'] text-[14px] lg:text-[15px] text-white/90 leading-relaxed">
               At EDG Gold & Petroleum, our business model is truly unique—seamlessly integrating two of the most strategic sectors in the global marketplace.
             </p>
           </motion.div>
@@ -34,7 +34,7 @@ export const StrategicSectors = () => {
       </div>
 
       {/* Content Below */}
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] py-[60px] lg:py-[100px] grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px]">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] py-[56px] lg:py-[72px] grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px]">
         {/* Left: Icons Cards */}
         <div className="flex flex-col sm:flex-row gap-[30px]">
           <motion.div 
@@ -46,7 +46,7 @@ export const StrategicSectors = () => {
             <div className="w-[84px] h-[84px] rounded-full bg-[#ceae5a]/10 flex items-center justify-center text-[#ceae5a]">
               <Droplets className="size-10" />
             </div>
-            <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[20px] lg:text-[24px] text-[#151515]">
+            <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[16px] lg:text-[18px] text-[#151515]">
               Petroleum Products
             </h3>
           </motion.div>
@@ -61,7 +61,7 @@ export const StrategicSectors = () => {
             <div className="w-[84px] h-[84px] rounded-full bg-[#ceae5a]/10 flex items-center justify-center text-[#ceae5a]">
               <Coins className="size-10" />
             </div>
-            <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[20px] lg:text-[24px] text-[#151515]">
+            <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[16px] lg:text-[18px] text-[#151515]">
               Precious Metals led by gold
             </h3>
           </motion.div>

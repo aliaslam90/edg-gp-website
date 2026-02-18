@@ -58,7 +58,7 @@ export const Partners = () => {
   };
 
   return (
-    <section className="bg-white overflow-hidden w-full py-[120px]">
+    <section className="bg-white overflow-hidden w-full py-[56px] lg:py-[72px]">
       <div className="max-w-[1440px] mx-auto px-8 md:px-[80px] relative">
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-[80px] gap-12">
@@ -66,7 +66,7 @@ export const Partners = () => {
             <span className="text-[#ceae5a] text-[12px] font-bold uppercase tracking-[0.5em] block font-['Plus_Jakarta_Sans']">
                 Global Network
             </span>
-            <h2 className="font-['Plus_Jakarta_Sans'] font-light text-[32px] md:text-[48px] text-black leading-tight tracking-[-0.03em]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-light text-[22px] md:text-[28px] text-black leading-tight tracking-[-0.03em]">
               Strategic Partners
             </h2>
           </div>

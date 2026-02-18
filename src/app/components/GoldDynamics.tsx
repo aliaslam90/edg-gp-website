@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export const GoldDynamics = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-start">
         {/* Left: Content */}
         <motion.div 
@@ -14,7 +14,7 @@ export const GoldDynamics = () => {
           viewport={{ once: true }}
           className="flex flex-col gap-10"
         >
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[36px] lg:text-[50px] text-black leading-tight">
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight">
             Gold Trading & Precious Market Dynamics
           </h2>
           
@@ -46,7 +46,7 @@ export const GoldDynamics = () => {
           className="flex flex-col gap-12"
         >
           <div className="border-l-2 border-[#ceae5a] pl-8">
-            <p className="font-['Plus_Jakarta_Sans'] text-[18px] lg:text-[20px] text-[#151515] leading-relaxed font-medium">
+            <p className="font-['Plus_Jakarta_Sans'] text-[14px] lg:text-[15px] text-[#151515] leading-relaxed font-medium">
               At EDG Gold, we specialize in the sourcing, trading, and distribution of gold and precious metals across key global markets. Our operations are built on trust, transparency, and a deep understanding of the nuances that define the international bullion trade.
             </p>
           </div>

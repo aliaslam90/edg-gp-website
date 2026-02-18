@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export const PartnerTrust = () => {
   return (
-    <section className="bg-[#fefefe] py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-[#fefefe] py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-gray-200 pb-6 mb-12">
           <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
@@ -32,7 +32,7 @@ export const PartnerTrust = () => {
             viewport={{ once: true }}
             className="flex flex-col gap-10"
           >
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black leading-tight uppercase">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight uppercase">
               A Partner <br /> You Can Trust
             </h2>
             
@@ -41,7 +41,7 @@ export const PartnerTrust = () => {
                 At EDG Gold & Petroleum, our services are designed to meet the dynamic needs of today’s global markets. With a strong foundation in commodity trading and an unwavering commitment to excellence, we offer a broad suite of solutions that span both the energy and precious metals sectors. Whether serving national governments, large enterprises, or strategic partners, we deliver performance with purpose and precision.
               </p>
               
-              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[22px] lg:text-[25.9px] text-[#151515] leading-[1.4] tracking-tight">
+              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[15px] lg:text-[17px] text-[#151515] leading-[1.4] tracking-tight">
                 From fueling economies to securing wealth, we are committed to being your strategic trade partner of choice.
               </p>
             </div>

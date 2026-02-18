@@ -31,11 +31,11 @@ const services = [
 
 export const GoldTradingService = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+    <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-[60px] lg:mb-[80px]">
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[40px] lg:text-[50.4px] text-black">
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black">
             Gold Trading Service
           </h2>
           
@@ -74,7 +74,7 @@ export const GoldTradingService = () => {
                   <span className="font-['Plus_Jakarta_Sans'] text-[12px] uppercase tracking-widest text-[#ceae5a] font-bold">
                     {service.badge}
                   </span>
-                  <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[24px] lg:text-[28px] text-white mt-4 leading-tight">
+                  <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[16px] lg:text-[18px] text-white mt-4 leading-tight">
                     {service.title}
                   </h3>
                 </div>
