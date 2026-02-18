@@ -27,8 +27,8 @@ const capabilities = [
 
 export const PetroleumCapabilities = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-[45px]">
-      <div className="max-w-[1920px] mx-auto">
+    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12 border-b border-gray-200 pb-6">
           <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
             Efficient. Reliable. Strategic.

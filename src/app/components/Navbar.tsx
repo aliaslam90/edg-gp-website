@@ -7,6 +7,7 @@ export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [isSectorsOpen, setIsSectorsOpen] = useState(false);
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -40,6 +41,8 @@ export const Navbar = () => {
     { name: "News", path: "/news" },
   ];
 
+  const closeMobileMenu = () => setIsMobileOpen(false);
+
   return (
     <motion.header
       initial={{ y: -100, opacity: 0 }}
@@ -48,7 +51,7 @@ export const Navbar = () => {
         isScrolled ? "py-2.5 shadow-xl shadow-black/50" : "py-4"
       }`}
     >
-      <div className="max-w-[1920px] mx-auto px-[45px] flex items-center justify-between">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] flex items-center justify-between gap-4">
         
         {/* LEFT: Logo */}
         <Link to="/" className="flex items-center shrink-0">
@@ -84,7 +87,7 @@ export const Navbar = () => {
         </Link>
 
         {/* CENTER: Navigation Menu */}
-        <nav className="hidden lg:flex items-center gap-[35px] xl:gap-[45px] relative h-full">
+        <nav className="hidden lg:flex items-center gap-[28px] xl:gap-[40px] relative h-full">
           {navItems.map((item) => (
             <div 
               key={item.name} 
@@ -174,8 +177,8 @@ export const Navbar = () => {
         </nav>
 
         {/* RIGHT: Actions */}
-        <div className="flex items-center gap-[30px] xl:gap-[50px]">
-          
+        <div className="flex items-center gap-3 sm:gap-[20px] lg:gap-[30px] xl:gap-[50px]">
+          {/* Contact details - hide on small screens */}
           <div className="hidden xl:flex items-center gap-[25px]">
             {/* Call Us */}
             <div className="flex items-center gap-[8px]">
@@ -204,7 +207,7 @@ export const Navbar = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-[30px]">
+          <div className="hidden sm:flex items-center gap-[18px] sm:gap-[24px]">
             {/* EN */}
             <div className="flex items-center gap-[6px] cursor-pointer group">
               <span className="font-['Plus_Jakarta_Sans'] font-normal text-white text-[14px] group-hover:text-[#ceae5a] transition-colors">
@@ -223,8 +226,93 @@ export const Navbar = () => {
               </button>
             </Link>
           </div>
+
+          {/* Mobile menu toggle */}
+          <button
+            type="button"
+            aria-label="Toggle navigation"
+            className="flex h-10 w-10 items-center justify-center rounded-md border border-white/15 text-white lg:hidden"
+            onClick={() => setIsMobileOpen((open) => !open)}
+          >
+            <span className="sr-only">Toggle navigation</span>
+            <div className="flex flex-col gap-1.5">
+              <span
+                className={`block h-[2px] w-5 bg-current transition-transform ${
+                  isMobileOpen ? "translate-y-[5px] rotate-45" : ""
+                }`}
+              />
+              <span
+                className={`block h-[2px] w-5 bg-current transition-opacity ${
+                  isMobileOpen ? "opacity-0" : "opacity-100"
+                }`}
+              />
+              <span
+                className={`block h-[2px] w-5 bg-current transition-transform ${
+                  isMobileOpen ? "-translate-y-[5px] -rotate-45" : ""
+                }`}
+              />
+            </div>
+          </button>
         </div>
       </div>
+
+      {/* Mobile menu */}
+      <AnimatePresence>
+        {isMobileOpen && (
+          <motion.nav
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+            className="lg:hidden border-t border-white/10 bg-[#080808]/98 backdrop-blur-sm"
+          >
+            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-4 flex flex-col gap-4">
+              {navItems.map((item) => (
+                <div key={item.name} className="flex flex-col gap-2">
+                  <Link
+                    to={item.path}
+                    onClick={closeMobileMenu}
+                    className={`font-['Plus_Jakarta_Sans'] font-medium text-[14px] tracking-wide ${
+                      location.pathname === item.path ||
+                      (item.name === "About Us" && location.pathname.startsWith("/about")) ||
+                      (item.name === "Business Sectors" && location.pathname.startsWith("/services"))
+                        ? "text-white"
+                        : "text-white/80"
+                    }`}
+                  >
+                    {item.name}
+                  </Link>
+                  {item.dropdown && (
+                    <div className="ml-3 flex flex-col gap-1">
+                      {item.dropdown.map((subItem) => (
+                        <Link
+                          key={subItem.name}
+                          to={subItem.path}
+                          onClick={closeMobileMenu}
+                          className={`font-['Plus_Jakarta_Sans'] text-[13px] ${
+                            location.pathname === subItem.path
+                              ? "text-[#CEAE5A]"
+                              : "text-white/60"
+                          }`}
+                        >
+                          {subItem.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+
+              {/* Mobile contact button */}
+              <Link to="/contact" onClick={closeMobileMenu} className="mt-2">
+                <button className="w-full bg-[#ceae5a] h-[44px] rounded-[6px] font-['Plus_Jakarta_Sans'] font-bold text-[13px] text-center text-white capitalize flex items-center justify-center hover:bg-[#b89b4f] transition-all hover:shadow-lg active:scale-95">
+                  Contact us
+                </button>
+              </Link>
+            </div>
+          </motion.nav>
+        )}
+      </AnimatePresence>
     </motion.header>
   );
 };

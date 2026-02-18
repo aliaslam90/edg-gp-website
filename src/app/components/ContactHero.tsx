@@ -27,7 +27,7 @@ export const ContactHero = () => {
         <img src={imgDecor} alt="" className="w-full h-full object-contain" />
       </div>
 
-      <div className="relative z-10 max-w-[1440px] mx-auto h-full px-8 md:px-[80px] flex flex-col justify-end pb-[100px]">
+      <div className="relative z-10 max-w-[1440px] mx-auto h-full px-8 md:px-[80px] flex flex-col justify-end pb-[40px]">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}

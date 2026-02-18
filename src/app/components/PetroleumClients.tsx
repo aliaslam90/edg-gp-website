@@ -23,8 +23,8 @@ const clients = [
 
 export const PetroleumClients = () => {
   return (
-    <section className="bg-[#f2f5fb] py-[80px] lg:py-[140px] px-[45px]">
-      <div className="max-w-[1920px] mx-auto flex flex-col gap-[68px]">
+    <section className="bg-[#f2f5fb] py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto flex flex-col gap-[48px] lg:gap-[68px]">
         {/* Header */}
         <div className="flex flex-col gap-[30px]">
           <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-gray-200 pb-6">

@@ -10,8 +10,8 @@ const highlights = [
 
 export const PetroleumOperations = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-[45px]">
-      <div className="max-w-[1920px] mx-auto">
+    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto">
         <div className="relative h-[774px] rounded-[10px] overflow-hidden group shadow-2xl flex items-center">
           <img src={imgPumpjack} alt="Oil Operations" className="absolute inset-0 max-w-none object-cover size-full transition-transform duration-1000 group-hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />

@@ -22,7 +22,7 @@ export const GoldHero = () => {
         }} 
       />
 
-      <div className="relative z-20 max-w-[1920px] mx-auto h-full px-[45px] flex flex-col justify-center">
+      <div className="relative z-20 max-w-[1440px] mx-auto h-full px-4 sm:px-6 lg:px-[45px] flex flex-col justify-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

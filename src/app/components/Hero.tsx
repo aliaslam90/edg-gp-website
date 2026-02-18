@@ -73,11 +73,11 @@ export const Hero = () => {
         </motion.div>
       </div>
       
-      {/* Scroll indicator - Refined */}
+      {/* Scroll indicator - desktop only, left-aligned with content */}
       <motion.div 
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 z-10 hidden lg:flex flex-col items-center gap-4"
+        className="absolute bottom-12 left-8 md:left-[80px] z-10 hidden lg:flex flex-col items-start gap-4"
       >
         <span className="text-white/30 text-[10px] uppercase tracking-[0.4em] rotate-90 origin-left translate-x-3 mb-12">Scroll</span>
         <div className="w-[1px] h-[80px] bg-gradient-to-b from-[#ceae5a] via-[#ceae5a]/50 to-transparent" />

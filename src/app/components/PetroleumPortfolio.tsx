@@ -16,8 +16,8 @@ const portfolioItems = [
 
 export const PetroleumPortfolio = () => {
   return (
-    <section className="bg-[#f2f5fb] py-[80px] lg:py-[140px] px-[45px]">
-      <div className="max-w-[1920px] mx-auto">
+    <section className="bg-[#f2f5fb] py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">

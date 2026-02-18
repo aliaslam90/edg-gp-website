@@ -11,8 +11,8 @@ const focusItems = [
 
 export const FocusOnMEA = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-[45px]">
-      <div className="max-w-[1920px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] lg:gap-[100px] items-center">
+    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-center">
         <motion.div 
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}

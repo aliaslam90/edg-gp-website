@@ -4,8 +4,8 @@ import imgGoldBars from "@/assets/84931d3a55c6572e58b6cf68823bfd549e51110b.png";
 
 export const GoldIntegrity = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-[45px]">
-      <div className="max-w-[1920px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[60px] lg:gap-[100px] items-center">
+    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-center">
         {/* Left: Gold Bars Image */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}

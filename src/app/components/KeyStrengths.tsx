@@ -47,8 +47,8 @@ export const KeyStrengths = () => {
   };
 
   return (
-    <section className="bg-[#fafafa] py-[80px] lg:py-[140px] px-[45px] overflow-hidden">
-      <div className="max-w-[1920px] mx-auto">
+    <section className="bg-[#fafafa] py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px] overflow-hidden">
+      <div className="max-w-[1440px] mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-[60px] lg:mb-[80px]">
           <motion.div

@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react";
 
 export const PetroleumMarkets = () => {
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-[45px]">
-      <div className="max-w-[1920px] mx-auto flex flex-col gap-[45px]">
+    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto flex flex-col gap-[45px]">
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-12">
           <div className="flex flex-col gap-4">

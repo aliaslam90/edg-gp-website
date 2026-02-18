@@ -10,8 +10,8 @@ const stats = [
 
 export const GoldStats = () => {
   return (
-    <section className="bg-[#0b0b0b] py-[100px] lg:py-[140px] px-[45px]">
-      <div className="max-w-[1920px] mx-auto flex flex-col items-center">
+    <section className="bg-[#0b0b0b] py-[100px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto flex flex-col items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[5px] w-full mb-12">
           {stats.map((stat, idx) => (
             <motion.div 

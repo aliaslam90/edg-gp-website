@@ -16,7 +16,7 @@ export const StrategicSectors = () => {
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-black/40" />
         
-        <div className="absolute inset-0 z-10 max-w-[1920px] mx-auto px-[45px] flex flex-col justify-center">
+        <div className="absolute inset-0 z-10 max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] flex flex-col justify-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -34,7 +34,7 @@ export const StrategicSectors = () => {
       </div>
 
       {/* Content Below */}
-      <div className="max-w-[1920px] mx-auto px-[45px] py-[60px] lg:py-[100px] grid grid-cols-1 lg:grid-cols-2 gap-[60px] lg:gap-[100px]">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] py-[60px] lg:py-[100px] grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px]">
         {/* Left: Icons Cards */}
         <div className="flex flex-col sm:flex-row gap-[30px]">
           <motion.div 
