@@ -2,14 +2,14 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import imgBpPng from "figma:asset/d49f19aa8493aac5092e4202074027f4138cec9a.png";
-import imgHarbourEnergyPng from "figma:asset/0858992a4b38f6eee43970c07dfaa06babf77247.png";
-import imgEquinorPng from "figma:asset/509a55a1a570e289f42a47af3e76d143f3910ddf.png";
-import imgSpiritEnergyPng from "figma:asset/3be4734612803eb65c49080b06b7468307d6f51c.png";
-import imgMaersekPng from "figma:asset/45b5a55fe23efc25cb1a2a83edffa56651de175c.png";
-import imgTotalEnergiesPng from "figma:asset/910001007ef2797e8ec0b82f801648a7b45051b8.png";
-import imgPerencoPng from "figma:asset/0f312acfd7661746df1a946a8f08b75656c8d77a.png";
-import imgSubsea7Png from "figma:asset/04a38e18500a05c9338f7e479bacabfd32910efa.png";
+import imgBpPng from "@/assets/d49f19aa8493aac5092e4202074027f4138cec9a.png";
+import imgHarbourEnergyPng from "@/assets/0858992a4b38f6eee43970c07dfaa06babf77247.png";
+import imgEquinorPng from "@/assets/509a55a1a570e289f42a47af3e76d143f3910ddf.png";
+import imgSpiritEnergyPng from "@/assets/2835c4df047e146bffdc6d4eaac3a16e85f5bd7c.png";
+import imgMaersekPng from "@/assets/45b5a55fe23efc25cb1a2a83edffa56651de175c.png";
+import imgTotalEnergiesPng from "@/assets/1f87f80505240dbe46a6b23840a9e076447e4ce8.png";
+import imgPerencoPng from "@/assets/0f312acfd7661746df1a946a8f08b75656c8d77a.png";
+import imgSubsea7Png from "@/assets/04a38e18500a05c9338f7e479bacabfd32910efa.png";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export const Partners = () => {

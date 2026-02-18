@@ -1,5 +1,5 @@
 import svgPaths from "./svg-enws1wxon2";
-import imgRectangle from "figma:asset/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
+import imgRectangle from "@/assets/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
 
 function Frame() {
   return (

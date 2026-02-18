@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgBackground from "figma:asset/97d2b00da66f9ec7b8522e7d1981f6759c5d6453.png";
+import imgBackground from "@/assets/97d2b00da66f9ec7b8522e7d1981f6759c5d6453.png";
 import { ArrowRight } from "lucide-react";
 
 export const GoldHero = () => {

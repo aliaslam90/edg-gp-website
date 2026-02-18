@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgMap from "figma:asset/fdbccf296bd7cc610ec3339dcf093645e563d721.png";
+import imgMap from "@/assets/fdbccf296bd7cc610ec3339dcf093645e563d721.png";
 
 const pins = [
   { top: "26%", left: "73.5%" },

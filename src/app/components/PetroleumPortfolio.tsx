@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgProject from "figma:asset/2d09c5cf3e6a35fbebcfa136dd060771dbf70d57.png";
+import imgProject from "@/assets/2d09c5cf3e6a35fbebcfa136dd060771dbf70d57.png";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const portfolioItems = [

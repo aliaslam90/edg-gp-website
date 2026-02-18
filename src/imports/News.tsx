@@ -1,18 +1,18 @@
 import svgPaths from "./svg-ue2oexrfro";
-import imgHero from "figma:asset/869053afd4838d03fa361c9154a35ecb01a0a116.png";
-import imgDecorPng from "figma:asset/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
-import imgSection from "figma:asset/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
-import imgBlog121024X509Jpg from "figma:asset/fd2cf1e39860b2496ed6ebd6d1953f2f649e8996.png";
-import imgBlog121024X509Jpg1 from "figma:asset/7603bd7e1fc180b700e61b67914a6de6cc719f55.png";
-import imgBlog121024X509Jpg2 from "figma:asset/1370241e735e9efbf3419fe9f3557ea6a94a4cff.png";
-import imgBlog121024X509Jpg3 from "figma:asset/1d8394cc6579b1a4991700c125327b5b3c5edfd0.png";
-import imgBlog121024X509Jpg4 from "figma:asset/2f7e308c7c3cd82a67cb04e9aa85a0b0074f3ef6.png";
-import imgImage3 from "figma:asset/50c075019ef14d613858c4a38a22d51e9300a26c.png";
-import imgBlog121024X509Jpg5 from "figma:asset/0d7b01fbb392357a72a3db80beed5f06b4534543.png";
-import imgBlog121024X509Jpg6 from "figma:asset/92f8bf08770cdf997085977e248bbb5306c95ede.png";
-import imgBlog121024X509Jpg7 from "figma:asset/cc70606063a8bffc99917cb7476dc61c425d44c9.png";
-import imgBlog121024X509Jpg8 from "figma:asset/ef84372341dc923f2fc5698cd67afa66b6dd5e11.png";
-import imgRectangle from "figma:asset/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
+import imgHero from "@/assets/869053afd4838d03fa361c9154a35ecb01a0a116.png";
+import imgDecorPng from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
+import imgSection from "@/assets/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
+import imgBlog121024X509Jpg from "@/assets/fd2cf1e39860b2496ed6ebd6d1953f2f649e8996.png";
+import imgBlog121024X509Jpg1 from "@/assets/7603bd7e1fc180b700e61b67914a6de6cc719f55.png";
+import imgBlog121024X509Jpg2 from "@/assets/1370241e735e9efbf3419fe9f3557ea6a94a4cff.png";
+import imgBlog121024X509Jpg3 from "@/assets/1d8394cc6579b1a4991700c125327b5b3c5edfd0.png";
+import imgBlog121024X509Jpg4 from "@/assets/2f7e308c7c3cd82a67cb04e9aa85a0b0074f3ef6.png";
+import imgImage3 from "@/assets/50c075019ef14d613858c4a38a22d51e9300a26c.png";
+import imgBlog121024X509Jpg5 from "@/assets/0d7b01fbb392357a72a3db80beed5f06b4534543.png";
+import imgBlog121024X509Jpg6 from "@/assets/92f8bf08770cdf997085977e248bbb5306c95ede.png";
+import imgBlog121024X509Jpg7 from "@/assets/cc70606063a8bffc99917cb7476dc61c425d44c9.png";
+import imgBlog121024X509Jpg8 from "@/assets/ef84372341dc923f2fc5698cd67afa66b6dd5e11.png";
+import imgRectangle from "@/assets/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
 
 function MaskGroup() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgChart from "figma:asset/37962e12eeda696ce8aca39db3644bfe6f2528c3.png";
+import imgChart from "@/assets/37962e12eeda696ce8aca39db3644bfe6f2528c3.png";
 import { ArrowRight } from "lucide-react";
 
 export const GoldDynamics = () => {

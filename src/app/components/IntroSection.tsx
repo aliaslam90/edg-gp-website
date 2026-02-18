@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import imgBackground1 from "figma:asset/d6476fda33009cbd54e41a9a5e032505b1113a18.png";
+import imgBackground1 from "@/assets/d6476fda33009cbd54e41a9a5e032505b1113a18.png";
 import { MoveRight } from "lucide-react";
 
 export const IntroSection = () => {

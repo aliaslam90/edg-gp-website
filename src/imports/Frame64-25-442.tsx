@@ -1,5 +1,5 @@
 import svgPaths from "./svg-6dj2cjybh2";
-import imgFrame64 from "figma:asset/e82cf92c9617fe67354327de7e9e517a2e5bc58a.png";
+import imgFrame64 from "@/assets/e82cf92c9617fe67354327de7e9e517a2e5bc58a.png";
 
 function Container1() {
   return (

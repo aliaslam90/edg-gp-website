@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgME from "figma:asset/ad0f794d1a3a65953128611d42599dc87402bd2d.png";
-import imgAfrica from "figma:asset/037a9a85a52a082e71a4f2c3eb593be4e565efc8.png";
+import imgME from "@/assets/ad0f794d1a3a65953128611d42599dc87402bd2d.png";
+import imgAfrica from "@/assets/037a9a85a52a082e71a4f2c3eb593be4e565efc8.png";
 
 export const RegionalShowcase = () => {
   return (

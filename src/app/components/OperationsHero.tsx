@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgHero from "figma:asset/b742b6c1814fd4e393d0cac0c07ee40b3ceaad30.png";
-import imgDecor from "figma:asset/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
+import imgHero from "@/assets/b742b6c1814fd4e393d0cac0c07ee40b3ceaad30.png";
+import imgDecor from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
 import { Link } from "react-router";
 
 export const OperationsHero = () => {

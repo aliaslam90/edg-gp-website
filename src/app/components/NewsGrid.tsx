@@ -1,15 +1,15 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Link } from "react-router";
-import imgBlog1 from "figma:asset/fd2cf1e39860b2496ed6ebd6d1953f2f649e8996.png";
-import imgBlog2 from "figma:asset/7603bd7e1fc180b700e61b67914a6de6cc719f55.png";
-import imgBlog3 from "figma:asset/1370241e735e9efbf3419fe9f3557ea6a94a4cff.png";
-import imgBlog4 from "figma:asset/1d8394cc6579b1a4991700c125327b5b3c5edfd0.png";
-import imgBlog5 from "figma:asset/50c075019ef14d613858c4a38a22d51e9300a26c.png";
-import imgBlog6 from "figma:asset/0d7b01fbb392357a72a3db80beed5f06b4534543.png";
-import imgBlog7 from "figma:asset/92f8bf08770cdf997085977e248bbb5306c95ede.png";
-import imgBlog8 from "figma:asset/cc70606063a8bffc99917cb7476dc61c425d44c9.png";
-import imgBlog9 from "figma:asset/ef84372341dc923f2fc5698cd67afa66b6dd5e11.png";
+import imgBlog1 from "@/assets/fd2cf1e39860b2496ed6ebd6d1953f2f649e8996.png";
+import imgBlog2 from "@/assets/7603bd7e1fc180b700e61b67914a6de6cc719f55.png";
+import imgBlog3 from "@/assets/1370241e735e9efbf3419fe9f3557ea6a94a4cff.png";
+import imgBlog4 from "@/assets/1d8394cc6579b1a4991700c125327b5b3c5edfd0.png";
+import imgBlog5 from "@/assets/50c075019ef14d613858c4a38a22d51e9300a26c.png";
+import imgBlog6 from "@/assets/0d7b01fbb392357a72a3db80beed5f06b4534543.png";
+import imgBlog7 from "@/assets/92f8bf08770cdf997085977e248bbb5306c95ede.png";
+import imgBlog8 from "@/assets/cc70606063a8bffc99917cb7476dc61c425d44c9.png";
+import imgBlog9 from "@/assets/ef84372341dc923f2fc5698cd67afa66b6dd5e11.png";
 
 const newsItems = [
   {

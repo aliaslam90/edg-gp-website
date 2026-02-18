@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgHero from "figma:asset/869053afd4838d03fa361c9154a35ecb01a0a116.png";
-import imgDecorPng from "figma:asset/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
+import imgHero from "@/assets/869053afd4838d03fa361c9154a35ecb01a0a116.png";
+import imgDecorPng from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
 import { Link } from "react-router";
 
 export const NewsHero = () => {

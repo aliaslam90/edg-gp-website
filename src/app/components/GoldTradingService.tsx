@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
-import imgSourcing from "figma:asset/fd9aa8f3462b63856bb7bea043c93adb44df92cd.png";
-import imgTransport from "figma:asset/c05597be88b219a4f251a50cc00c053e67d7d37e.png";
-import imgPartnerships from "figma:asset/8318d5b1a38853acf073e7528fe191db64e753b8.png";
-import imgContracts from "figma:asset/8ac20d50fa332151e458b292c0046936a5f0b2f6.png";
+import imgSourcing from "@/assets/fd9aa8f3462b63856bb7bea043c93adb44df92cd.png";
+import imgTransport from "@/assets/c05597be88b219a4f251a50cc00c053e67d7d37e.png";
+import imgPartnerships from "@/assets/8318d5b1a38853acf073e7528fe191db64e753b8.png";
+import imgContracts from "@/assets/8ac20d50fa332151e458b292c0046936a5f0b2f6.png";
 
 const services = [
   {

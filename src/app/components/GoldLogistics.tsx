@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgSector from "figma:asset/9417539659173894da568840bbb5db88666ae99c.png";
+import imgSector from "@/assets/9417539659173894da568840bbb5db88666ae99c.png";
 
 const investments = [
   "Integrated refining and processing: Advanced gold refinement reaching high levels of purity and quality.",

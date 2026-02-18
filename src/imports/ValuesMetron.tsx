@@ -1,5 +1,5 @@
-import imgValuesMetron from "figma:asset/633432338628a91717fca8c2f1f8990243063025.png";
-import imgValuesMetron1 from "figma:asset/7d6efaa958460cabdaf35603cb1f6b6f408a939a.png";
+import imgValuesMetron from "@/assets/633432338628a91717fca8c2f1f8990243063025.png";
+import imgValuesMetron1 from "@/assets/7d6efaa958460cabdaf35603cb1f6b6f408a939a.png";
 
 function Frame() {
   return (

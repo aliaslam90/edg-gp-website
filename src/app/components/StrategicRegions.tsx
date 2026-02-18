@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgValuesMetron2 from "figma:asset/c09daf8815cbf8141d45e5907ad2d5e544327ae8.png";
+import imgValuesMetron2 from "@/assets/c09daf8815cbf8141d45e5907ad2d5e544327ae8.png";
 
 export const StrategicRegions = () => {
   return (

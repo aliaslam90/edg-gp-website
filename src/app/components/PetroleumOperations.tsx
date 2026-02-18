@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgPumpjack from "figma:asset/3a4c879691ae817b0a2cf2a3818c3ff693d5145e.png";
+import imgPumpjack from "@/assets/3a4c879691ae817b0a2cf2a3818c3ff693d5145e.png";
 
 const highlights = [
   { label: "Optimal Reach:", text: "Seamless access to some of the world’s most strategic markets." },

@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Link } from "react-router";
-import imgHero from "figma:asset/6684a89f89ba72e1f6902e05b35efe7fa23cb84a.png";
-import imgDecor from "figma:asset/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
+import imgHero from "@/assets/6684a89f89ba72e1f6902e05b35efe7fa23cb84a.png";
+import imgDecor from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
 
 export const BusinessApproachHero = () => {
   return (

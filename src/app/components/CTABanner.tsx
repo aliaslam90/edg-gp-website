@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgSection from "figma:asset/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
+import imgSection from "@/assets/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
 
 interface CTABannerProps {
   title?: string;

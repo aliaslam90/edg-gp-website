@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgBlogFeatured from "figma:asset/2167be0b6c76c24be05ad0929d12d838cd63b0b6.png";
-import imgSection from "figma:asset/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
+import imgBlogFeatured from "@/assets/2167be0b6c76c24be05ad0929d12d838cd63b0b6.png";
+import imgSection from "@/assets/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
 
 export const NewsDetailContent = () => {
   return (

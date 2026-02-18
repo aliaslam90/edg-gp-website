@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgMap from "figma:asset/503ed9e527b193363b47769a3724ad89505a5289.png";
+import imgMap from "@/assets/503ed9e527b193363b47769a3724ad89505a5289.png";
 
 export const MapSection = () => {
   return (

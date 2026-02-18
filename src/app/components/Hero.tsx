@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgHeroHeader from "figma:asset/8fefd188229e3a9ca69fac13417d3ec9eba5d830.png";
+import imgHeroHeader from "@/assets/8fefd188229e3a9ca69fac13417d3ec9eba5d830.png";
 
 export const Hero = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgWorkers from "figma:asset/ff209826221c5d435606888e985201bc4c5f292c.png";
+import imgWorkers from "@/assets/ff209826221c5d435606888e985201bc4c5f292c.png";
 import { Droplets, Coins } from "lucide-react";
 
 export const StrategicSectors = () => {

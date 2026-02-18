@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgGoldBars from "figma:asset/84931d3a55c6572e58b6cf68823bfd549e51110b.png";
+import imgGoldBars from "@/assets/84931d3a55c6572e58b6cf68823bfd549e51110b.png";
 
 export const GoldIntegrity = () => {
   return (

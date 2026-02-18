@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgGoldRocks from "figma:asset/96e6d19fc8fbe9bfb35102578662d70ac9eecca8.png";
+import imgGoldRocks from "@/assets/96e6d19fc8fbe9bfb35102578662d70ac9eecca8.png";
 import { ArrowRight } from "lucide-react";
 
 export const GoldOverview = () => {

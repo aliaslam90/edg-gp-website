@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgFuelOil from "figma:asset/b925ee07aeb310be99bcb39a950d6350436d7ef6.png";
-import imgGasoil from "figma:asset/7afa48a607155eedfa56e133a93a31ec25ae49e.png";
-import imgGasoline from "figma:asset/5ec062669d7a5dfcdda047cf836da43350d96139.png";
+import imgFuelOil from "@/assets/b925ee07aeb310be99bcb39a950d6350436d7ef6.png";
+import imgGasoil from "@/assets/7afa48a6d07155eedfa56e133a93a31ec25ae49e.png";
+import imgGasoline from "@/assets/5ec062669d7a5dfcdda047cf836da43350d96139.png";
 import { ArrowUpRight } from "lucide-react";
 
 const products = [

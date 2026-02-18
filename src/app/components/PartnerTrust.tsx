@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgHandshake from "figma:asset/ee0b7b6c9f51d92a04742e10a9d36bf9e33d15ea.png";
+import imgHandshake from "@/assets/ee0b7b6c9f51d92a04742e10a9d36bf9e33d15ea.png";
 import { ArrowRight } from "lucide-react";
 
 export const PartnerTrust = () => {

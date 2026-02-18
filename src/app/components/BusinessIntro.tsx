@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgRig from "figma:asset/722273c12fe8bd4b22edb18656ad4a5f9cab6430.png";
-import imgGold from "figma:asset/7bcae03c705cb7635baed22c6a6f334f4613b10e.png";
+import imgRig from "@/assets/722273c12fe8bd4b22edb18656ad4a5f9cab6430.png";
+import imgGold from "@/assets/7bcae03c705cb7635baed22c6a6f334f4613b10e.png";
 import { ArrowRight } from "lucide-react";
 
 export const BusinessIntro = () => {

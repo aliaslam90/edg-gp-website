@@ -1,8 +1,8 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Link } from "react-router";
-import imgHero from "figma:asset/535e8e792ff7af27821bfc3fd8773435c26fd91b.png";
-import imgDecor from "figma:asset/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
+import imgHero from "@/assets/535e8e792ff7af27821bfc3fd8773435c26fd91b.png";
+import imgDecor from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
 
 export const HeroWhoWeAre = () => {
   return (

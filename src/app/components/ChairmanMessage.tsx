@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgRightContent from "figma:asset/4738369dabf096199f374956d2410fe7d923ac7c.png";
+import imgRightContent from "@/assets/4738369dabf096199f374956d2410fe7d923ac7c.png";
 import svgPaths from "../../imports/svg-ixy99k2xf7";
 
 export const ChairmanMessage = () => {

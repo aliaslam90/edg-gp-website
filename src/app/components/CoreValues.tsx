@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import imgAbImg1Jpg from "figma:asset/1ac783f921d4f235befbc08ea089608fd5ca7f33.png";
-import imgAbImg1Jpg1 from "figma:asset/7a2bbfab3869ed54c0dac75db39e66942ee54f70.png";
-import imgAbImg1Jpg2 from "figma:asset/c50290f6d265153aa2608cc818b152b7d1e913d3.png";
-import imgAbImg1Jpg3 from "figma:asset/dc0ffd624c21a3b416fa79072c458ee4456224b8.png";
+import imgAbImg1Jpg from "@/assets/1ac783f921d4f235befbc08ea089608fd5ca7f33.png";
+import imgAbImg1Jpg1 from "@/assets/7a2bbfab3869ed54c0dac75db39e66942ee54f70.png";
+import imgAbImg1Jpg2 from "@/assets/c50290f6d265153aa2608cc818b152b7d1e913d3.png";
+import imgAbImg1Jpg3 from "@/assets/dc0ffd624c21a3b416fa79072c458ee4456224b8.png";
 
 const values = [
   {

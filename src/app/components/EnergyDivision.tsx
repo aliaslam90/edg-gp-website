@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import refineryImg from "figma:asset/7d6efaa958460cabdaf35603cb1f6b6f408a939a.png";
+import refineryImg from "@/assets/7d6efaa958460cabdaf35603cb1f6b6f408a939a.png";
 
 export const EnergyDivision = () => {
   const listItems = ["Fuel Oil", "Gas Oil", "Gasoline (Mogas)"];

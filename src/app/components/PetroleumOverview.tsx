@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgIndustrial1 from "figma:asset/b5aaba61d8de2de2626ff2e0f1640ed488524eb2.png";
-import imgIndustrial2 from "figma:asset/ce0e52179be0693bf0a02514b6e3ce50ba059c72.png";
+import imgIndustrial1 from "@/assets/b5aaba61d8de2de2626ff2e0f1640ed488524eb2.png";
+import imgIndustrial2 from "@/assets/ce0e52179be0693bf0a02514b6e3ce50ba059c72.png";
 import { ArrowRight } from "lucide-react";
 
 export const PetroleumOverview = () => {

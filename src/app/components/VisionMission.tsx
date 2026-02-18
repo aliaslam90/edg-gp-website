@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import svgPaths from "../../imports/svg-7eu6a3g9p9";
-import imgVisionMission from "figma:asset/e82cf92c9617fe67354327de7e9e517a2e5bc58a.png";
+import imgVisionMission from "@/assets/e82cf92c9617fe67354327de7e9e517a2e5bc58a.png";
 
 export const VisionMission = () => {
   return (

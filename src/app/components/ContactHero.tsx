@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgHero from "figma:asset/89ed61e191ca1f575e9f07f32c71a39e73a9ec25.png";
-import imgDecor from "figma:asset/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
+import imgHero from "@/assets/89ed61e191ca1f575e9f07f32c71a39e73a9ec25.png";
+import imgDecor from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
 
 export const ContactHero = () => {
   return (

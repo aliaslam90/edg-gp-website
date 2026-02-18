@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgRefinery from "figma:asset/4320c3d682274c331434f0c4625d9027139acb24.png";
+import imgRefinery from "@/assets/4320c3d682274c331434f0c4625d9027139acb24.png";
 import { ArrowRight } from "lucide-react";
 
 export const PetroleumMarkets = () => {

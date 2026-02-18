@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import svgPaths from "../../imports/svg-hgxcwngpmx";
-import imgRightContent from "figma:asset/4738369dabf096199f374956d2410fe7d923ac7c.png";
+import imgRightContent from "@/assets/4738369dabf096199f374956d2410fe7d923ac7c.png";
 
 export const CEOMessageContent = () => {
   return (

@@ -1,5 +1,5 @@
-import imgFrame9 from "figma:asset/750d2003ab2fbe82c81bdb4dad6706aa07f3b34b.png";
-import imgRectangle1 from "figma:asset/b25bf13818fd4a847b2b7fc565076139896fafc8.png";
+import imgFrame9 from "@/assets/750d2003ab2fbe82c81bdb4dad6706aa07f3b34b.png";
+import imgRectangle1 from "@/assets/b25bf13818fd4a847b2b7fc565076139896fafc8.png";
 
 function Frame1() {
   return (

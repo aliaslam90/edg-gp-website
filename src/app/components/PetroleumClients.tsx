@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import imgBp from "figma:asset/d49f19aa8493aac5092e4202074027f4138cec9a.png";
-import imgHarbour from "figma:asset/0858992a4b38f6eee43970c07dfaa06babf77247.png";
-import imgPerenco from "figma:asset/0f312acfd7661746df1a946a8f08b75656c8d77a.png";
-import imgSubsea7 from "figma:asset/04a38e18500a05c9338f7e479bacabfd32910efa.png";
-import imgEquinor from "figma:asset/509a55a1a570e289f42a47af3e76d143f3910ddf.png";
-import imgMaersek from "figma:asset/45b5a55fe23efc25cb1a2a83edffa56651de175c.png";
-import imgSpirit from "figma:asset/2835c4df047e146bffdc6d4eaac3a16e85f5bd7c.png";
-import imgTotal from "figma:asset/1f87f80505240dbe46a6b23840a9e076447e4ce8.png";
+import imgBp from "@/assets/d49f19aa8493aac5092e4202074027f4138cec9a.png";
+import imgHarbour from "@/assets/0858992a4b38f6eee43970c07dfaa06babf77247.png";
+import imgPerenco from "@/assets/0f312acfd7661746df1a946a8f08b75656c8d77a.png";
+import imgSubsea7 from "@/assets/04a38e18500a05c9338f7e479bacabfd32910efa.png";
+import imgEquinor from "@/assets/509a55a1a570e289f42a47af3e76d143f3910ddf.png";
+import imgMaersek from "@/assets/45b5a55fe23efc25cb1a2a83edffa56651de175c.png";
+import imgSpirit from "@/assets/2835c4df047e146bffdc6d4eaac3a16e85f5bd7c.png";
+import imgTotal from "@/assets/1f87f80505240dbe46a6b23840a9e076447e4ce8.png";
 
 const clients = [
   { name: "BP", logo: imgBp },

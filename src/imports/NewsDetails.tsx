@@ -1,9 +1,9 @@
 import svgPaths from "./svg-bzkfp4t7hw";
-import imgHero from "figma:asset/a821a804436ef711b0a4ec253e64237398ab621e.png";
-import imgDecorPng from "figma:asset/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
-import imgSection from "figma:asset/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
-import imgBlog121024X509Jpg from "figma:asset/2167be0b6c76c24be05ad0929d12d838cd63b0b6.png";
-import imgRectangle from "figma:asset/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
+import imgHero from "@/assets/a821a804436ef711b0a4ec253e64237398ab621e.png";
+import imgDecorPng from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
+import imgSection from "@/assets/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
+import imgBlog121024X509Jpg from "@/assets/2167be0b6c76c24be05ad0929d12d838cd63b0b6.png";
+import imgRectangle from "@/assets/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
 
 function MaskGroup() {
   return (

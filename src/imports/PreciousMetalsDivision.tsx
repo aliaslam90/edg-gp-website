@@ -1,16 +1,16 @@
 import svgPaths from "./svg-gcgfmpji0w";
-import imgBackground from "figma:asset/97d2b00da66f9ec7b8522e7d1981f6759c5d6453.png";
-import imgBackground1 from "figma:asset/96e6d19fc8fbe9bfb35102578662d70ac9eecca8.png";
-import imgImage from "figma:asset/fd9aa8f3462b63856bb7bea043c93adb44df92cd.png";
-import imgGroup16 from "figma:asset/c05597be88b219a4f251a50cc00c053e67d7d37e.png";
-import imgGroup17 from "figma:asset/8318d5b1a38853acf073e7528fe191db64e753b8.png";
-import imgGroup110 from "figma:asset/8ac20d50fa332151e458b292c0046936a5f0b2f6.png";
-import imgGroup111 from "figma:asset/9417539659173894da568840bbb5db88666ae99c.png";
-import imgBackground3 from "figma:asset/37962e12eeda696ce8aca39db3644bfe6f2528c3.png";
-import imgRectangle from "figma:asset/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
-import imgImage1 from "figma:asset/84931d3a55c6572e58b6cf68823bfd549e51110b.png";
-import imgProject10Jpg from "figma:asset/beb49aec154c8708759c2117695ccb195dcb434c.png";
-import imgSection from "figma:asset/f94430de4ee35fc52b63b536b692bcbda50c4785.png";
+import imgBackground from "@/assets/97d2b00da66f9ec7b8522e7d1981f6759c5d6453.png";
+import imgBackground1 from "@/assets/96e6d19fc8fbe9bfb35102578662d70ac9eecca8.png";
+import imgImage from "@/assets/fd9aa8f3462b63856bb7bea043c93adb44df92cd.png";
+import imgGroup16 from "@/assets/c05597be88b219a4f251a50cc00c053e67d7d37e.png";
+import imgGroup17 from "@/assets/8318d5b1a38853acf073e7528fe191db64e753b8.png";
+import imgGroup110 from "@/assets/8ac20d50fa332151e458b292c0046936a5f0b2f6.png";
+import imgGroup111 from "@/assets/9417539659173894da568840bbb5db88666ae99c.png";
+import imgBackground3 from "@/assets/37962e12eeda696ce8aca39db3644bfe6f2528c3.png";
+import imgRectangle from "@/assets/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
+import imgImage1 from "@/assets/84931d3a55c6572e58b6cf68823bfd549e51110b.png";
+import imgProject10Jpg from "@/assets/beb49aec154c8708759c2117695ccb195dcb434c.png";
+import imgSection from "@/assets/f94430de4ee35fc52b63b536b692bcbda50c4785.png";
 import { imgRectangle3, imgBackground2 } from "./svg-z9crb";
 
 function Frame8() {

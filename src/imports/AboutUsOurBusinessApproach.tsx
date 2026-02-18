@@ -1,12 +1,12 @@
 import svgPaths from "./svg-v7h5au7fd6";
-import imgHero from "figma:asset/6684a89f89ba72e1f6902e05b35efe7fa23cb84a.png";
-import imgDecorPng from "figma:asset/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
-import imgSection from "figma:asset/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
-import imgMaskGroup from "figma:asset/722273c12fe8bd4b22edb18656ad4a5f9cab6430.png";
-import imgBackground1 from "figma:asset/7bcae03c705cb7635baed22c6a6f334f4613b10e.png";
-import imgMaskGroup1 from "figma:asset/ff209826221c5d435606888e985201bc4c5f292c.png";
-import imgFrame64 from "figma:asset/bacb3bf592da2f4f01aa9e2f2bcf9828c0af6854.png";
-import imgRectangle from "figma:asset/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
+import imgHero from "@/assets/6684a89f89ba72e1f6902e05b35efe7fa23cb84a.png";
+import imgDecorPng from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
+import imgSection from "@/assets/0c4be190a8eb1ce8c184bdb17b1fc6ac0ee2159b.png";
+import imgMaskGroup from "@/assets/722273c12fe8bd4b22edb18656ad4a5f9cab6430.png";
+import imgBackground1 from "@/assets/7bcae03c705cb7635baed22c6a6f334f4613b10e.png";
+import imgMaskGroup1 from "@/assets/ff209826221c5d435606888e985201bc4c5f292c.png";
+import imgFrame64 from "@/assets/bacb3bf592da2f4f01aa9e2f2bcf9828c0af6854.png";
+import imgRectangle from "@/assets/be514fd866e5546a105d135dc899bd98fe99b8d8.png";
 import { imgBackground, imgImage, imgAbImgJpg } from "./svg-5dri3";
 
 function MaskGroup() {

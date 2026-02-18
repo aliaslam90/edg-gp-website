@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import imgBackground from "figma:asset/7d6efaa958460cabdaf35603cb1f6b6f408a939a.png";
+import imgBackground from "@/assets/7d6efaa958460cabdaf35603cb1f6b6f408a939a.png";
 import { ArrowRight } from "lucide-react";
 
 export const PetroleumHero = () => {
