@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import { Link } from "react-router";
 import imgRig from "@/assets/722273c12fe8bd4b22edb18656ad4a5f9cab6430.png";
 import imgGold from "@/assets/7bcae03c705cb7635baed22c6a6f334f4613b10e.png";
 import { ArrowRight } from "lucide-react";
@@ -19,79 +20,82 @@ export const BusinessIntro = () => {
   ];
 
   return (
-    <section className="bg-white py-[80px] lg:py-[140px] px-4 sm:px-6 lg:px-[45px]">
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[100px] items-start">
-        
-        {/* LEFT SIDE: Visuals */}
-        <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-[38px] items-start">
-          <motion.div 
-            initial={{ opacity: 0, x: -30 }}
+    <section className="bg-white py-[60px] lg:py-[100px] px-4 sm:px-6 lg:px-[45px]">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+        {/* Col 1: Tall portrait oil rig image — height matches center column content */}
+        <div className="lg:col-span-4 h-[320px] sm:h-[360px] lg:h-[480px] rounded-[8px] overflow-hidden">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="w-full lg:w-[422px] h-[400px] lg:h-[681px] rounded-[10px] overflow-hidden shadow-2xl"
+            className="w-full h-full"
           >
-            <img src={imgRig} alt="Oil Rig" className="max-w-none w-full h-full object-cover" />
+            <img
+              src={imgRig}
+              alt="Offshore operations"
+              className="w-full h-full object-cover object-center"
+            />
           </motion.div>
-          
-          <div className="flex-1 flex flex-col gap-[30px] lg:gap-[40px] h-full lg:h-[681px] justify-between">
-            <motion.div 
-              initial={{ opacity: 0, y: -20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="w-full h-[200px] lg:h-[289px] rounded-[10px] overflow-hidden shadow-xl"
-            >
-              <img src={imgGold} alt="Gold Bars" className="max-w-none w-full h-full object-cover" />
-            </motion.div>
-            
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="flex-1 px-2 lg:px-[22px]"
-            >
-              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[22px] lg:text-[28px] text-[#151515] leading-[1.4] tracking-tight mb-8">
-                Our operations are powered by a diverse and highly skilled team spanning multiple geographies, operating with the same standard of precision and professionalism across all markets.
-              </p>
-              
-              <button className="flex items-center gap-[18px] bg-[#ceae5a] hover:bg-[#b89b4f] text-white px-[26px] py-[14px] rounded-[8px] font-bold text-[14.6px] transition-all group">
-                Contact Us
-                <div className="w-[30px] h-[30px] rounded-full bg-[#0b2b3f] flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <ArrowRight className="size-3.5 text-white" strokeWidth={3} />
-                </div>
-              </button>
-            </motion.div>
-          </div>
         </div>
 
-        {/* RIGHT SIDE: Text Content */}
-        <motion.div 
-          initial={{ opacity: 0, x: 30 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          className="lg:max-w-[817px]"
-        >
-          <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[21.9px] text-[#151515] leading-[1.4] tracking-tight mb-[30px] lg:mb-[40px]">
-            EDG Gold & Petroleum is a truly global enterprise with a strong presence in multiple GCC states, African nations, and Asian markets. We specialize in:
-          </h2>
-          
-          <div className="flex flex-col gap-[6px]">
-            {specializations.map((item, idx) => (
-              <motion.div 
-                key={idx}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: idx * 0.05 }}
-                viewport={{ once: true }}
-                className="flex items-start gap-[22px] py-[12px] lg:py-[14px]"
-              >
-                <div className="w-[14px] h-[14px] rounded-full bg-[#ceae5a] mt-1.5 shrink-0" />
-                <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-[1.5]">
-                  {item}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+        {/* Col 2: Gold bars image + bold text + Contact Us button (same total height as col 1) */}
+        <div className="lg:col-span-4 flex flex-col gap-5 lg:gap-6 lg:h-[480px]">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="rounded-[8px] overflow-hidden w-full aspect-[16/10] lg:aspect-[16/9] shrink-0"
+          >
+            <img src={imgGold} alt="Gold" className="w-full h-full object-cover" />
+          </motion.div>
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="font-['Plus_Jakarta_Sans'] font-semibold text-[17px] lg:text-[19px] text-[#1a1a1a] leading-[1.45] tracking-tight"
+          >
+            Our operations are powered by a diverse and highly skilled team spanning multiple geographies, operating with the same standard of precision and professionalism across all markets.
+          </motion.p>
+          <Link
+            to="/contact"
+            className="mt-auto inline-flex items-center gap-0 w-fit rounded-[8px] overflow-hidden bg-[#E6C291] text-white pl-5 pr-2 py-3 font-semibold text-[14px] transition-all hover:opacity-95 group"
+          >
+            Contact Us
+            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#0b2b3f] text-white ml-2 group-hover:bg-[#1a3a4f] transition-colors">
+              <ArrowRight size={16} strokeWidth={2.5} />
+            </span>
+          </Link>
+        </div>
+
+        {/* Col 3: Intro heading + bullet list (smaller list text) */}
+        <div className="lg:col-span-4">
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+          >
+            <p className="font-['Plus_Jakarta_Sans'] font-semibold text-[16px] lg:text-[18px] text-[#1a1a1a] leading-[1.5] tracking-tight mb-6">
+              EDG Gold & Petroleum is a truly global enterprise with a strong presence in multiple GCC states, African nations, and Asian markets. We specialize in:
+            </p>
+            <ul className="flex flex-col gap-3">
+              {specializations.map((item, idx) => (
+                <motion.li
+                  key={idx}
+                  initial={{ opacity: 0, y: 8 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ delay: idx * 0.03 }}
+                  viewport={{ once: true }}
+                  className="flex items-start gap-3"
+                >
+                  <span className="w-2 h-2 rounded-full bg-[#CEAE5A] mt-2 shrink-0" />
+                  <span className="font-['Plus_Jakarta_Sans'] text-[14px] lg:text-[15px] text-[#333] leading-[1.55]">
+                    {item}
+                  </span>
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
+        </div>
       </div>
     </section>
   );
