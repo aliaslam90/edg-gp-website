@@ -35,7 +35,7 @@ export const HeroCEOMessage = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-8">
-            Chairman's Message
+            CEO Message
           </h1>
           
           <div className="flex items-center gap-[10px] pt-8 border-t border-white/20">
