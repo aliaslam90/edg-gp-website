@@ -12,12 +12,12 @@ export const RegionalShowcase = () => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="relative h-[600px] lg:h-[720px] rounded-[10px] overflow-hidden group shadow-2xl"
+          className="relative h-[320px] sm:h-[420px] lg:h-[720px] rounded-[10px] overflow-hidden group shadow-2xl"
         >
           <img src={imgME} alt="Middle East" className="absolute inset-0 max-w-none object-cover size-full transition-transform duration-1000 group-hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent" />
           
-          <div className="relative z-10 h-full p-10 lg:p-[96px] flex flex-col justify-center max-w-[800px]">
+          <div className="relative z-10 h-full p-5 sm:p-8 lg:p-[96px] flex flex-col justify-center max-w-[800px]">
             <div className="bg-[#ceae5a] w-fit px-[25px] py-[8px] rounded-[8px] mb-8">
               <span className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-white uppercase">
                 Middle East
@@ -42,12 +42,12 @@ export const RegionalShowcase = () => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="relative h-[600px] lg:h-[720px] rounded-[10px] overflow-hidden group shadow-2xl"
+          className="relative h-[320px] sm:h-[420px] lg:h-[720px] rounded-[10px] overflow-hidden group shadow-2xl"
         >
           <img src={imgAfrica} alt="Africa" className="absolute inset-0 max-w-none object-cover size-full transition-transform duration-1000 group-hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/40 to-transparent" />
           
-          <div className="relative z-10 h-full p-10 lg:p-[96px] flex flex-col justify-center ml-auto text-right max-w-[800px] items-end">
+          <div className="relative z-10 h-full p-5 sm:p-8 lg:p-[96px] flex flex-col justify-center ml-auto text-right max-w-[800px] items-end">
             <div className="bg-[#ceae5a] w-fit px-[25px] py-[8px] rounded-[8px] mb-8">
               <span className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-white uppercase">
                 Africa

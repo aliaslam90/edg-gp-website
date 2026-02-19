@@ -16,12 +16,12 @@ export const PartnerTrust = () => {
           </span>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[60px] lg:gap-[188px] items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-[60px] lg:gap-[100px] items-center">
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="rounded-[10px] overflow-hidden shadow-2xl h-[500px] lg:h-[637px]"
+            className="rounded-[10px] overflow-hidden shadow-2xl h-[300px] sm:h-[400px] lg:h-[637px]"
           >
             <img src={imgHandshake} alt="Partner Handshake" className="max-w-none w-full h-full object-cover" />
           </motion.div>

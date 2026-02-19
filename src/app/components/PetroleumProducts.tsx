@@ -49,12 +49,12 @@ export const PetroleumProducts = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="relative h-[590px] rounded-[10px] overflow-hidden group cursor-pointer"
+              className="relative h-[320px] sm:h-[400px] lg:h-[590px] rounded-[10px] overflow-hidden group cursor-pointer"
             >
               <img src={product.image} alt={product.title} className="absolute inset-0 max-w-none object-cover size-full group-hover:scale-110 transition-transform duration-700" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#000435]/90 via-[#000435]/20 to-transparent z-10" />
               
-              <div className="absolute inset-0 z-20 p-[45px] flex flex-col justify-between">
+              <div className="absolute inset-0 z-20 p-5 sm:p-8 lg:p-[45px] flex flex-col justify-between">
                 <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[18px] lg:text-[22px] text-white tracking-[-1px]">
                   {product.title}
                 </h3>

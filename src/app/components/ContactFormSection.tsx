@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 export const ContactFormSection = () => {
   return (
-    <section className="py-[56px] lg:py-[72px] px-8 md:px-[80px] bg-white relative overflow-hidden">
+    <section className="py-[56px] lg:py-[72px] px-4 sm:px-6 md:px-[80px] bg-white relative overflow-hidden">
       {/* Background World Map Graphic would go here if asset was available as a standalone SVG, 
           but we'll stick to the layout structure */}
       

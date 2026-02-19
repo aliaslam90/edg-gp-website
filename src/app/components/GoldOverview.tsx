@@ -18,13 +18,13 @@ export const GoldOverview = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[60px] lg:gap-[100px] items-start">
           {/* Left: Images */}
-          <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-[38px] items-start">
+          <div className="flex flex-col sm:flex-row gap-[20px] lg:gap-[38px] items-start">
             {/* Badge Card */}
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="w-full lg:w-[338px] h-[305px] rounded-[10px] bg-[#ffffef] flex items-center justify-center border border-[#ceae5a]/20 shadow-sm"
+              className="w-full sm:w-1/2 lg:w-[338px] h-[200px] sm:h-[260px] lg:h-[305px] rounded-[10px] bg-[#ffffef] flex items-center justify-center border border-[#ceae5a]/20 shadow-sm"
             >
               <div className="text-center p-8">
                 <div className="font-['Plus_Jakarta_Sans'] font-bold text-[24px] leading-tight mb-2">
@@ -40,7 +40,7 @@ export const GoldOverview = () => {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="w-full lg:w-[440px] h-[450px] lg:h-[500px] rounded-[10px] overflow-hidden shadow-2xl relative"
+              className="w-full sm:w-1/2 lg:w-[440px] h-[280px] sm:h-[360px] lg:h-[500px] rounded-[10px] overflow-hidden shadow-2xl relative"
             >
               <img src={imgGoldRocks} alt="Gold Rocks" className="max-w-none w-full h-full object-cover" />
             </motion.div>

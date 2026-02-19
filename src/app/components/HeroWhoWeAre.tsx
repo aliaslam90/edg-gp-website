@@ -6,7 +6,7 @@ import imgDecor from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
 
 export const HeroWhoWeAre = () => {
   return (
-    <section className="relative h-[500px] w-full overflow-hidden">
+    <section className="relative h-[360px] sm:h-[420px] lg:h-[500px] w-full overflow-hidden">
       {/* Background Image */}
       <img
         src={imgHero}
@@ -25,7 +25,7 @@ export const HeroWhoWeAre = () => {
       <img 
         src={imgDecor} 
         alt="" 
-        className="absolute left-[10%] top-[40px] h-[724px] z-10 opacity-50 max-w-none"
+        className="absolute left-[10%] top-[40px] h-[724px] z-10 opacity-50 max-w-none hidden lg:block"
       />
 
       <div className="relative z-20 max-w-[1440px] mx-auto h-full px-4 sm:px-6 lg:px-[45px] flex flex-col justify-end pb-[40px]">

@@ -48,7 +48,7 @@ export const CoreValues = () => {
               <span>WE ARE PROVIDING FOR YOUR BUSINESS.</span>
               <span>[WHY CHOOSE US]</span>
             </div>
-            <h2 className="text-[28px] lg:text-[36px] font-bold text-black font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+            <h2 className="text-[24px] sm:text-[28px] lg:text-[36px] font-bold text-black font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
               Our Core values
             </h2>
           </div>

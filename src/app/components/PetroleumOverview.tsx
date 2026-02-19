@@ -19,12 +19,12 @@ export const PetroleumOverview = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[60px] lg:gap-[100px] items-start">
           {/* Left: Images */}
-          <div className="flex flex-col lg:flex-row gap-[30px] lg:gap-[38px]">
+          <div className="flex flex-col sm:flex-row gap-[20px] lg:gap-[38px]">
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="w-full lg:w-[338px] h-[305px] rounded-[10px] overflow-hidden bg-gray-100 relative group"
+              className="w-full sm:w-1/2 lg:w-[338px] h-[200px] sm:h-[260px] lg:h-[305px] rounded-[10px] overflow-hidden bg-gray-100 relative group"
             >
               <img src={imgIndustrial1} alt="Industrial Facility" className="absolute max-w-none object-cover size-full group-hover:scale-110 transition-transform duration-700" />
               <div className="absolute inset-4 border border-white/20 rounded-[5px]" />
@@ -34,7 +34,7 @@ export const PetroleumOverview = () => {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="w-full lg:w-[440px] h-[450px] lg:h-[500px] rounded-[10px] overflow-hidden shadow-2xl relative"
+              className="w-full sm:w-1/2 lg:w-[440px] h-[280px] sm:h-[360px] lg:h-[500px] rounded-[10px] overflow-hidden shadow-2xl relative"
             >
               <img src={imgIndustrial2} alt="Pipelines" className="absolute max-w-none object-cover size-full" />
               {/* Badge overlay if needed, but screenshot shows it's part of the image layout or a separate item */}

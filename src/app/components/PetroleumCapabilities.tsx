@@ -43,7 +43,7 @@ export const PetroleumCapabilities = () => {
             <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[474px]">
               Capabilities- Petroleum Division
             </h2>
-            <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-10 flex items-center">
+            <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-6 lg:pl-10 flex items-center">
               <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] max-w-[840px] leading-relaxed">
                 At EDG Gold & Petroleum, our petroleum division is designed to deliver efficiency, reliability, and value across every stage of the supply chain. We don’t just trade products—we provide strategic solutions that empower our clients to operate with confidence in volatile markets.
               </p>
@@ -68,9 +68,9 @@ export const PetroleumCapabilities = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="bg-[#f2f5fb] rounded-[15px] p-8 lg:p-10 flex flex-col gap-10 hover:shadow-xl transition-shadow border border-gray-100 min-h-[428px]"
+              className="bg-[#f2f5fb] rounded-[15px] p-6 sm:p-8 lg:p-10 flex flex-col gap-6 sm:gap-10 hover:shadow-xl transition-shadow border border-gray-100 min-h-0 lg:min-h-[428px]"
             >
-              <div className="w-[123px] h-[123px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white border-b border-gray-200 pb-4">
+              <div className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] lg:w-[123px] lg:h-[123px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white border-b border-gray-200 pb-4">
                 {item.icon}
               </div>
               

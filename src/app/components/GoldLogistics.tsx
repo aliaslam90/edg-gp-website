@@ -42,12 +42,12 @@ export const GoldLogistics = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="relative h-[600px] lg:h-[800px] rounded-[15px] overflow-hidden shadow-2xl group"
+          className="relative h-[320px] sm:h-[420px] lg:h-[800px] rounded-[15px] overflow-hidden shadow-2xl group"
         >
           <img src={imgSector} alt="Precious Metals Sector" className="absolute max-w-none object-cover size-full transition-transform duration-1000 group-hover:scale-105" />
           <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors" />
           
-          <div className="absolute bottom-[60px] left-[60px] z-10">
+          <div className="absolute bottom-6 left-6 sm:bottom-[40px] sm:left-[40px] lg:bottom-[60px] lg:left-[60px] z-10">
             <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[20px] lg:text-[24px] text-white">
               Precious Metals Sector<span className="text-[#ceae5a]">.</span>
             </h3>

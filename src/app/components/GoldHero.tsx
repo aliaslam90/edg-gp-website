@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export const GoldHero = () => {
   return (
-    <section className="relative h-[600px] lg:h-[800px] w-full overflow-hidden">
+    <section className="relative h-[400px] sm:h-[500px] lg:h-[800px] w-full overflow-hidden">
       {/* Background Image */}
       <img
         src={imgBackground}
@@ -29,8 +29,8 @@ export const GoldHero = () => {
           transition={{ duration: 0.8 }}
           className="max-w-[900px]"
         >
-          <div className="bg-[#ceae5a] w-fit px-[16px] py-[10px] rounded-[6px] mb-8 shadow-lg">
-            <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[16px] text-white uppercase tracking-wider">
+          <div className="bg-[#ceae5a] w-fit px-[12px] sm:px-[16px] py-[8px] sm:py-[10px] rounded-[6px] mb-6 sm:mb-8 shadow-lg">
+            <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[13px] sm:text-[16px] text-white uppercase tracking-wider">
               Precious Metals Division
             </span>
           </div>

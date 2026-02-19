@@ -4,7 +4,7 @@ import imgMap from "@/assets/503ed9e527b193363b47769a3724ad89505a5289.png";
 
 export const MapSection = () => {
   return (
-    <section className="px-8 md:px-[80px] pb-16 lg:pb-20 bg-white">
+    <section className="px-4 sm:px-6 md:px-[80px] pb-16 lg:pb-20 bg-white">
       <div className="max-w-[1440px] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -52,7 +52,7 @@ export const PetroleumMarkets = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="flex-1 rounded-[10px] overflow-hidden shadow-2xl h-[676px] lg:h-[786px]"
+            className="flex-1 rounded-[10px] overflow-hidden shadow-2xl h-[360px] sm:h-[480px] lg:h-[786px]"
           >
             <img src={imgRefinery} alt="Refinery at sunset" className="max-w-none w-full h-full object-cover" />
           </motion.div>

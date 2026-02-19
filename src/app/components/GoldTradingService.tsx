@@ -64,12 +64,12 @@ export const GoldTradingService = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="relative h-[590px] rounded-[10px] overflow-hidden group cursor-pointer"
+              className="relative h-[320px] sm:h-[400px] lg:h-[590px] rounded-[10px] overflow-hidden group cursor-pointer"
             >
               <img src={service.image} alt={service.title} className="absolute inset-0 max-w-none object-cover size-full transition-transform duration-700 group-hover:scale-110" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
               
-              <div className="absolute inset-0 z-20 p-[45px] flex flex-col justify-end">
+              <div className="absolute inset-0 z-20 p-5 sm:p-8 lg:p-[45px] flex flex-col justify-end">
                 <div className="mb-6">
                   <span className="font-['Plus_Jakarta_Sans'] text-[12px] uppercase tracking-widest text-[#ceae5a] font-bold">
                     {service.badge}

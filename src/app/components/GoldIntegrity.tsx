@@ -11,7 +11,7 @@ export const GoldIntegrity = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="relative h-[500px] lg:h-[700px] rounded-[15px] overflow-hidden shadow-2xl"
+          className="relative h-[300px] sm:h-[400px] lg:h-[700px] rounded-[15px] overflow-hidden shadow-2xl"
         >
           <img src={imgGoldBars} alt="Refined Gold Bars" className="absolute max-w-none object-cover size-full" />
           <div className="absolute inset-0 bg-black/5" />

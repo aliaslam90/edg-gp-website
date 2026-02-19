@@ -5,7 +5,7 @@ import imgDecor from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
 
 export const ContactHero = () => {
   return (
-    <section className="relative h-[540px] w-full overflow-hidden">
+    <section className="relative h-[360px] sm:h-[420px] lg:h-[540px] w-full overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -23,11 +23,11 @@ export const ContactHero = () => {
       </div>
 
       {/* Decor Element */}
-      <div className="absolute left-[10%] top-[40px] w-[764px] h-[724px] pointer-events-none opacity-50">
+      <div className="absolute left-[10%] top-[40px] w-[764px] h-[724px] pointer-events-none opacity-50 hidden lg:block">
         <img src={imgDecor} alt="" className="w-full h-full object-contain" />
       </div>
 
-      <div className="relative z-10 max-w-[1440px] mx-auto h-full px-8 md:px-[80px] flex flex-col justify-end pb-[40px]">
+      <div className="relative z-10 max-w-[1440px] mx-auto h-full px-4 sm:px-6 md:px-[80px] flex flex-col justify-end pb-[40px]">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -48,7 +48,7 @@ export const ContactHero = () => {
       </div>
 
       {/* Glassmorphism Navigation Bar Line Integration */}
-      <div className="absolute bottom-[80px] left-[45px] right-[45px] h-px bg-white/20 z-10" />
+      <div className="absolute bottom-[80px] left-4 right-4 sm:left-[45px] sm:right-[45px] h-px bg-white/20 z-10" />
     </section>
   );
 };

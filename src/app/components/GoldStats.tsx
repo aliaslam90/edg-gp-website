@@ -20,9 +20,9 @@ export const GoldStats = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="bg-[#1a1a1a] p-12 lg:p-[60px] flex flex-col items-center text-center gap-4 rounded-[10px] group hover:bg-[#222] transition-colors"
+              className="bg-[#1a1a1a] p-8 sm:p-10 lg:p-[60px] flex flex-col items-center text-center gap-4 rounded-[10px] group hover:bg-[#222] transition-colors"
             >
-              <div className="font-['Plus_Jakarta_Sans'] font-bold text-[32px] lg:text-[36px] text-[#ceae5a] leading-none mb-2">
+              <div className="font-['Plus_Jakarta_Sans'] font-bold text-[24px] sm:text-[28px] lg:text-[36px] text-[#ceae5a] leading-none mb-2">
                 {stat.value}
               </div>
               <div className="font-['Plus_Jakarta_Sans'] font-bold text-[14px] lg:text-[15px] text-white">
