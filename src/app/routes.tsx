@@ -29,7 +29,7 @@ const HomePage = () => (
       <VisionMission />
       <ChairmanMessage />
     </div>
-    <div id="services">
+    <div id="services" className="relative overflow-hidden bg-black">
       <EnergyDivision />
       <GoldTrading />
     </div>
