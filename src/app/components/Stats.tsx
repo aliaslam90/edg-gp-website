@@ -8,10 +8,12 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className={`flex-1 aspect-square rounded-[8px] p-8 border transition-all duration-700 flex flex-col justify-between group ${
+      whileHover={{ y: -6, scale: 1.02 }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+      className={`flex-1 aspect-square rounded-[8px] p-8 border transition-all duration-500 flex flex-col justify-between cursor-pointer ${
         isDark 
-          ? "bg-[#080808] border-[#ceae5a]/20 hover:border-[#ceae5a]/50 shadow-[0_20px_50px_rgba(0,0,0,0.5)]" 
-          : "bg-white border-[#dce0e3] hover:border-[#ceae5a]/30 shadow-[0_10px_30px_rgba(0,0,0,0.02)]"
+          ? "bg-[#080808] border-[#ceae5a]/20 hover:border-[#ceae5a]/60 shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:shadow-[0_30px_60px_rgba(206,174,90,0.15)]" 
+          : "bg-white border-[#dce0e3] hover:border-[#ceae5a]/40 shadow-[0_10px_30px_rgba(0,0,0,0.02)] hover:shadow-[0_25px_50px_rgba(0,0,0,0.08)]"
       }`}
     >
       <div className="flex flex-col gap-4 items-start w-full">
@@ -19,7 +21,7 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
           {title}
         </h3>
         <div className="flex items-end justify-between w-full">
-          <div className="w-[32px] h-[32px] shrink-0 opacity-100 group-hover:scale-110 transition-all duration-500 scale-y-[-1]">
+          <div className="w-[32px] h-[32px] shrink-0">
             <svg className="w-full h-full" viewBox="0 0 50 50">
                <path d={iconPath} fill="#CEAE5A" />
             </svg>

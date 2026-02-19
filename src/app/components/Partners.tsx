@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -13,98 +13,78 @@ import imgSubsea7Png from "@/assets/04a38e18500a05c9338f7e479bacabfd32910efa.png
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export const Partners = () => {
+  const sliderRef = useRef<Slider>(null);
+
   const partners = [
     { name: "BP", logo: imgBpPng },
     { name: "Harbour Energy", logo: imgHarbourEnergyPng },
     { name: "Equinor", logo: imgEquinorPng },
-    { name: "Spirit Energy", logo: imgSpiritEnergyPng },
     { name: "Maersk", logo: imgMaersekPng },
-    { name: "Total Energies", logo: imgTotalEnergiesPng },
     { name: "Perenco", logo: imgPerencoPng },
     { name: "Subsea 7", logo: imgSubsea7Png },
+    { name: "Spirit Energy", logo: imgSpiritEnergyPng },
+    { name: "Total Energies", logo: imgTotalEnergiesPng },
   ];
 
   const settings = {
     dots: false,
     infinite: true,
-    speed: 8000,
+    speed: 600,
     slidesToShow: 6,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,
-    cssEase: "linear",
-    pauseOnHover: false,
+    autoplay: false,
     arrows: false,
     responsive: [
-      {
-        breakpoint: 1536,
-        settings: {
-          slidesToShow: 5,
-        }
-      },
-      {
-        breakpoint: 1280,
-        settings: {
-          slidesToShow: 4,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
+      { breakpoint: 1536, settings: { slidesToShow: 5 } },
+      { breakpoint: 1280, settings: { slidesToShow: 4 } },
+      { breakpoint: 1024, settings: { slidesToShow: 3 } },
+      { breakpoint: 768, settings: { slidesToShow: 2 } },
+    ],
   };
 
   return (
-    <section className="bg-white overflow-hidden w-full py-[56px] lg:py-[72px]">
-      <div className="max-w-[1440px] mx-auto px-8 md:px-[80px] relative">
-        {/* Header Section */}
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-[80px] gap-12">
-          <div className="flex flex-col gap-6">
-            <span className="text-[#ceae5a] text-[12px] font-bold uppercase tracking-[0.5em] block font-['Plus_Jakarta_Sans']">
-                Global Network
-            </span>
-            <h2 className="font-['Plus_Jakarta_Sans'] font-light text-[22px] md:text-[28px] text-black leading-tight tracking-[-0.03em]">
-              Strategic Partners
-            </h2>
-          </div>
-          
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-12 lg:gap-20">
-            <div className="relative pl-8 border-l-2 border-[#ceae5a] py-1 max-w-[450px]">
-              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[15px] md:text-[16px] leading-[1.8] text-black/50 tracking-wide">
-                Dedicated to supporting our clients and partners in every strategic step across the global energy and precious metals landscape.
+    <section className="bg-white overflow-hidden w-full py-[72px] lg:py-[100px]">
+      <div className="max-w-[1440px] mx-auto flex flex-col gap-[60px] lg:gap-[80px]">
+        {/* Header */}
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-12 px-6 sm:px-8 lg:px-[45px]">
+          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[28px] md:text-[36px] lg:text-[42px] text-black leading-tight tracking-[-0.02em]">
+            Partners
+          </h2>
+
+          <div className="flex flex-col sm:flex-row items-start sm:items-end gap-8 lg:gap-10">
+            <div className="border-l-[3px] border-[#ceae5a] pl-6 max-w-[420px]">
+              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[15px] leading-[1.9] text-[#555] tracking-[-0.2px]">
+                Dedicated to supporting our clients and partners in every strategic step.
               </p>
             </div>
 
-            <div className="flex gap-4">
-              <button 
-                className="w-12 h-12 border border-[#f0f0f0] rounded-sm flex items-center justify-center hover:border-[#ceae5a] transition-all group"
+            <div className="flex gap-[5px]">
+              <button
+                onClick={() => sliderRef.current?.slickPrev()}
+                className="w-[48px] h-[48px] border border-[#ceae5a] rounded-[8px] flex items-center justify-center hover:bg-[#ceae5a]/5 transition-all"
               >
-                <ChevronLeft size={18} className="text-black/40 group-hover:text-[#ceae5a]" strokeWidth={1.5} />
+                <ChevronLeft size={14} className="text-[#ceae5a]" strokeWidth={2} />
               </button>
-              <button 
-                className="w-12 h-12 bg-[#ceae5a] rounded-sm flex items-center justify-center hover:bg-[#b89b4f] transition-all"
+              <button
+                onClick={() => sliderRef.current?.slickNext()}
+                className="w-[48px] h-[48px] bg-[#ceae5a] border border-[#ceae5a] rounded-[8px] flex items-center justify-center hover:bg-[#b89b4f] transition-all"
               >
-                <ChevronRight size={18} className="text-white" strokeWidth={1.5} />
+                <ChevronRight size={14} className="text-white" strokeWidth={2} />
               </button>
             </div>
           </div>
         </div>
 
-        {/* Carousel Section */}
-        <div className="w-full">
-          <Slider {...settings} className="partner-slider -mx-6">
+        {/* Partner Logos Carousel */}
+        <div className="w-full px-4 sm:px-6 lg:px-[45px]">
+          <Slider ref={sliderRef} {...settings} className="partner-slider -mx-[10px]">
             {partners.map((partner, index) => (
-              <div key={`${partner.name}-${index}`} className="px-6">
-                <div 
-                  className="bg-white rounded-full h-[100px] flex items-center justify-center p-8 border border-[#f5f5f5] hover:border-[#ceae5a]/20 transition-all duration-500 group mx-auto"
-                >
+              <div key={`${partner.name}-${index}`} className="px-[10px]">
+                <div className="bg-white border border-[#dce0e3] rounded-full h-[160px] lg:h-[180px] flex items-center justify-center overflow-hidden hover:border-[#ceae5a]/30 transition-all duration-400">
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className="max-h-[45px] max-w-[130px] object-contain opacity-40 group-hover:opacity-100 transition-all duration-500"
+                    className="max-h-[100px] lg:max-h-[120px] max-w-[170px] lg:max-w-[200px] object-contain"
                   />
                 </div>
               </div>
@@ -117,7 +97,9 @@ export const Partners = () => {
         .partner-slider .slick-track {
           display: flex !important;
           align-items: center !important;
-          transition-timing-function: linear !important;
+        }
+        .partner-slider .slick-slide > div {
+          height: 100%;
         }
       `}} />
     </section>
