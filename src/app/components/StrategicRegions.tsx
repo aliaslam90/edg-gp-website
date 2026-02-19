@@ -45,7 +45,7 @@ export const StrategicRegions = () => {
                       <circle cx="16" cy="16" r="15" stroke="#CEAE5A" strokeWidth="0.5" opacity="0.2" />
                     </svg>
                   </div>
-                  <span className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-white uppercase leading-[22px]">
+                  <span className="font-['Plus_Jakarta_Sans'] font-medium text-[12px] lg:text-[13px] text-white uppercase leading-[20px]">
                     {region}
                   </span>
                 </div>
@@ -55,7 +55,7 @@ export const StrategicRegions = () => {
             <motion.button
               whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
               whileTap={{ scale: 0.98 }}
-              className="bg-[#ceae5a] border border-[#ceae5a] px-[24px] py-[10px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[16px] text-white leading-[24px] transition-all w-fit uppercase"
+              className="bg-[#ceae5a] border border-[#ceae5a] px-[20px] py-[8px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[13px] lg:text-[14px] text-white leading-[22px] transition-all w-fit uppercase"
             >
               Our Market Presence
             </motion.button>
@@ -70,18 +70,18 @@ export const StrategicRegions = () => {
             className="flex flex-col gap-[36px] lg:flex-1 max-w-[709px]"
           >
             <div className="bg-[#ceae5a] px-[8px] py-px rounded-[6px] w-fit">
-              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px] lg:text-[12px] text-white uppercase leading-[22px]">
+              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[10px] lg:text-[11px] text-white uppercase leading-[20px]">
                 Our Market Presence
               </span>
             </div>
 
-            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[24px] md:text-[32px] lg:text-[42px] text-white leading-[1.15] tracking-[-0.8px]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] md:text-[26px] lg:text-[32px] text-white leading-[1.2] tracking-[-0.6px]">
               Strategic Regions.<br />
               Expansive Opportunities.<br />
               Lasting Impact.
             </h2>
 
-            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[16px] text-white leading-[1.7] lg:leading-[28px]">
+            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[13px] lg:text-[14px] text-white leading-[1.65] lg:leading-[24px]">
               At EDG Gold & Petroleum, the Middle East and Africa (MEA) are more than just markets—they are the beating heart of our business operations and a cornerstone of our long-term growth strategy. These regions offer a unique blend of natural wealth, industrial demand, and strategic geographic positioning that aligns perfectly with our core competencies in petroleum and precious metals trading.
             </p>
           </motion.div>

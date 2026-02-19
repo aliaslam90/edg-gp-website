@@ -17,7 +17,7 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
       }`}
     >
       <div className="flex flex-col gap-[40px] lg:gap-[52px] w-full">
-        <h3 className={`text-[15px] lg:text-[18px] font-normal tracking-[-0.3px] leading-[22px] ${isDark ? "text-white" : "text-black"} font-['Plus_Jakarta_Sans']`}>
+        <h3 className={`text-[13px] lg:text-[15px] font-normal tracking-[-0.3px] leading-[20px] ${isDark ? "text-white" : "text-black"} font-['Plus_Jakarta_Sans']`}>
           {title}
         </h3>
         <div className="flex items-end justify-between w-full">
@@ -26,14 +26,14 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
               <path d={iconPath} fill="#CEAE5A" />
             </svg>
           </div>
-          <span className={`text-[40px] lg:text-[60px] leading-none font-normal tracking-[-2px] lg:tracking-[-3px] ${isDark ? "text-white" : "text-black"} font-['Plus_Jakarta_Sans']`}>
+          <span className={`text-[34px] lg:text-[48px] leading-none font-normal tracking-[-2px] lg:tracking-[-2.5px] ${isDark ? "text-white" : "text-black"} font-['Plus_Jakarta_Sans']`}>
             {value}
           </span>
         </div>
       </div>
       <div className="flex flex-col gap-[17px] w-full">
         <div className={`h-px w-full ${isDark ? "border-t border-white/40" : "border-t border-black/10"}`} />
-        <p className={`text-[13px] lg:text-[14px] leading-[22px] font-normal tracking-[-0.18px] ${isDark ? "text-white" : "text-[#8c8c8c]"} font-['Plus_Jakarta_Sans']`}>
+        <p className={`text-[12px] lg:text-[13px] leading-[20px] font-normal tracking-[-0.18px] ${isDark ? "text-white" : "text-[#8c8c8c]"} font-['Plus_Jakarta_Sans']`}>
           {subtext}
         </p>
       </div>

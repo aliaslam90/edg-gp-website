@@ -35,14 +35,14 @@ export const EnergyDivision = () => {
             className="flex flex-col gap-[28px] lg:flex-1"
           >
             <div className="flex flex-col gap-[18px]">
-              <h3 className="font-['Inter'] font-semibold text-[16px] lg:text-[20px] text-white leading-[26px]">
+              <h3 className="font-['Inter'] font-semibold text-[14px] lg:text-[16px] text-white leading-[22px]">
                 Our Products
               </h3>
               <ul className="flex flex-col gap-[4px]">
                 {products.map((item) => (
                   <li key={item} className="flex items-center gap-[10px]">
                     <div className="w-[6px] h-[6px] bg-[#ceae5a] shrink-0" />
-                    <span className="font-['Inter'] font-medium text-[13px] lg:text-[14px] text-white leading-[20px]">
+                    <span className="font-['Inter'] font-medium text-[12px] lg:text-[13px] text-white leading-[18px]">
                       {item}
                     </span>
                   </li>
@@ -52,7 +52,7 @@ export const EnergyDivision = () => {
             <motion.button
               whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
               whileTap={{ scale: 0.98 }}
-              className="bg-[#ceae5a] border border-[#ceae5a] px-[24px] py-[10px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[16px] text-white leading-[24px] transition-all w-fit"
+              className="bg-[#ceae5a] border border-[#ceae5a] px-[20px] py-[8px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[13px] lg:text-[14px] text-white leading-[22px] transition-all w-fit"
             >
               Join as an Investor
             </motion.button>
@@ -66,11 +66,11 @@ export const EnergyDivision = () => {
             transition={{ duration: 1, delay: 0.2 }}
             className="flex flex-col gap-[24px] lg:flex-1"
           >
-            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[24px] md:text-[32px] lg:text-[42px] text-white leading-[1.15] tracking-[-0.8px]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] md:text-[26px] lg:text-[32px] text-white leading-[1.2] tracking-[-0.6px]">
               Energy Division<br />
               Petroleum Trading Excellence
             </h2>
-            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[16px] text-white leading-[1.7] lg:leading-[28px]">
+            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[13px] lg:text-[14px] text-white leading-[1.65] lg:leading-[24px]">
               We supply a wide range of refined oil products tailored to meet the evolving needs of government agencies, public institutions, and private corporations. Our operational strength lies in our ability to offer reliable, on-time delivery with competitive pricing and full compliance with international quality standards.
             </p>
           </motion.div>

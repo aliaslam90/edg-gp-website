@@ -42,20 +42,20 @@ export const GoldTrading = () => {
         >
           <div className="flex flex-col gap-[16px]">
             <div className="bg-[#ceae5a] px-[8px] py-px rounded-[6px] w-fit">
-              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px] lg:text-[12px] text-white uppercase leading-[22px]">
+              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[10px] lg:text-[11px] text-white uppercase leading-[20px]">
                 Precious Metals Division
               </span>
             </div>
 
-            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[24px] md:text-[32px] lg:text-[36px] text-[#ceae5a] leading-[1.2] tracking-[-0.6px]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] md:text-[26px] lg:text-[28px] text-[#ceae5a] leading-[1.25] tracking-[-0.5px]">
               Gold Trading with Integrity
             </h2>
 
             <div className="flex flex-col gap-4 max-w-[760px]">
-              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[16px] text-white leading-[1.7] lg:leading-[28px]">
+              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[13px] lg:text-[14px] text-white leading-[1.65] lg:leading-[24px]">
                 In parallel with our energy operations, EDG Gold is a trusted player in the global gold and precious metals trade. We provide end-to-end gold trading services—from sourcing and aggregation to final distribution—ensuring full traceability, compliance, and security at every step.
               </p>
-              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[16px] text-white leading-[1.7] lg:leading-[28px]">
+              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[13px] lg:text-[14px] text-white leading-[1.65] lg:leading-[24px]">
                 We support our clients with access to physical gold and custom trading solutions that align with investment, treasury, or commercial goals. Our approach blends traditional values of trust with modern trading platforms and data-driven decision-making.
               </p>
             </div>
@@ -64,7 +64,7 @@ export const GoldTrading = () => {
           <motion.button
             whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
             whileTap={{ scale: 0.98 }}
-            className="bg-[#ceae5a] border border-[#ceae5a] px-[24px] py-[10px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[16px] text-white leading-[24px] transition-all w-fit"
+            className="bg-[#ceae5a] border border-[#ceae5a] px-[20px] py-[8px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[13px] lg:text-[14px] text-white leading-[22px] transition-all w-fit"
           >
             Learn More
           </motion.button>

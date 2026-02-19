@@ -36,18 +36,18 @@ export const VisionMission = () => {
           style={{ backgroundImage: "linear-gradient(213.303deg, rgba(0,0,0,0) 58.539%, rgba(0,0,0,0.8) 88.96%), linear-gradient(90deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100%), linear-gradient(90deg, rgba(206,174,90,0.1) 0%, rgba(206,174,90,0.1) 100%)" }}
         >
           <div className="flex items-center gap-[27px]">
-            <div className="h-[28px] w-[24px] lg:h-[35px] lg:w-[31px] shrink-0 opacity-80">
+            <div className="h-[22px] w-[19px] lg:h-[26px] lg:w-[24px] shrink-0 opacity-80">
               <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 31 35">
                 <path d={svgPaths.p270af370} fill="#CEAE5A" />
                 <path d={svgPaths.p255b1f00} fill="#CEAE5A" />
                 <path d={svgPaths.p2704b200} fill="#CEAE5A" />
               </svg>
             </div>
-            <span className="text-[#ceae5a] text-[18px] lg:text-[22px] font-semibold font-['Plus_Jakarta_Sans']">
+            <span className="text-[#ceae5a] text-[15px] lg:text-[17px] font-semibold font-['Plus_Jakarta_Sans']">
               Vision
             </span>
           </div>
-          <p className="text-[#f3f3f3] text-[13px] lg:text-[14px] leading-[24px] font-normal font-['Plus_Jakarta_Sans']">
+          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-['Plus_Jakarta_Sans']">
             To become the first-choice partner for investors in the energy and precious metals sectors. Our long-term goal is to expand strategic corridors, lead in ethical sourcing, and enable access to essential commodities, especially across high-growth regions in the Middle East and Africa.
           </p>
         </motion.div>
@@ -62,17 +62,17 @@ export const VisionMission = () => {
           style={{ backgroundImage: "linear-gradient(146.6deg, rgba(0,0,0,0) 58.578%, rgba(0,0,0,0.8) 97.515%), linear-gradient(90deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100%), linear-gradient(90deg, rgba(206,174,90,0.1) 0%, rgba(206,174,90,0.1) 100%)" }}
         >
           <div className="flex items-center gap-[27px]">
-            <div className="h-[28px] w-[27px] lg:h-[35px] lg:w-[34px] shrink-0 opacity-80">
+            <div className="h-[22px] w-[21px] lg:h-[26px] lg:w-[26px] shrink-0 opacity-80">
               <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 34 35">
                 <path d={svgPaths.p2a25ac80} fill="#CEAE5A" />
                 <path d={svgPaths.p2866b800} fill="#CEAE5A" />
               </svg>
             </div>
-            <span className="text-[#ceae5a] text-[18px] lg:text-[22px] font-semibold font-['Plus_Jakarta_Sans']">
+            <span className="text-[#ceae5a] text-[15px] lg:text-[17px] font-semibold font-['Plus_Jakarta_Sans']">
               Mission
             </span>
           </div>
-          <p className="text-[#f3f3f3] text-[13px] lg:text-[14px] leading-[24px] font-normal font-['Plus_Jakarta_Sans']">
+          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-['Plus_Jakarta_Sans']">
             To support the energy and precious metals sectors through an integrated business model that enhances sustainability, advances infrastructure, and maximizes value for every EDG partner—through strategic, intelligent solutions that deliver long-term growth and impact. We are driven by our dedication to operational efficiency, responsible sourcing, and long-term partnerships that empower global supply chains and energy access.
           </p>
         </motion.div>

@@ -35,16 +35,16 @@ export const ChairmanMessage = () => {
         >
           {/* Quote Icon + Label + Heading */}
           <div className="flex flex-col gap-[17px]">
-            <div className="h-[36px] lg:h-[48px] w-auto aspect-[97/64] opacity-60">
+            <div className="h-[28px] lg:h-[36px] w-auto aspect-[97/64] opacity-60">
               <svg className="block h-full w-full" fill="none" viewBox="0 0 97 64">
                 <path clipRule="evenodd" d={svgPaths.p34cfc200} fill="#CEAE5A" fillRule="evenodd" />
               </svg>
             </div>
             <div className="flex flex-col gap-[10px]">
-              <span className="text-[#ceae5a] text-[14px] lg:text-[18px] font-medium font-['Plus_Jakarta_Sans']">
+              <span className="text-[#ceae5a] text-[12px] lg:text-[14px] font-medium font-['Plus_Jakarta_Sans']">
                 Chairman's Message
               </span>
-              <h2 className="text-[22px] md:text-[28px] lg:text-[36px] font-bold text-black leading-[1.2] font-['Plus_Jakarta_Sans']">
+              <h2 className="text-[18px] md:text-[22px] lg:text-[28px] font-bold text-black leading-[1.25] font-['Plus_Jakarta_Sans']">
                 Charting Growth.<br />
                 Fueling Trust. Forging the Future.
               </h2>
@@ -52,7 +52,7 @@ export const ChairmanMessage = () => {
           </div>
 
           {/* Body Text */}
-          <div className="text-[#555] text-[14px] lg:text-[15px] leading-[26px] font-normal font-['Plus_Jakarta_Sans'] tracking-[-0.18px] space-y-4">
+          <div className="text-[#555] text-[13px] lg:text-[14px] leading-[24px] font-normal font-['Plus_Jakarta_Sans'] tracking-[-0.18px] space-y-3">
             <p>
               At EDG Gold & Petroleum, our journey has always been guided by a singular purpose: to create lasting value through responsible global trade. From the heart of the UAE to emerging and established markets across the Middle East and Africa, our company has evolved into a trusted name in energy and precious metals trading.
             </p>
@@ -69,9 +69,9 @@ export const ChairmanMessage = () => {
 
           {/* Signature */}
           <div className="flex flex-col gap-0.5 text-[#555] font-['Plus_Jakarta_Sans'] leading-[27px] tracking-[-0.18px]">
-            <p className="text-[13px] lg:text-[15px] font-normal">Warm regards,</p>
-            <p className="text-[15px] lg:text-[18px] font-semibold text-black">Chief Executive Officer</p>
-            <p className="text-[13px] lg:text-[15px] font-normal text-[#ceae5a]">EDG Gold &amp; Petroleum</p>
+            <p className="text-[12px] lg:text-[13px] font-normal">Warm regards,</p>
+            <p className="text-[14px] lg:text-[15px] font-semibold text-black">Chief Executive Officer</p>
+            <p className="text-[12px] lg:text-[13px] font-normal text-[#ceae5a]">EDG Gold &amp; Petroleum</p>
           </div>
         </motion.div>
       </div>
