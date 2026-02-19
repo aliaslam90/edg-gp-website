@@ -6,7 +6,7 @@ export const EnergyDivision = () => {
   const products = ["Fuel Oil", "Gas Oil", "Gasoil (D2)", "Gasoline (Mogas)"];
 
   return (
-    <section className="relative w-full overflow-hidden h-auto lg:h-[700px] flex items-center py-[80px] lg:py-[100px]">
+    <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-center py-[60px] lg:py-[72px]">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.05 }}
@@ -24,7 +24,7 @@ export const EnergyDivision = () => {
       </div>
 
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px]">
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-[100px] items-end">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-[72px] items-end">
 
           {/* Left: Products List */}
           <motion.div
@@ -32,17 +32,17 @@ export const EnergyDivision = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            className="flex flex-col gap-[36px] lg:flex-1"
+            className="flex flex-col gap-[28px] lg:flex-1"
           >
-            <div className="flex flex-col gap-[25px]">
-              <h3 className="font-['Inter'] font-semibold text-[20px] lg:text-[25px] text-white leading-[30px]">
+            <div className="flex flex-col gap-[18px]">
+              <h3 className="font-['Inter'] font-semibold text-[16px] lg:text-[20px] text-white leading-[26px]">
                 Our Products
               </h3>
               <ul className="flex flex-col gap-[4px]">
                 {products.map((item) => (
                   <li key={item} className="flex items-center gap-[10px]">
-                    <div className="w-[7px] h-[7px] bg-[#ceae5a] shrink-0" />
-                    <span className="font-['Inter'] font-medium text-[14px] lg:text-[16px] text-white leading-[22px]">
+                    <div className="w-[6px] h-[6px] bg-[#ceae5a] shrink-0" />
+                    <span className="font-['Inter'] font-medium text-[13px] lg:text-[14px] text-white leading-[20px]">
                       {item}
                     </span>
                   </li>
@@ -52,7 +52,7 @@ export const EnergyDivision = () => {
             <motion.button
               whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
               whileTap={{ scale: 0.98 }}
-              className="bg-[#ceae5a] border border-[#ceae5a] px-[32px] py-[14px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[18px] lg:text-[24px] text-white leading-[32px] transition-all w-fit"
+              className="bg-[#ceae5a] border border-[#ceae5a] px-[24px] py-[10px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[16px] text-white leading-[24px] transition-all w-fit"
             >
               Join as an Investor
             </motion.button>
@@ -64,13 +64,13 @@ export const EnergyDivision = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="flex flex-col gap-[36px] lg:flex-1"
+            className="flex flex-col gap-[24px] lg:flex-1"
           >
-            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[32px] md:text-[44px] lg:text-[60px] text-white leading-[1.13] tracking-[-1.2px]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[24px] md:text-[32px] lg:text-[42px] text-white leading-[1.15] tracking-[-0.8px]">
               Energy Division<br />
               Petroleum Trading Excellence
             </h2>
-            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[16px] lg:text-[24px] text-white leading-[1.58] lg:leading-[38px]">
+            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[16px] text-white leading-[1.7] lg:leading-[28px]">
               We supply a wide range of refined oil products tailored to meet the evolving needs of government agencies, public institutions, and private corporations. Our operational strength lies in our ability to offer reliable, on-time delivery with competitive pricing and full compliance with international quality standards.
             </p>
           </motion.div>

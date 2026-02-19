@@ -5,7 +5,7 @@ import imgRectangle1 from "@/assets/b25bf13818fd4a847b2b7fc565076139896fafc8.png
 
 export const GoldTrading = () => {
   return (
-    <section className="relative w-full overflow-hidden h-auto lg:h-[700px] flex items-end py-[80px] lg:py-[83px]">
+    <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-end py-[60px] lg:py-[72px]">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.05 }}
@@ -38,24 +38,24 @@ export const GoldTrading = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
-          className="flex flex-col gap-[64px] max-w-[1261px]"
+          className="flex flex-col gap-[40px] max-w-[960px]"
         >
-          <div className="flex flex-col gap-[24px]">
-            <div className="bg-[#ceae5a] px-[9px] py-px rounded-[6px] w-fit">
-              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[12px] lg:text-[14px] text-white uppercase leading-[24px]">
+          <div className="flex flex-col gap-[16px]">
+            <div className="bg-[#ceae5a] px-[8px] py-px rounded-[6px] w-fit">
+              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px] lg:text-[12px] text-white uppercase leading-[22px]">
                 Precious Metals Division
               </span>
             </div>
 
-            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[30px] md:text-[40px] lg:text-[48px] text-[#ceae5a] leading-[1.2] tracking-[-0.96px]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[24px] md:text-[32px] lg:text-[36px] text-[#ceae5a] leading-[1.2] tracking-[-0.6px]">
               Gold Trading with Integrity
             </h2>
 
-            <div className="flex flex-col gap-6 max-w-[960px]">
-              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[16px] lg:text-[24px] text-white leading-[1.58] lg:leading-[38px]">
+            <div className="flex flex-col gap-4 max-w-[760px]">
+              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[16px] text-white leading-[1.7] lg:leading-[28px]">
                 In parallel with our energy operations, EDG Gold is a trusted player in the global gold and precious metals trade. We provide end-to-end gold trading services—from sourcing and aggregation to final distribution—ensuring full traceability, compliance, and security at every step.
               </p>
-              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[16px] lg:text-[24px] text-white leading-[1.58] lg:leading-[38px]">
+              <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[16px] text-white leading-[1.7] lg:leading-[28px]">
                 We support our clients with access to physical gold and custom trading solutions that align with investment, treasury, or commercial goals. Our approach blends traditional values of trust with modern trading platforms and data-driven decision-making.
               </p>
             </div>
@@ -64,7 +64,7 @@ export const GoldTrading = () => {
           <motion.button
             whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
             whileTap={{ scale: 0.98 }}
-            className="bg-[#ceae5a] border border-[#ceae5a] px-[32px] py-[14px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[16px] lg:text-[20px] text-white leading-[28px] transition-all w-fit"
+            className="bg-[#ceae5a] border border-[#ceae5a] px-[24px] py-[10px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[16px] text-white leading-[24px] transition-all w-fit"
           >
             Learn More
           </motion.button>

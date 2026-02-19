@@ -6,7 +6,7 @@ export const StrategicRegions = () => {
   const regions = ["Middle East", "Africa"];
 
   return (
-    <section className="relative min-h-[700px] lg:min-h-[768px] flex items-center overflow-hidden py-[80px] lg:py-[100px]">
+    <section className="relative min-h-[500px] lg:min-h-[560px] flex items-center overflow-hidden py-[60px] lg:py-[72px]">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.05 }}
@@ -25,7 +25,7 @@ export const StrategicRegions = () => {
       </div>
 
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px]">
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-[100px] items-end">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-[72px] items-end">
 
           {/* Left: Regions + Button */}
           <motion.div
@@ -45,7 +45,7 @@ export const StrategicRegions = () => {
                       <circle cx="16" cy="16" r="15" stroke="#CEAE5A" strokeWidth="0.5" opacity="0.2" />
                     </svg>
                   </div>
-                  <span className="font-['Plus_Jakarta_Sans'] font-medium text-[16px] lg:text-[18px] text-white uppercase leading-[26px]">
+                  <span className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-white uppercase leading-[22px]">
                     {region}
                   </span>
                 </div>
@@ -55,7 +55,7 @@ export const StrategicRegions = () => {
             <motion.button
               whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
               whileTap={{ scale: 0.98 }}
-              className="bg-[#ceae5a] border border-[#ceae5a] px-[32px] py-[14px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[18px] lg:text-[24px] text-white leading-[32px] transition-all w-fit uppercase"
+              className="bg-[#ceae5a] border border-[#ceae5a] px-[24px] py-[10px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[16px] text-white leading-[24px] transition-all w-fit uppercase"
             >
               Our Market Presence
             </motion.button>
@@ -69,19 +69,19 @@ export const StrategicRegions = () => {
             transition={{ duration: 1.2, delay: 0.2 }}
             className="flex flex-col gap-[36px] lg:flex-1 max-w-[709px]"
           >
-            <div className="bg-[#ceae5a] px-[9px] py-px rounded-[6px] w-fit">
-              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[12px] lg:text-[14px] text-white uppercase leading-[24px]">
+            <div className="bg-[#ceae5a] px-[8px] py-px rounded-[6px] w-fit">
+              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[11px] lg:text-[12px] text-white uppercase leading-[22px]">
                 Our Market Presence
               </span>
             </div>
 
-            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[32px] md:text-[44px] lg:text-[60px] text-white leading-[1.13] tracking-[-1.2px]">
+            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[24px] md:text-[32px] lg:text-[42px] text-white leading-[1.15] tracking-[-0.8px]">
               Strategic Regions.<br />
               Expansive Opportunities.<br />
               Lasting Impact.
             </h2>
 
-            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[16px] lg:text-[24px] text-white leading-[1.58] lg:leading-[38px]">
+            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[14px] lg:text-[16px] text-white leading-[1.7] lg:leading-[28px]">
               At EDG Gold & Petroleum, the Middle East and Africa (MEA) are more than just markets—they are the beating heart of our business operations and a cornerstone of our long-term growth strategy. These regions offer a unique blend of natural wealth, industrial demand, and strategic geographic positioning that aligns perfectly with our core competencies in petroleum and precious metals trading.
             </p>
           </motion.div>
