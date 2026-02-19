@@ -3,79 +3,89 @@ import { motion } from "motion/react";
 import imgValuesMetron2 from "@/assets/c09daf8815cbf8141d45e5907ad2d5e544327ae8.png";
 
 export const StrategicRegions = () => {
+  const regions = ["Middle East", "Africa"];
+
   return (
-    <section className="relative min-h-[850px] flex items-center overflow-hidden py-[160px]">
-      {/* Background Earth at Night */}
-      <motion.div 
-        initial={{ scale: 1.1 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 20, ease: "linear" }}
-        className="absolute inset-0 z-0"
-      >
-        <img
-          src={imgValuesMetron2}
-          alt="Earth at night"
-          className="absolute max-w-none object-cover size-full"
-        />
-        <div className="absolute inset-0 bg-[#080808]/80" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-[#080808]" />
-      </motion.div>
-
-      {/* Content */}
-      <div className="relative z-10 max-w-[1440px] mx-auto px-8 md:px-[80px] w-full flex flex-col lg:grid lg:grid-cols-12 gap-20 items-center">
-        
-        {/* Left Side: Regions List */}
+    <section className="relative min-h-[700px] lg:min-h-[768px] flex items-center overflow-hidden py-[80px] lg:py-[100px]">
+      <div className="absolute inset-0 z-0">
         <motion.div
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.2 }}
-          className="lg:col-span-5 flex flex-col gap-8"
+          initial={{ scale: 1.05 }}
+          whileInView={{ scale: 1 }}
+          transition={{ duration: 20, ease: "linear" }}
+          className="absolute inset-0"
         >
-          <div className="flex flex-col gap-10">
-            {[
-              { id: "01", name: "Middle East" },
-              { id: "02", name: "Africa" },
-              { id: "03", name: "Strategic Corridors" }
-            ].map((region) => (
-              <div key={region.id} className="flex items-center gap-8 group cursor-pointer">
-                <span className="text-[#ceae5a]/40 text-[10px] font-bold tracking-widest group-hover:text-[#ceae5a] transition-colors duration-500">{region.id}</span>
-                <div className="w-[40px] h-[1px] bg-[#ceae5a]/20 group-hover:w-[60px] group-hover:bg-[#ceae5a] transition-all duration-500" />
-                <span className="text-white/60 group-hover:text-white text-[16px] md:text-[18px] font-medium tracking-[0.3em] uppercase font-['Plus_Jakarta_Sans'] transition-all duration-500">
-                  {region.name}
-                </span>
-              </div>
-            ))}
-          </div>
+          <img
+            src={imgValuesMetron2}
+            alt="Earth at night"
+            className="absolute max-w-none object-cover size-full"
+            style={{ width: "181.89%" }}
+          />
+        </motion.div>
+        <div className="absolute inset-0 bg-black/60" />
+      </div>
 
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            className="mt-12 bg-transparent border border-[#ceae5a]/30 hover:border-[#ceae5a] text-[#ceae5a] px-12 py-4 rounded-sm font-bold text-[11px] uppercase tracking-[0.4em] font-['Plus_Jakarta_Sans'] transition-all duration-500 w-fit"
+      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px]">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-[100px] items-end">
+
+          {/* Left: Regions + Button */}
+          <motion.div
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.2 }}
+            className="flex flex-col gap-[36px] lg:flex-1"
           >
-            Market Presence
-          </motion.button>
-        </motion.div>
+            <div className="flex flex-col gap-[19px]">
+              {regions.map((region) => (
+                <div key={region} className="flex items-center gap-[11px]">
+                  <div className="w-[32px] h-[32px] shrink-0 flex items-center justify-center">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <circle cx="16" cy="16" r="4" fill="#CEAE5A" />
+                      <circle cx="16" cy="16" r="10" stroke="#CEAE5A" strokeWidth="1" opacity="0.4" />
+                      <circle cx="16" cy="16" r="15" stroke="#CEAE5A" strokeWidth="0.5" opacity="0.2" />
+                    </svg>
+                  </div>
+                  <span className="font-['Plus_Jakarta_Sans'] font-medium text-[16px] lg:text-[18px] text-white uppercase leading-[26px]">
+                    {region}
+                  </span>
+                </div>
+              ))}
+            </div>
 
-        {/* Right Side: Text */}
-        <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.2, delay: 0.2 }}
-          className="lg:col-span-7 flex flex-col items-start lg:items-end text-left lg:text-right"
-        >
-          <span className="text-[#ceae5a] text-[12px] font-bold uppercase tracking-[0.5em] mb-10 block font-['Plus_Jakarta_Sans']">
-            Strategic Growth
-          </span>
-          <h2 className="text-white text-[24px] md:text-[30px] font-light leading-[1.1] mb-10 font-['Plus_Jakarta_Sans'] tracking-[-0.03em]">
-            Strategic Regions.<br />
-            <span className="text-[#ceae5a] italic font-normal">Expansive Opportunities.</span><br />
-            Lasting Impact.
-          </h2>
-          <p className="text-white/50 text-[16px] md:text-[17px] leading-[1.8] font-normal font-['Plus_Jakarta_Sans'] tracking-wide max-w-[600px] lg:ml-auto">
-            At EDG Gold & Petroleum, the Middle East and Africa are far more than just locations—they are the beating heart of our business operations and a cornerstone of our long-term growth strategy.
-          </p>
-        </motion.div>
+            <motion.button
+              whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
+              whileTap={{ scale: 0.98 }}
+              className="bg-[#ceae5a] border border-[#ceae5a] px-[32px] py-[14px] rounded-[8px] font-['Plus_Jakarta_Sans'] font-medium text-[18px] lg:text-[24px] text-white leading-[32px] transition-all w-fit uppercase"
+            >
+              Our Market Presence
+            </motion.button>
+          </motion.div>
+
+          {/* Right: Heading + Description */}
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.2, delay: 0.2 }}
+            className="flex flex-col gap-[36px] lg:flex-1 max-w-[709px]"
+          >
+            <div className="bg-[#ceae5a] px-[9px] py-px rounded-[6px] w-fit">
+              <span className="font-['Plus_Jakarta_Sans'] font-medium text-[12px] lg:text-[14px] text-white uppercase leading-[24px]">
+                Our Market Presence
+              </span>
+            </div>
+
+            <h2 className="font-['Plus_Jakarta_Sans'] font-medium text-[32px] md:text-[44px] lg:text-[60px] text-white leading-[1.13] tracking-[-1.2px]">
+              Strategic Regions.<br />
+              Expansive Opportunities.<br />
+              Lasting Impact.
+            </h2>
+
+            <p className="font-['Plus_Jakarta_Sans'] font-normal text-[16px] lg:text-[24px] text-white leading-[1.58] lg:leading-[38px]">
+              At EDG Gold & Petroleum, the Middle East and Africa (MEA) are more than just markets—they are the beating heart of our business operations and a cornerstone of our long-term growth strategy. These regions offer a unique blend of natural wealth, industrial demand, and strategic geographic positioning that aligns perfectly with our core competencies in petroleum and precious metals trading.
+            </p>
+          </motion.div>
+        </div>
       </div>
     </section>
   );
