@@ -5,15 +5,8 @@ import svgPaths from "../../imports/svg-ixy99k2xf7";
 
 export const ChairmanMessage = () => {
   return (
-    <section className="relative bg-white py-[56px] lg:py-[72px] px-6 sm:px-8 lg:px-[80px] overflow-hidden">
-      {/* Smooth fade to black at bottom — blends into Energy section below */}
-      <div
-        className="absolute inset-x-0 bottom-0 h-[100px] lg:h-[120px] pointer-events-none"
-        style={{
-          background: "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.4) 50%, #000 100%)",
-        }}
-      />
-      <div className="relative z-10 max-w-[1440px] mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
+    <section className="bg-white py-[56px] lg:py-[72px] px-6 sm:px-8 lg:px-[80px] overflow-hidden">
+      <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
 
         {/* Left: Portrait Image */}
         <motion.div

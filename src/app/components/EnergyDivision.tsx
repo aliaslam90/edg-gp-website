@@ -21,13 +21,6 @@ export const EnergyDivision = () => {
           />
         </motion.div>
         <div className="absolute inset-0 bg-black/50" />
-        {/* Fade from solid black at top — smooth transition from section above */}
-        <div
-          className="absolute inset-x-0 top-0 h-[45%] pointer-events-none"
-          style={{
-            background: "linear-gradient(to bottom, #000 0%, rgba(0,0,0,0.85) 35%, rgba(0,0,0,0.4) 70%, transparent 100%)",
-          }}
-        />
         {/* Fade to solid black at bottom — no visible line at seam */}
         <div
           className="absolute inset-x-0 bottom-0 h-[55%] pointer-events-none"
