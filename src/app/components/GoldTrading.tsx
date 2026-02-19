@@ -5,7 +5,7 @@ import imgRectangle1 from "@/assets/b25bf13818fd4a847b2b7fc565076139896fafc8.png
 
 export const GoldTrading = () => {
   return (
-    <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-end py-[60px] lg:py-[72px]">
+    <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-end pt-[48px] pb-[60px] lg:pt-[56px] lg:pb-[72px] -mt-[1px]">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.05 }}
@@ -23,6 +23,13 @@ export const GoldTrading = () => {
           className="absolute inset-0"
           style={{
             backgroundImage: "linear-gradient(180deg, rgba(0,0,0,0) 59.459%, rgba(0,0,0,0.8) 114.36%), linear-gradient(270deg, rgba(206,174,90,0.3) 0%, rgba(0,0,0,0) 57.057%), linear-gradient(0deg, rgba(0,0,0,0) 45.746%, rgba(44,37,19,0.8) 95.546%), linear-gradient(180deg, rgba(0,0,0,0) 50.05%, rgba(206,174,90,0.5) 95.045%), linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%)"
+          }}
+        />
+        {/* Smooth fade from black at top — continues from Energy section */}
+        <div
+          className="absolute inset-x-0 top-0 h-[38%] pointer-events-none"
+          style={{
+            background: "linear-gradient(to bottom, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)",
           }}
         />
       </div>

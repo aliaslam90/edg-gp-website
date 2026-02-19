@@ -6,7 +6,7 @@ export const EnergyDivision = () => {
   const products = ["Fuel Oil", "Gas Oil", "Gasoil (D2)", "Gasoline (Mogas)"];
 
   return (
-    <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-center py-[60px] lg:py-[72px]">
+    <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-center pt-[60px] pb-[48px] lg:pt-[72px] lg:pb-[56px]">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.05 }}
@@ -20,7 +20,14 @@ export const EnergyDivision = () => {
             className="absolute max-w-none object-cover size-full"
           />
         </motion.div>
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/50" />
+        {/* Smooth fade to black at bottom — blends into Gold section */}
+        <div
+          className="absolute inset-x-0 bottom-0 h-[45%] pointer-events-none"
+          style={{
+            background: "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0.85) 100%)",
+          }}
+        />
       </div>
 
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px]">
