@@ -1,89 +1,96 @@
 import React from "react";
 import { motion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import imgAbImg1Jpg from "@/assets/1ac783f921d4f235befbc08ea089608fd5ca7f33.png";
-import imgAbImg1Jpg1 from "@/assets/7a2bbfab3869ed54c0dac75db39e66942ee54f70.png";
-import imgAbImg1Jpg2 from "@/assets/c50290f6d265153aa2608cc818b152b7d1e913d3.png";
-import imgAbImg1Jpg3 from "@/assets/dc0ffd624c21a3b416fa79072c458ee4456224b8.png";
+import imgIntegrity from "@/assets/1ac783f921d4f235befbc08ea089608fd5ca7f33.png";
+import imgCustomerFocus from "@/assets/7a2bbfab3869ed54c0dac75db39e66942ee54f70.png";
+import imgSustainability from "@/assets/c50290f6d265153aa2608cc818b152b7d1e913d3.png";
+import imgInnovation from "@/assets/dc0ffd624c21a3b416fa79072c458ee4456224b8.png";
 
 const values = [
   {
-    number: "01",
+    number: "01.",
     title: "Integrity",
-    image: imgAbImg1Jpg,
-    description: "At EDG Gold & Petroleum DMCC, integrity is the cornerstone of everything we do. We operate with transparency, honesty, and accountability in every trade and partnership.",
+    image: imgIntegrity,
+    description:
+      "We conduct every transaction with honesty, transparency, and a deep respect for ethical practices. Trust is not just earned—it's built through consistent action, and we uphold that trust in every partnership, every time.",
   },
   {
-    number: "02",
+    number: "02.",
     title: "Customer Focus",
-    image: imgAbImg1Jpg1,
-    description: "Our clients are at the heart of our operations. We are dedicated to understanding their unique needs and providing tailored energy and commodities solutions.",
+    image: imgCustomerFocus,
+    description:
+      "Our clients are at the center of our strategy. We listen closely, respond swiftly, and deliver tailored solutions that drive results. Your success is our mission—every deal, every delivery, every day.",
   },
   {
-    number: "03",
+    number: "03.",
     title: "Sustainability",
-    image: imgAbImg1Jpg2,
-    description: "We are committed to long-term sustainability, ensuring that our trading and logistical operations contribute positively to the global energy landscape.",
+    image: imgSustainability,
+    description:
+      "We are committed to responsible sourcing, sustainable trading, and minimizing our environmental impact. From ethical gold sourcing to fuel efficiency, we champion practices that benefit both business and the planet.",
   },
   {
-    number: "04",
+    number: "04.",
     title: "Innovation",
-    image: imgAbImg1Jpg3,
-    description: "In an ever-evolving market, innovation is key. We leverage the latest technologies and market insights to optimize our supply chain and deliver value.",
+    image: imgInnovation,
+    description:
+      "In a rapidly changing world, we believe in staying ahead. We invest in technology, adopt data-driven insights, and continuously evolve to offer smarter, faster, and more agile trading solutions across our gold and petroleum divisions.",
   },
 ];
 
 export const CoreValues = () => {
   return (
-    <section className="bg-[#F8F9FA] py-[56px] lg:py-[72px] px-8 md:px-[80px]">
+    <section className="bg-[#F5F5F5] py-[56px] lg:py-[80px] px-6 sm:px-8 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start mb-[80px] gap-12">
-          <div className="flex flex-col gap-4">
-            <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.3em] font-['Plus_Jakarta_Sans']">
-              OUR FOUNDATION
-            </span>
-            <h2 className="text-[18px] lg:text-[20px] lg:text-[28px] font-bold text-[#0B2B3F] font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+        {/* Header: label + heading left, intro with gold bar right */}
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-12 mb-12 lg:mb-16">
+          <div className="flex flex-col gap-2">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[#8c8c8c] text-[11px] lg:text-[12px] font-medium uppercase tracking-[0.2em] font-['Plus_Jakarta_Sans']">
+              <span>WE ARE PROVIDING FOR YOUR BUSINESS.</span>
+              <span>[WHY CHOOSE US]</span>
+            </div>
+            <h2 className="text-[28px] lg:text-[36px] font-bold text-black font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
               Our Core values
             </h2>
           </div>
-          <p className="max-w-[400px] text-[#555] text-[14px] lg:text-[15px] font-['Plus_Jakarta_Sans'] leading-[1.7] mt-2">
-            At EDG Gold & Petroleum DMCC, our core values define who we are and how we operate, guiding us towards excellence in every endeavor.
-          </p>
+          <div className="border-l-[3px] border-[#ceae5a] pl-6 max-w-[520px]">
+            <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.75] font-['Plus_Jakarta_Sans']">
+              At EDG Gold & Petroleum, our values are the foundation of everything we do. They define how we operate, how we serve, and how we grow—together with our clients, partners, and communities.
+            </p>
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[24px]">
+        {/* 2x2 grid of value cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {values.map((value, index) => (
-            <motion.div
+            <motion.article
               key={value.number}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-[8px] p-6 lg:p-8 border border-[#E9ECEF] hover:shadow-[0_20px_50px_-10px_rgba(0,0,0,0.08)] transition-all duration-500 group"
+              transition={{ delay: index * 0.08 }}
+              className="bg-white rounded-[8px] overflow-hidden border border-[#E9ECEF] hover:shadow-[0_20px_50px_-10px_rgba(0,0,0,0.08)] transition-all duration-500"
             >
-              <div className="flex flex-col gap-[24px]">
-                <div className="flex justify-between items-start">
-                  <span className="text-[#CEAE5A] font-bold text-[18px] font-['Plus_Jakarta_Sans'] opacity-50">
-                    {value.number}
-                  </span>
-                  <div className="w-[140px] h-[80px] overflow-hidden rounded-[4px]">
-                    <ImageWithFallback
-                      src={value.image}
-                      alt={value.title}
-                      className="max-w-none w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
-                    />
-                  </div>
+              <div className="p-5 lg:p-6 flex flex-col gap-4">
+                <span className="text-[#ceae5a] font-bold text-[20px] lg:text-[22px] font-['Plus_Jakarta_Sans'] leading-none">
+                  {value.number}
+                </span>
+                <div className="relative w-full aspect-[16/10] rounded-[6px] overflow-hidden border-b-2 border-r-2 border-[#2d5016]/30 border-solid">
+                  <ImageWithFallback
+                    src={value.image}
+                    alt={value.title}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
                 </div>
                 <div>
-                  <h3 className="text-[18px] lg:text-[20px] font-bold text-[#0B2B3F] mb-3 font-['Plus_Jakarta_Sans'] tracking-tight">
+                  <h3 className="text-[18px] lg:text-[20px] font-bold text-black mb-2 font-['Plus_Jakarta_Sans'] tracking-tight">
                     {value.title}
                   </h3>
-                  <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.6] font-['Plus_Jakarta_Sans']">
+                  <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.65] font-['Plus_Jakarta_Sans']">
                     {value.description}
                   </p>
                 </div>
               </div>
-            </motion.div>
+            </motion.article>
           ))}
         </div>
       </div>
