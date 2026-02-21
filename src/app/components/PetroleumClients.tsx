@@ -28,21 +28,21 @@ export const PetroleumClients = () => {
         {/* Header */}
         <div className="flex flex-col gap-[30px]">
           <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-gray-200 pb-6">
-            <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+            <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
               Confident & Global
             </span>
-            <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+            <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
               [ Clients ]
             </span>
           </div>
           
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
             <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16 flex-1">
-              <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[474px]">
+              <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[474px]">
                 Our Clients
               </h2>
               <div className="h-full border-l-3 border-[#ceae5a] pl-8 flex items-center">
-                <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] max-w-[840px] leading-relaxed">
+                <p className="font-sans text-[16px] lg:text-[18px] text-[#555] max-w-[840px] leading-relaxed">
                   An international reach: the knowledge, network and resources to deliver for clients – leading players in their sectors – around the world.
                 </p>
               </div>

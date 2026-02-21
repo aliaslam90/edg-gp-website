@@ -103,7 +103,7 @@ export const Navbar = () => {
               {item.dropdown ? (
                 <div className="flex items-center gap-1 cursor-pointer">
                   <div className="relative inline-block">
-                    <span className={`font-['Plus_Jakarta_Sans'] font-medium text-[14px] xl:text-[15px] whitespace-nowrap transition-colors ${
+                    <span className={`font-sans font-medium text-[14px] xl:text-[15px] whitespace-nowrap transition-colors ${
                       (item.name === "About Us" && location.pathname.startsWith('/about')) || 
                       (item.name === "Business Sectors" && location.pathname.startsWith('/services')) 
                       ? "text-white" : "text-white/80 hover:text-[#ceae5a]"
@@ -128,7 +128,7 @@ export const Navbar = () => {
               ) : (
                 <Link
                   to={item.path}
-                  className={`relative inline-block font-['Plus_Jakarta_Sans'] font-medium text-[14px] xl:text-[15px] leading-tight whitespace-nowrap transition-colors ${
+                  className={`relative inline-block font-sans font-medium text-[14px] xl:text-[15px] leading-tight whitespace-nowrap transition-colors ${
                     location.pathname === item.path ? "text-white" : "text-white/80 hover:text-[#ceae5a]"
                   }`}
                 >
@@ -162,7 +162,7 @@ export const Navbar = () => {
                             setIsAboutOpen(false);
                             setIsSectorsOpen(false);
                           }}
-                          className={`block px-5 py-3 text-[14px] font-medium font-['Plus_Jakarta_Sans'] transition-colors ${
+                          className={`block px-5 py-3 text-[14px] font-medium font-sans transition-colors ${
                             location.pathname === subItem.path 
                               ? "text-[#CEAE5A] bg-gray-50" 
                               : "text-[#151515] hover:text-[#CEAE5A] hover:bg-gray-50"
@@ -185,11 +185,11 @@ export const Navbar = () => {
           <div className="hidden xl:flex items-center gap-[25px]">
             {/* Call Us */}
             <div className="flex items-center gap-[8px]">
-              <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[#8a8a8a] text-[13px] leading-none">
+              <span className="font-sans font-semibold text-[#8a8a8a] text-[13px] leading-none">
                 Call us:
               </span>
               <div className="flex flex-col items-center group cursor-pointer relative">
-                <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[13px] text-white leading-tight group-hover:text-[#ceae5a] transition-colors whitespace-nowrap pb-[1px]">
+                <span className="font-sans font-semibold text-[13px] text-white leading-tight group-hover:text-[#ceae5a] transition-colors whitespace-nowrap pb-[1px]">
                   (+971) 45548286
                 </span>
                 <div className="bg-[#ceae5a] h-px w-full absolute bottom-0" />
@@ -198,11 +198,11 @@ export const Navbar = () => {
 
             {/* Email Us */}
             <div className="flex items-center gap-[8px]">
-              <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[#8a8a8a] text-[13px] leading-none">
+              <span className="font-sans font-semibold text-[#8a8a8a] text-[13px] leading-none">
                 Email us:
               </span>
               <div className="flex flex-col items-center group cursor-pointer relative">
-                <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[13px] text-white leading-tight group-hover:text-[#ceae5a] transition-colors whitespace-nowrap pb-[1px]">
+                <span className="font-sans font-semibold text-[13px] text-white leading-tight group-hover:text-[#ceae5a] transition-colors whitespace-nowrap pb-[1px]">
                   info@edg-gp.com
                 </span>
                 <div className="bg-[#ceae5a] h-px w-full absolute bottom-0" />
@@ -212,7 +212,7 @@ export const Navbar = () => {
 
           <div className="hidden sm:flex items-center gap-[18px] sm:gap-[24px]">
             <Link to="/contact">
-              <button className="bg-[#ceae5a] h-[44px] w-[130px] rounded-[6px] font-['Plus_Jakarta_Sans'] font-bold text-[13px] text-center text-white capitalize flex items-center justify-center hover:bg-[#b89b4f] transition-all hover:shadow-lg active:scale-95">
+              <button className="bg-[#ceae5a] h-[44px] w-[130px] rounded-[6px] font-sans font-bold text-[13px] text-center text-white capitalize flex items-center justify-center hover:bg-[#b89b4f] transition-all hover:shadow-lg active:scale-95">
                 Contact us
               </button>
             </Link>
@@ -263,7 +263,7 @@ export const Navbar = () => {
                   <Link
                     to={item.path}
                     onClick={closeMobileMenu}
-                    className={`font-['Plus_Jakarta_Sans'] font-medium text-[14px] tracking-wide ${
+                    className={`font-sans font-medium text-[14px] tracking-wide ${
                       location.pathname === item.path ||
                       (item.name === "About Us" && location.pathname.startsWith("/about")) ||
                       (item.name === "Business Sectors" && location.pathname.startsWith("/services"))
@@ -280,7 +280,7 @@ export const Navbar = () => {
                           key={subItem.name}
                           to={subItem.path}
                           onClick={closeMobileMenu}
-                          className={`font-['Plus_Jakarta_Sans'] text-[13px] ${
+                          className={`font-sans text-[13px] ${
                             location.pathname === subItem.path
                               ? "text-[#CEAE5A]"
                               : "text-white/60"
@@ -296,7 +296,7 @@ export const Navbar = () => {
 
               {/* Mobile contact button */}
               <Link to="/contact" onClick={closeMobileMenu} className="mt-2">
-                <button className="w-full bg-[#ceae5a] h-[44px] rounded-[6px] font-['Plus_Jakarta_Sans'] font-bold text-[13px] text-center text-white capitalize flex items-center justify-center hover:bg-[#b89b4f] transition-all hover:shadow-lg active:scale-95">
+                <button className="w-full bg-[#ceae5a] h-[44px] rounded-[6px] font-sans font-bold text-[13px] text-center text-white capitalize flex items-center justify-center hover:bg-[#b89b4f] transition-all hover:shadow-lg active:scale-95">
                   Contact us
                 </button>
               </Link>

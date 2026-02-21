@@ -21,7 +21,7 @@ export const GoldLogistics = () => {
           viewport={{ once: true }}
           className="flex flex-col gap-10"
         >
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight">
+          <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight">
             Logistics & Infrastructure Investments
           </h2>
           
@@ -29,7 +29,7 @@ export const GoldLogistics = () => {
             {investments.map((item, idx) => (
               <div key={idx} className="flex gap-6 py-6 border-b border-gray-200 last:border-0 items-start">
                 <div className="w-[12px] h-[12px] rounded-full bg-[#ceae5a] mt-2 shrink-0" />
-                <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+                <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
                   {item}
                 </p>
               </div>
@@ -48,7 +48,7 @@ export const GoldLogistics = () => {
           <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors" />
           
           <div className="absolute bottom-6 left-6 sm:bottom-[40px] sm:left-[40px] lg:bottom-[60px] lg:left-[60px] z-10">
-            <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[20px] lg:text-[24px] text-white">
+            <h3 className="font-sans font-bold text-[20px] lg:text-[24px] text-white">
               Precious Metals Sector<span className="text-[#ceae5a]">.</span>
             </h3>
           </div>

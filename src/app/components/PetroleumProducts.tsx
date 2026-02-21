@@ -33,10 +33,10 @@ export const PetroleumProducts = () => {
           viewport={{ once: true }}
           className="text-center mb-[60px] lg:mb-[80px] max-w-[1119px]"
         >
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black mb-6">
+          <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black mb-6">
             Our Products
           </h2>
-          <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+          <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
             Conforms to Clients country standards: Petroleum products supplies are formulated to meet the latest standards for diesel fuel, Gasoline, etc.. ensuring that it meets the highest quality and performance standards.
           </p>
         </motion.div>
@@ -55,17 +55,17 @@ export const PetroleumProducts = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-[#000435]/90 via-[#000435]/20 to-transparent z-10" />
               
               <div className="absolute inset-0 z-20 p-5 sm:p-8 lg:p-[45px] flex flex-col justify-between">
-                <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[18px] lg:text-[22px] text-white tracking-[-1px]">
+                <h3 className="font-sans font-bold text-[18px] lg:text-[22px] text-white tracking-[-1px]">
                   {product.title}
                 </h3>
                 
                 <div className="flex flex-col gap-8">
-                  <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-white/90 leading-relaxed">
+                  <p className="font-sans text-[16px] lg:text-[18px] text-white/90 leading-relaxed">
                     {product.desc}
                   </p>
                   
                   <div className="pt-6 border-t border-white/30 flex items-center justify-between group/btn">
-                    <span className="font-['Plus_Jakarta_Sans'] font-bold text-[14.6px] text-white">
+                    <span className="font-sans font-bold text-[14.6px] text-white">
                       Get A Quote
                     </span>
                     <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover/btn:scale-110 transition-transform">

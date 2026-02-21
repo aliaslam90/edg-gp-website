@@ -44,16 +44,16 @@ export const CoreValues = () => {
         {/* Header: label + heading left, intro with gold bar right */}
         <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-12 mb-12 lg:mb-16">
           <div className="flex flex-col gap-2">
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[#8c8c8c] text-[11px] lg:text-[12px] font-medium uppercase tracking-[0.2em] font-['Plus_Jakarta_Sans']">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[#8c8c8c] text-[11px] lg:text-[12px] font-medium uppercase tracking-[0.2em] font-sans">
               <span>WE ARE PROVIDING FOR YOUR BUSINESS.</span>
               <span>[WHY CHOOSE US]</span>
             </div>
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[36px] font-bold text-black font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+            <h2 className="text-[24px] sm:text-[28px] lg:text-[36px] font-bold text-black font-sans leading-tight tracking-tight">
               Our Core values
             </h2>
           </div>
           <div className="border-l-[3px] border-[#ceae5a] pl-6 max-w-[520px]">
-            <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.75] font-['Plus_Jakarta_Sans']">
+            <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.75] font-sans">
               At EDG Gold & Petroleum, our values are the foundation of everything we do. They define how we operate, how we serve, and how we grow—together with our clients, partners, and communities.
             </p>
           </div>
@@ -71,7 +71,7 @@ export const CoreValues = () => {
               className="bg-white rounded-[8px] overflow-hidden border border-[#E9ECEF] hover:shadow-[0_20px_50px_-10px_rgba(0,0,0,0.08)] transition-all duration-500"
             >
               <div className="p-5 lg:p-6 flex flex-col gap-4">
-                <span className="text-[#ceae5a] font-bold text-[20px] lg:text-[22px] font-['Plus_Jakarta_Sans'] leading-none">
+                <span className="text-[#ceae5a] font-bold text-[20px] lg:text-[22px] font-sans leading-none">
                   {value.number}
                 </span>
                 <div className="relative w-full aspect-[16/10] rounded-[6px] overflow-hidden border-b-2 border-r-2 border-[#2d5016]/30 border-solid">
@@ -82,10 +82,10 @@ export const CoreValues = () => {
                   />
                 </div>
                 <div>
-                  <h3 className="text-[18px] lg:text-[20px] font-bold text-black mb-2 font-['Plus_Jakarta_Sans'] tracking-tight">
+                  <h3 className="text-[18px] lg:text-[20px] font-bold text-black mb-2 font-sans tracking-tight">
                     {value.title}
                   </h3>
-                  <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.65] font-['Plus_Jakarta_Sans']">
+                  <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.65] font-sans">
                     {value.description}
                   </p>
                 </div>

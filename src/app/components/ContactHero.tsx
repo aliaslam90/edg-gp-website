@@ -34,12 +34,12 @@ export const ContactHero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="flex flex-col gap-6"
         >
-          <h1 className="text-white text-[28px] md:text-[36px] font-bold font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+          <h1 className="text-white text-[28px] md:text-[36px] font-bold font-sans leading-tight tracking-tight">
             Contact Us
           </h1>
           
           {/* Breadcrumb */}
-          <div className="flex items-center gap-3 text-[12px] uppercase tracking-widest font-['Plus_Jakarta_Sans']">
+          <div className="flex items-center gap-3 text-[12px] uppercase tracking-widest font-sans">
             <span className="text-white/60">Home Page</span>
             <span className="text-white/60">•</span>
             <span className="text-[#CEAE5A]">Contact Us</span>

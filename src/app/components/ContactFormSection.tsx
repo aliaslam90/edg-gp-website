@@ -9,7 +9,7 @@ export const ContactFormSection = () => {
       
       <div className="max-w-[1440px] mx-auto">
         {/* Header Label */}
-        <div className="flex justify-between items-center border-b border-[#DCE0E3] pb-4 mb-16 font-['Plus_Jakarta_Sans'] text-[13px] tracking-[0.2em] uppercase text-[#8C8C8C]">
+        <div className="flex justify-between items-center border-b border-[#DCE0E3] pb-4 mb-16 font-sans text-[13px] tracking-[0.2em] uppercase text-[#8C8C8C]">
           <span>Let's Talk About Next Adventure</span>
           <span>[ GET IN TOUCH ]</span>
         </div>
@@ -21,7 +21,7 @@ export const ContactFormSection = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-black text-[24px] md:text-[28px] font-bold font-['Plus_Jakarta_Sans'] leading-[1.1] tracking-tight"
+              className="text-black text-[24px] md:text-[28px] font-bold font-sans leading-[1.1] tracking-tight"
             >
               Feel free to reach out for collaborations or just to say hello!
             </motion.h2>
@@ -29,30 +29,30 @@ export const ContactFormSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-8">
               {/* Addresses */}
               <div className="flex flex-col gap-4">
-                <span className="text-[#8C8C8C] text-[16px] font-['Plus_Jakarta_Sans']">Visit us</span>
-                <p className="text-black text-[18px] font-['Plus_Jakarta_Sans'] leading-[1.5]">
+                <span className="text-[#8C8C8C] text-[16px] font-sans">Visit us</span>
+                <p className="text-black text-[18px] font-sans leading-[1.5]">
                   DMCC Business Centre, Level No 1 Jewellery & Gemplex 3, Dubai - UAE
                 </p>
               </div>
               <div className="flex flex-col gap-4">
-                <span className="text-[#8C8C8C] text-[16px] font-['Plus_Jakarta_Sans']">Visit us</span>
-                <p className="text-black text-[18px] font-['Plus_Jakarta_Sans'] leading-[1.5]">
+                <span className="text-[#8C8C8C] text-[16px] font-sans">Visit us</span>
+                <p className="text-black text-[18px] font-sans leading-[1.5]">
                   Prism Tower, Business Bay,<br />Office 3006, Dubai, UAE
                 </p>
               </div>
 
               {/* Contact details */}
               <div className="flex flex-col gap-4">
-                <span className="text-[#8C8C8C] text-[16px] font-['Plus_Jakarta_Sans']">How can we help?</span>
-                <div className="text-black text-[18px] font-['Plus_Jakarta_Sans'] flex flex-col gap-1">
+                <span className="text-[#8C8C8C] text-[16px] font-sans">How can we help?</span>
+                <div className="text-black text-[18px] font-sans flex flex-col gap-1">
                   <p>Phone: (+971) 45548286</p>
                   <p>Mobile: (+971) 503541413</p>
                   <p>Fax: (+971) 503541413</p>
                 </div>
               </div>
               <div className="flex flex-col gap-4">
-                <span className="text-[#8C8C8C] text-[16px] font-['Plus_Jakarta_Sans']">Email us</span>
-                <p className="text-black text-[18px] font-['Plus_Jakarta_Sans']">
+                <span className="text-[#8C8C8C] text-[16px] font-sans">Email us</span>
+                <p className="text-black text-[18px] font-sans">
                   info@edg-gp.com
                 </p>
               </div>
@@ -67,7 +67,7 @@ export const ContactFormSection = () => {
               viewport={{ once: true }}
               className="bg-[#FAFAFA] p-8 md:p-[60px] rounded-[10px]"
             >
-              <h3 className="text-black text-[20px] md:text-[24px] font-bold font-['Plus_Jakarta_Sans'] mb-12">
+              <h3 className="text-black text-[20px] md:text-[24px] font-bold font-sans mb-12">
                 Leave a message
               </h3>
               
@@ -76,27 +76,27 @@ export const ContactFormSection = () => {
                   <input 
                     type="text" 
                     placeholder="Full Name*" 
-                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-['Plus_Jakarta_Sans'] text-[18px]"
+                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[18px]"
                   />
                 </div>
                 <div className="border-b border-[#DCE0E3] py-4">
                   <input 
                     type="email" 
                     placeholder="Email*" 
-                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-['Plus_Jakarta_Sans'] text-[18px]"
+                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[18px]"
                   />
                 </div>
                 <div className="border-b border-[#DCE0E3] py-4">
                   <input 
                     type="tel" 
                     placeholder="Phone*" 
-                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-['Plus_Jakarta_Sans'] text-[18px]"
+                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[18px]"
                   />
                 </div>
                 <div className="border-b border-[#DCE0E3] py-4">
                   <textarea 
                     placeholder="Message" 
-                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-['Plus_Jakarta_Sans'] text-[18px] min-h-[120px] resize-none"
+                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[18px] min-h-[120px] resize-none"
                   />
                 </div>
                 

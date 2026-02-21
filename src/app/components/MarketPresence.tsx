@@ -24,21 +24,21 @@ export const MarketPresence = () => {
           className="flex flex-col gap-10"
         >
           <div className="flex flex-col gap-4">
-            <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[16px] lg:text-[18px] text-black uppercase">
+            <span className="font-sans font-semibold text-[16px] lg:text-[18px] text-black uppercase">
               Our Market Presence
             </span>
-            <span className="font-['Plus_Jakarta_Sans'] font-medium text-[14px] lg:text-[15px] text-[#ceae5a]">
+            <span className="font-sans font-medium text-[14px] lg:text-[15px] text-[#ceae5a]">
               Middle East & Africa
             </span>
           </div>
 
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-[1.1]">
+          <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-[1.1]">
             Strategic Regions. <br />
             Expansive Opportunities. <br />
             Lasting Impact.
           </h2>
           
-          <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed max-w-[717px]">
+          <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed max-w-[717px]">
             At EDG Gold & Petroleum, the Middle East and Africa (MEA) are more than just markets—they are the beating heart of our business operations and a cornerstone of our long-term growth strategy. These regions offer a unique blend of natural wealth, industrial demand, and strategic geographic positioning that aligns perfectly with our core competencies in petroleum and precious metals trading.
           </p>
         </motion.div>

@@ -57,10 +57,10 @@ export const KeyStrengths = () => {
             viewport={{ once: true }}
             className="flex-1"
           >
-            <span className="font-['Plus_Jakarta_Sans'] font-medium text-[20px] lg:text-[24px] text-[#ceae5a] block mb-4">
+            <span className="font-sans font-medium text-[20px] lg:text-[24px] text-[#ceae5a] block mb-4">
               Key Strengths
             </span>
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[1010px]">
+            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[1010px]">
               Beyond bullet points, our strengths define our story.
             </h2>
           </motion.div>
@@ -102,15 +102,15 @@ export const KeyStrengths = () => {
                   <div className="w-[84px] h-[84px] rounded-full bg-[#7CC03F] flex items-center justify-center text-white">
                     {item.icon}
                   </div>
-                  <span className="font-['Plus_Jakarta_Sans'] font-medium text-[14.5px] text-[#8c8c8c]">
+                  <span className="font-sans font-medium text-[14.5px] text-[#8c8c8c]">
                     {item.id}.
                   </span>
                 </div>
                 
-                <h3 className="font-['Plus_Jakarta_Sans'] font-medium text-[16px] lg:text-[18px] text-[#151515] leading-[1.6] mb-[14px]">
+                <h3 className="font-sans font-medium text-[16px] lg:text-[18px] text-[#151515] leading-[1.6] mb-[14px]">
                   {item.title}
                 </h3>
-                <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+                <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
                   {item.desc}
                 </p>
               </div>

@@ -25,21 +25,21 @@ export const PetroleumHero = () => {
           className="max-w-[900px]"
         >
           <div className="bg-[#ceae5a] w-fit px-[12px] sm:px-[16px] py-[8px] sm:py-[10px] rounded-[6px] mb-6 sm:mb-8">
-            <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[13px] sm:text-[16px] text-white uppercase tracking-wider">
+            <span className="font-sans font-semibold text-[13px] sm:text-[16px] text-white uppercase tracking-wider">
               Energy Division
             </span>
           </div>
           
-          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-6">
+          <h1 className="font-sans font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-6">
             Driving Energy Forward with Precision and Integrity
           </h1>
           
-          <p className="font-['Plus_Jakarta_Sans'] text-[14px] lg:text-[15px] text-white/90 leading-relaxed mb-10 max-w-[700px]">
+          <p className="font-sans text-[14px] lg:text-[15px] text-white/90 leading-relaxed mb-10 max-w-[700px]">
             Delivering world-class petroleum trading solutions—fueling industries, empowering nations, and ensuring excellence across every transaction.
           </p>
           
           <button className="flex items-center gap-[18px] bg-white hover:bg-[#ceae5a] hover:text-white transition-all px-[32px] py-[16px] rounded-[8px] group">
-            <span className="font-['Plus_Jakarta_Sans'] font-bold text-[15px] text-black group-hover:text-white transition-colors">
+            <span className="font-sans font-bold text-[15px] text-black group-hover:text-white transition-colors">
               Contact Us
             </span>
             <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover:bg-white transition-colors">

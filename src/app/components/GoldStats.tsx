@@ -22,20 +22,20 @@ export const GoldStats = () => {
               viewport={{ once: true }}
               className="bg-[#1a1a1a] p-8 sm:p-10 lg:p-[60px] flex flex-col items-center text-center gap-4 rounded-[10px] group hover:bg-[#222] transition-colors"
             >
-              <div className="font-['Plus_Jakarta_Sans'] font-bold text-[24px] sm:text-[28px] lg:text-[36px] text-[#ceae5a] leading-none mb-2">
+              <div className="font-sans font-bold text-[24px] sm:text-[28px] lg:text-[36px] text-[#ceae5a] leading-none mb-2">
                 {stat.value}
               </div>
-              <div className="font-['Plus_Jakarta_Sans'] font-bold text-[14px] lg:text-[15px] text-white">
+              <div className="font-sans font-bold text-[14px] lg:text-[15px] text-white">
                 {stat.label}
               </div>
-              <p className="font-['Plus_Jakarta_Sans'] text-[14px] text-white/50 leading-relaxed max-w-[200px]">
+              <p className="font-sans text-[14px] text-white/50 leading-relaxed max-w-[200px]">
                 {stat.sub}
               </p>
             </motion.div>
           ))}
         </div>
         
-        <p className="font-['Plus_Jakarta_Sans'] text-[16px] text-white/40 text-center max-w-[800px] leading-relaxed italic">
+        <p className="font-sans text-[16px] text-white/40 text-center max-w-[800px] leading-relaxed italic">
           Trust by governments, financial institutions, and professional partners worldwide, ensuring growth and shaping the future markets of gold.
         </p>
       </div>

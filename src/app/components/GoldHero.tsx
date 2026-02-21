@@ -30,21 +30,21 @@ export const GoldHero = () => {
           className="max-w-[900px]"
         >
           <div className="bg-[#ceae5a] w-fit px-[12px] sm:px-[16px] py-[8px] sm:py-[10px] rounded-[6px] mb-6 sm:mb-8 shadow-lg">
-            <span className="font-['Plus_Jakarta_Sans'] font-semibold text-[13px] sm:text-[16px] text-white uppercase tracking-wider">
+            <span className="font-sans font-semibold text-[13px] sm:text-[16px] text-white uppercase tracking-wider">
               Precious Metals Division
             </span>
           </div>
           
-          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-6 drop-shadow-md">
+          <h1 className="font-sans font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-6 drop-shadow-md">
             Connecting Markets. Refining Value. Building Trust.
           </h1>
           
-          <p className="font-['Plus_Jakarta_Sans'] text-[14px] lg:text-[15px] text-white/95 leading-relaxed mb-10 max-w-[700px]">
+          <p className="font-sans text-[14px] lg:text-[15px] text-white/95 leading-relaxed mb-10 max-w-[700px]">
             Delivering excellence in precious metals trading—from ethical sourcing to global distribution, ensuring integrity at every step.
           </p>
           
           <button className="flex items-center gap-[18px] bg-white hover:bg-[#ceae5a] hover:text-white transition-all px-[32px] py-[16px] rounded-[8px] group shadow-xl">
-            <span className="font-['Plus_Jakarta_Sans'] font-bold text-[15px] text-black group-hover:text-white transition-colors">
+            <span className="font-sans font-bold text-[15px] text-black group-hover:text-white transition-colors">
               Contact Us
             </span>
             <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover:bg-white transition-colors">

@@ -32,13 +32,13 @@ export const CTABanner = ({
           viewport={{ once: true }}
           className="flex flex-col items-center gap-8"
         >
-          <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.4em] font-['Plus_Jakarta_Sans']">
+          <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.4em] font-sans">
             {badge}
           </span>
-          <h2 className="text-[22px] md:text-[28px] font-bold text-white font-['Plus_Jakarta_Sans'] leading-tight tracking-tight max-w-[800px]">
+          <h2 className="text-[22px] md:text-[28px] font-bold text-white font-sans leading-tight tracking-tight max-w-[800px]">
             {title}
           </h2>
-          <p className="text-white/60 text-[15px] md:text-[16px] font-['Plus_Jakarta_Sans'] leading-[1.8] max-w-[800px]">
+          <p className="text-white/60 text-[15px] md:text-[16px] font-sans leading-[1.8] max-w-[800px]">
             {description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-4">

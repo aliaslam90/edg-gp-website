@@ -8,10 +8,10 @@ export const PartnerTrust = () => {
     <section className="bg-[#fefefe] py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-gray-200 pb-6 mb-12">
-          <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+          <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
             OUR SERVICES & CAPABILITIES
           </span>
-          <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+          <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
             [CAPABILITIES]
           </span>
         </div>
@@ -32,16 +32,16 @@ export const PartnerTrust = () => {
             viewport={{ once: true }}
             className="flex flex-col gap-10"
           >
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight uppercase">
+            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight uppercase">
               A Partner <br /> You Can Trust
             </h2>
             
             <div className="flex flex-col gap-8">
-              <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
                 At EDG Gold & Petroleum, our services are designed to meet the dynamic needs of today’s global markets. With a strong foundation in commodity trading and an unwavering commitment to excellence, we offer a broad suite of solutions that span both the energy and precious metals sectors. Whether serving national governments, large enterprises, or strategic partners, we deliver performance with purpose and precision.
               </p>
               
-              <p className="font-['Plus_Jakarta_Sans'] font-medium text-[15px] lg:text-[17px] text-[#151515] leading-[1.4] tracking-tight">
+              <p className="font-sans font-medium text-[15px] lg:text-[17px] text-[#151515] leading-[1.4] tracking-tight">
                 From fueling economies to securing wealth, we are committed to being your strategic trade partner of choice.
               </p>
             </div>

@@ -34,20 +34,20 @@ export const HeroWhoWeAre = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="font-['Plus_Jakarta_Sans'] font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-8">
+          <h1 className="font-sans font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-8">
             Who We Are
           </h1>
           
           <div className="flex items-center gap-[10px] pt-8 border-t border-white/20">
-            <Link to="/" className="font-['Plus_Jakarta_Sans'] text-[12px] text-white/60 uppercase tracking-[0.24px] hover:text-[#ceae5a] transition-colors">
+            <Link to="/" className="font-sans text-[12px] text-white/60 uppercase tracking-[0.24px] hover:text-[#ceae5a] transition-colors">
               Home Page
             </Link>
             <span className="text-white/60 text-[12px] uppercase">·</span>
-            <Link to="/about" className="font-['Plus_Jakarta_Sans'] text-[12px] text-white/60 uppercase tracking-[0.24px] hover:text-[#ceae5a] transition-colors">
+            <Link to="/about" className="font-sans text-[12px] text-white/60 uppercase tracking-[0.24px] hover:text-[#ceae5a] transition-colors">
               About Us
             </Link>
             <span className="text-white/60 text-[12px] uppercase">·</span>
-            <span className="font-['Plus_Jakarta_Sans'] text-[12px] text-[#ceae5a] uppercase tracking-[0.24px]">
+            <span className="font-sans text-[12px] text-[#ceae5a] uppercase tracking-[0.24px]">
               Who We Are
             </span>
           </div>

@@ -28,19 +28,19 @@ export const Hero = () => {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           className="flex flex-col gap-[24px] md:gap-[32px] max-w-[800px]"
         >
-          <h1 className="text-white text-[28px] sm:text-[36px] md:text-[44px] lg:text-[56px] font-medium leading-[1.05] tracking-[-1.2px] font-['Plus_Jakarta_Sans']">
+          <h1 className="text-white text-[28px] sm:text-[36px] md:text-[44px] lg:text-[56px] font-medium leading-[1.05] tracking-[-1.2px] font-sans">
             Bridging markets,<br />
             Fueling prosperity
           </h1>
 
-          <p className="text-white/80 text-[13px] md:text-[14px] lg:text-[15px] leading-[1.65] font-normal font-['Plus_Jakarta_Sans'] max-w-[640px]">
+          <p className="text-white/80 text-[13px] md:text-[14px] lg:text-[15px] leading-[1.65] font-normal font-sans max-w-[640px]">
             At EDG Gold & Petroleum, we create lasting value through responsible global trade, building trust across energy and precious metals markets from the UAE to the Middle East and Africa.
           </p>
 
           <motion.button
             whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
             whileTap={{ scale: 0.98 }}
-            className="bg-[#ceae5a] border border-[#ceae5a] text-black px-[24px] py-[10px] rounded-[8px] font-medium text-[13px] md:text-[14px] leading-[22px] font-['Plus_Jakarta_Sans'] transition-all w-fit"
+            className="bg-[#ceae5a] border border-[#ceae5a] text-black px-[24px] py-[10px] rounded-[8px] font-medium text-[13px] md:text-[14px] leading-[22px] font-sans transition-all w-fit"
           >
             Explore Our Resources
           </motion.button>

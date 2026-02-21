@@ -35,12 +35,12 @@ export const GoldTradingService = () => {
       <div className="max-w-[1440px] mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-[60px] lg:mb-[80px]">
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black">
+          <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black">
             Gold Trading Service
           </h2>
           
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-12 flex-1 lg:max-w-[1000px]">
-            <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed border-l-2 border-[#ceae5a] pl-8">
+            <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed border-l-2 border-[#ceae5a] pl-8">
               The division's core focus is on sourcing high-quality precious metals from reliable partners across major global mines, and distributing them to leading refineries and financial institutions worldwide. We handle both raw gold (dore) and refined investment-grade bullion, ensuring transparency and market-leading efficiency in every transaction.
             </p>
             
@@ -71,16 +71,16 @@ export const GoldTradingService = () => {
               
               <div className="absolute inset-0 z-20 p-5 sm:p-8 lg:p-[45px] flex flex-col justify-end">
                 <div className="mb-6">
-                  <span className="font-['Plus_Jakarta_Sans'] text-[12px] uppercase tracking-widest text-[#ceae5a] font-bold">
+                  <span className="font-sans text-[12px] uppercase tracking-widest text-[#ceae5a] font-bold">
                     {service.badge}
                   </span>
-                  <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[16px] lg:text-[18px] text-white mt-4 leading-tight">
+                  <h3 className="font-sans font-bold text-[16px] lg:text-[18px] text-white mt-4 leading-tight">
                     {service.title}
                   </h3>
                 </div>
                 
                 <div className="pt-6 border-t border-white/20 flex items-center justify-between group/btn">
-                  <span className="font-['Plus_Jakarta_Sans'] font-bold text-[14px] text-white uppercase tracking-wider">
+                  <span className="font-sans font-bold text-[14px] text-white uppercase tracking-wider">
                     Learn More
                   </span>
                   <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover/btn:scale-110 transition-transform">

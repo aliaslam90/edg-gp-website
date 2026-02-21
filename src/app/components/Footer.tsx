@@ -53,8 +53,8 @@ export const Footer = () => {
 
           {/* Column 2: Quick Links */}
           <div className="flex flex-col gap-[24px] w-full lg:min-w-[260px] lg:w-auto">
-            <h4 className="text-[20px] font-bold text-white tracking-tight font-['Plus_Jakarta_Sans']">Quick Links</h4>
-            <div className="flex flex-col sm:flex-row gap-[24px] sm:gap-[40px] text-white/80 font-['Plus_Jakarta_Sans'] text-[14px] font-medium leading-[24px]">
+            <h4 className="text-[20px] font-bold text-white tracking-tight font-sans">Quick Links</h4>
+            <div className="flex flex-col sm:flex-row gap-[24px] sm:gap-[40px] text-white/80 font-sans text-[14px] font-medium leading-[24px]">
               <div className="flex flex-col gap-[10px]">
                 <Link to="/about/who-we-are" className="hover:text-[#CEAE5A] transition-colors">Who We Are</Link>
                 <Link to="/about/ceo-message" className="hover:text-[#CEAE5A] transition-colors">CEO Message</Link>
@@ -70,8 +70,8 @@ export const Footer = () => {
 
           {/* Column 3: Contact Info */}
           <div className="flex flex-col gap-[24px] w-full sm:max-w-[360px]">
-            <h4 className="text-[20px] font-bold text-white tracking-tight font-['Plus_Jakarta_Sans']">Contact Info</h4>
-            <div className="flex flex-col gap-[15px] text-white/80 font-['Plus_Jakarta_Sans'] text-[16px] leading-[30px]">
+            <h4 className="text-[20px] font-bold text-white tracking-tight font-sans">Contact Info</h4>
+            <div className="flex flex-col gap-[15px] text-white/80 font-sans text-[16px] leading-[30px]">
               <p>DMCC Business Centre, Level No 1 Jewellery & Gemplex 3, Dubai - UAE</p>
               <div className="flex flex-col gap-[12px]">
                 <div className="flex items-center gap-[12px]">
@@ -99,7 +99,7 @@ export const Footer = () => {
 
           {/* Column 4: Stay Tuned */}
           <div className="flex flex-col gap-[28px] w-full lg:min-w-[360px]">
-            <h4 className="text-[20px] font-bold text-white tracking-tight font-['Plus_Jakarta_Sans']">Stay tuned for more updates</h4>
+            <h4 className="text-[20px] font-bold text-white tracking-tight font-sans">Stay tuned for more updates</h4>
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between gap-3 border-b border-white/60 pb-2">
                 <input 

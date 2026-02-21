@@ -30,17 +30,17 @@ export const EmpoweringTrade = () => {
           className="flex flex-col gap-8"
         >
           <div className="flex flex-col gap-6">
-            <span className="font-['Plus_Jakarta_Sans'] font-medium text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+            <span className="font-sans font-medium text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
               Our Services & Capabilities
             </span>
             <div className="w-full h-px bg-gray-200" />
           </div>
           
-          <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-[#151515] leading-tight">
+          <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-[#151515] leading-tight">
             Empowering Trade. Delivering Value. Fueling Progress.
           </h2>
           
-          <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed max-w-[806px]">
+          <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed max-w-[806px]">
             At EDG Gold & Petroleum, our services are designed to meet the dynamic needs of today’s global markets. With a strong foundation in commodity trading and an unwavering commitment to excellence, we offer tailored solutions that span both the energy and precious metals sectors. Whether serving national governments, large enterprises, or strategic partners, we deliver performance with purpose and precision.
           </p>
           

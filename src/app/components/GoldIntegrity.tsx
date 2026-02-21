@@ -25,28 +25,28 @@ export const GoldIntegrity = () => {
           className="flex flex-col gap-10"
         >
           <div className="flex flex-col gap-4">
-            <span className="font-['Plus_Jakarta_Sans'] text-[#ceae5a] text-[14px] uppercase tracking-widest font-bold">
+            <span className="font-sans text-[#ceae5a] text-[14px] uppercase tracking-widest font-bold">
               ETHICAL STANDARDS
             </span>
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight">
+            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight">
               Gold Trading with Integrity and Precision
             </h2>
           </div>
           
           <div className="flex flex-col gap-8">
-            <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+            <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
               At EDG Gold & Petroleum, we are dedicated to maintaining high standards of integrity and ethics in the precious metals trade. We understand that every transaction carries weight—not just in value, but in the trust our clients place in us.
             </p>
-            <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+            <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
               From our physical sourcing operations across diverse regions to our partnerships with global refineries and distributors, we prioritize quality and precision at every turn. We ensure that our gold satisfies the highest industry standards, and each transaction is handled with the utmost transparency and professionalism.
             </p>
-            <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+            <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
               By bridging mines to global markets through our integrated networks, we provide our clients with access to a consistent, secure, and reliable supply of gold bullion. We don't just move metal—we manage trust and reliability across global borders.
             </p>
           </div>
           
           <div className="border-t border-gray-100 pt-8">
-            <p className="font-['Plus_Jakarta_Sans'] font-bold text-[18px] lg:text-[20px] text-black leading-tight italic">
+            <p className="font-sans font-bold text-[18px] lg:text-[20px] text-black leading-tight italic">
               "From the mine to the market—we trade with integrity, fueled by value and vision."
             </p>
           </div>

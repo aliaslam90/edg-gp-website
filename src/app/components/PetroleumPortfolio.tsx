@@ -21,11 +21,11 @@ export const PetroleumPortfolio = () => {
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[710px]">
+            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[710px]">
               Petroleum Products Portfolio
             </h2>
             <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-6 lg:pl-10 flex items-center">
-              <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] max-w-[776px] leading-relaxed">
+              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] max-w-[776px] leading-relaxed">
                 At EDG Gold & Petroleum, we offer a comprehensive portfolio of petroleum products—designed to meet the diverse needs of governments, enterprises, and industrial clients. Each product is sourced, refined, and delivered with strict adherence to international quality standards and operational efficiency.
               </p>
             </div>
@@ -46,7 +46,7 @@ export const PetroleumPortfolio = () => {
           {/* Left Content (Blue Box) */}
           <div className="w-full lg:w-[65%] bg-[#000435] p-6 sm:p-8 lg:p-[60px] flex flex-col justify-center relative z-10">
             <div className="flex items-center justify-between mb-8 lg:mb-12">
-              <h3 className="font-['Plus_Jakarta_Sans'] font-bold text-[18px] lg:text-[22px] text-white">
+              <h3 className="font-sans font-bold text-[18px] lg:text-[22px] text-white">
                 Light Distillates
               </h3>
               <span className="text-[#ceae5a]/30 font-bold text-[60px] sm:text-[80px] lg:text-[141px] leading-none">01</span>
@@ -55,10 +55,10 @@ export const PetroleumPortfolio = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-[100px] gap-y-6 lg:gap-y-10">
               {portfolioItems.map((item, idx) => (
                 <div key={idx} className="flex flex-col gap-2">
-                  <h4 className="font-['Plus_Jakarta_Sans'] font-semibold text-[14px] lg:text-[16px] text-[#ceae5a]">
+                  <h4 className="font-sans font-semibold text-[14px] lg:text-[16px] text-[#ceae5a]">
                     {item.label}
                   </h4>
-                  <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-white/80 leading-relaxed">
+                  <p className="font-sans text-[16px] lg:text-[18px] text-white/80 leading-relaxed">
                     {item.text}
                   </p>
                 </div>
@@ -73,7 +73,7 @@ export const PetroleumPortfolio = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555]">
+          <p className="font-sans text-[16px] lg:text-[18px] text-[#555]">
             We turn your ideas to reality. We don’t stop until you’re satisfied.{" "}
             <button className="inline-flex items-center gap-2 font-bold text-black hover:text-[#ceae5a] transition-colors ml-2 group">
               Need to discuss 

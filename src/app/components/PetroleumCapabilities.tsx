@@ -30,21 +30,21 @@ export const PetroleumCapabilities = () => {
     <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12 border-b border-gray-200 pb-6">
-          <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+          <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
             Efficient. Reliable. Strategic.
           </span>
-          <span className="font-['Plus_Jakarta_Sans'] text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+          <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
             [ CAPABILITIES ]
           </span>
         </div>
 
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mb-[60px]">
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16 flex-1">
-            <h2 className="font-['Plus_Jakarta_Sans'] font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[474px]">
+            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[474px]">
               Capabilities- Petroleum Division
             </h2>
             <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-6 lg:pl-10 flex items-center">
-              <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[18px] text-[#555] max-w-[840px] leading-relaxed">
+              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] max-w-[840px] leading-relaxed">
                 At EDG Gold & Petroleum, our petroleum division is designed to deliver efficiency, reliability, and value across every stage of the supply chain. We don’t just trade products—we provide strategic solutions that empower our clients to operate with confidence in volatile markets.
               </p>
             </div>
@@ -75,10 +75,10 @@ export const PetroleumCapabilities = () => {
               </div>
               
               <div className="flex flex-col gap-6">
-                <h3 className="font-['Plus_Jakarta_Sans'] font-semibold text-[16px] lg:text-[18px] text-black leading-tight">
+                <h3 className="font-sans font-semibold text-[16px] lg:text-[18px] text-black leading-tight">
                   {item.title}
                 </h3>
-                <p className="font-['Plus_Jakarta_Sans'] text-[16px] lg:text-[16.9px] text-[#555] leading-relaxed">
+                <p className="font-sans text-[16px] lg:text-[16.9px] text-[#555] leading-relaxed">
                   {item.desc}
                 </p>
               </div>

@@ -15,14 +15,14 @@ export const EnergyOpportunity = () => {
             className="flex flex-col gap-8"
           >
             <div className="flex flex-col gap-4">
-              <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.3em] font-['Plus_Jakarta_Sans']">
+              <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.3em] font-sans">
                 STRATEGIC VISION
               </span>
-              <h2 className="text-[24px] lg:text-[28px] font-bold text-[#0B2B3F] font-['Plus_Jakarta_Sans'] leading-tight tracking-tight">
+              <h2 className="text-[24px] lg:text-[28px] font-bold text-[#0B2B3F] font-sans leading-tight tracking-tight">
                 Energy & Opportunity Aligned
               </h2>
             </div>
-            <div className="flex flex-col gap-6 text-[#555] text-[15px] font-['Plus_Jakarta_Sans'] leading-[1.7]">
+            <div className="flex flex-col gap-6 text-[#555] text-[15px] font-sans leading-[1.7]">
               <p>
                 At the heart of our operations is a commitment to excellence, integrity, and sustainability. We leverage our deep market expertise and logistical capabilities to provide efficient and reliable energy and commodities solutions to our clients.
               </p>
