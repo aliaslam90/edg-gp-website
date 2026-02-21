@@ -5,7 +5,7 @@ import svgPaths from "../../imports/svg-ixy99k2xf7";
 export const ChairmanMessage = () => {
   return (
     <section className="bg-white py-[56px] lg:py-[72px] px-6 sm:px-8 lg:px-[80px] overflow-hidden">
-      <div className="max-w-[900px] mx-auto">
+      <div className="w-full max-w-[1440px] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
