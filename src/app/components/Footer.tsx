@@ -56,11 +56,10 @@ export const Footer = () => {
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Quick Links</h4>
             <div className="flex flex-col sm:flex-row gap-[20px] sm:gap-[40px] text-white/70 font-sans text-[14px] font-medium leading-[22px]">
               <div className="flex flex-col gap-[10px]">
-                <Link to="/about/who-we-are" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Who We Are</Link>
-                <Link to="/about/ceo-message" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">CEO Message</Link>
-                <Link to="/about/business-approach" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Our Business Approach</Link>
-                <Link to="/services/petroleum-products" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Petroleum Products</Link>
-                <Link to="/services/gold-trading" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Precious metals, led by gold</Link>
+                <Link to="/" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Home</Link>
+                <Link to="/about/who-we-are" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">About Us</Link>
+                <Link to="/services/petroleum-products" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Business Sectors</Link>
+                <Link to="/operations" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Operations</Link>
               </div>
               <div className="flex flex-col gap-[10px]">
                 <Link to="/contact" className="hover:text-[#CEAE5A] transition-colors font-normal text-[15px] whitespace-nowrap">Contact Us</Link>
