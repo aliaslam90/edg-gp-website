@@ -50,10 +50,10 @@ export const Navbar = () => {
         isScrolled ? "py-2.5 shadow-xl shadow-black/50" : "py-4"
       }`}
     >
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] flex items-center justify-between gap-4 relative">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] flex items-center justify-between gap-4">
         
         {/* LEFT: Logo */}
-        <Link to="/" className="flex items-center shrink-0 z-10">
+        <Link to="/" className="flex items-center shrink-0">
           <div className="h-[55px] lg:h-[60px] w-auto aspect-[101/110] transition-all duration-300 transform hover:scale-105 cursor-pointer">
             <svg className="block h-full w-full" fill="none" preserveAspectRatio="xMidYMid meet" viewBox="0 0 101 110">
               <g id="LogoMain">
@@ -85,12 +85,12 @@ export const Navbar = () => {
           </div>
         </Link>
 
-        {/* CENTER: Navigation Menu - absolutely centered */}
-        <nav className="hidden lg:flex items-center gap-[28px] xl:gap-[40px] absolute left-1/2 -translate-x-1/2 h-full">
+        {/* CENTER: Navigation Menu */}
+        <nav className="hidden lg:flex items-center gap-[28px] xl:gap-[40px] relative">
           {navItems.map((item) => (
             <div 
               key={item.name} 
-              className="flex flex-col items-center justify-center relative group pt-0.5 h-full py-4"
+              className="flex items-center relative group"
               onMouseEnter={() => {
                 if (item.name === "About Us") setIsAboutOpen(true);
                 if (item.name === "Business Sectors") setIsSectorsOpen(true);
@@ -180,7 +180,7 @@ export const Navbar = () => {
         </nav>
 
         {/* RIGHT: Actions */}
-        <div className="flex items-center gap-3 sm:gap-[20px] lg:gap-[30px] xl:gap-[50px] z-10">
+        <div className="flex items-center gap-3 sm:gap-[20px] lg:gap-[30px] xl:gap-[50px]">
           {/* Contact details - hide on small screens */}
           <div className="hidden xl:flex items-center gap-[25px]">
             {/* Call Us */}
