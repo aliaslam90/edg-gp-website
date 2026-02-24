@@ -28,7 +28,7 @@ export const Hero = () => {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
           className="flex flex-col gap-[24px] md:gap-[32px] max-w-[800px]"
         >
-          <h1 className="text-white text-[28px] sm:text-[36px] md:text-[44px] lg:text-[56px] font-medium leading-[1.05] tracking-[-1.2px] font-sans">
+          <h1 className="text-white text-[36px] sm:text-[44px] md:text-[52px] lg:text-[64px] font-thin leading-[1.05] tracking-[-1.2px] font-sans">
             Bridging markets,<br />
             Fueling prosperity
           </h1>
