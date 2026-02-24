@@ -54,16 +54,11 @@ export const Footer = () => {
           {/* Column 2: Quick Links - more width so links stay on one line */}
           <div className="flex flex-col gap-[20px] w-full lg:min-w-[320px] lg:flex-1 lg:max-w-[380px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Quick Links</h4>
-            <div className="flex flex-col sm:flex-row gap-[20px] sm:gap-[40px] text-white/70 font-sans text-[14px] font-medium leading-[22px]">
-              <div className="flex flex-col gap-[10px]">
-                <Link to="/" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Home</Link>
-                <Link to="/about/who-we-are" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">About Us</Link>
-                <Link to="/services/petroleum-products" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Business Sectors</Link>
-                <Link to="/operations" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Operations</Link>
-              </div>
-              <div className="flex flex-col gap-[10px]">
-                <Link to="/contact" className="hover:text-[#CEAE5A] transition-colors font-normal text-[15px] whitespace-nowrap">Contact Us</Link>
-              </div>
+            <div className="flex flex-col gap-[10px] text-white/70 font-sans text-[14px] font-medium leading-[22px]">
+              <Link to="/" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Home</Link>
+              <Link to="/about/who-we-are" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">About Us</Link>
+              <Link to="/services/petroleum-products" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Business Sectors</Link>
+              <Link to="/operations" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Operations</Link>
             </div>
           </div>
 
