@@ -20,12 +20,12 @@ const partners = [
 ];
 
 const PartnerCard = ({ partner }: { partner: (typeof partners)[0] }) => (
-  <div className="flex-shrink-0 px-3 sm:px-4">
-    <div className="bg-white border border-[#dce0e3] rounded-full h-[80px] sm:h-[90px] lg:h-[100px] w-[80px] sm:w-[90px] lg:w-[100px] flex items-center justify-center overflow-hidden hover:border-[#ceae5a]/30 transition-all duration-400">
+  <div className="flex-shrink-0 px-2 sm:px-3">
+    <div className="bg-white border border-[#dce0e3] rounded-full h-[70px] sm:h-[80px] lg:h-[90px] w-[70px] sm:w-[80px] lg:w-[90px] flex items-center justify-center overflow-hidden hover:border-[#ceae5a]/30 transition-all duration-400">
       <img
         src={partner.logo}
         alt={partner.name}
-        className="max-h-[45px] sm:max-h-[50px] lg:max-h-[60px] max-w-[80px] lg:max-w-[100px] object-contain"
+        className="max-h-[40px] sm:max-h-[45px] lg:max-h-[50px] max-w-[70px] lg:max-w-[80px] object-contain"
       />
     </div>
   </div>
@@ -50,10 +50,10 @@ export const Partners = () => {
           </div>
         </div>
 
-        {/* Continuous marquee - bulletin/ticker style */}
-        <div className="w-full overflow-hidden">
+        {/* Continuous marquee - full width, no gaps */}
+        <div className="w-full overflow-hidden -mx-4 sm:-mx-6 lg:-mx-[45px]">
           <div className="partner-marquee flex w-max">
-            {[...partners, ...partners].map((partner, index) => (
+            {[...partners, ...partners, ...partners, ...partners].map((partner, index) => (
               <PartnerCard key={`${partner.name}-${index}`} partner={partner} />
             ))}
           </div>
@@ -63,10 +63,10 @@ export const Partners = () => {
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes partner-scroll {
           0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
+          100% { transform: translateX(-25%); }
         }
         .partner-marquee {
-          animation: partner-scroll 25s linear infinite;
+          animation: partner-scroll 30s linear infinite;
         }
         .partner-marquee:hover {
           animation-play-state: paused;
