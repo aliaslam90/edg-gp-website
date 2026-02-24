@@ -17,8 +17,8 @@ export const Footer = () => {
       </div>
 
       <div className="max-w-[1440px] mx-auto relative z-10">
-        {/* Main Footer Content */}
-        <div className="flex flex-col lg:flex-row justify-between gap-[36px] lg:gap-[48px] mb-[64px]">
+        {/* Main Footer Content - flexible columns to fill space evenly */}
+        <div className="flex flex-col lg:flex-row lg:items-start gap-[36px] lg:gap-8 mb-[64px]">
           
           {/* Column 1: Logo - reduced size */}
           <div className="shrink-0">
@@ -51,8 +51,8 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Column 2: Quick Links - more width so links stay on one line */}
-          <div className="flex flex-col gap-[20px] w-full lg:min-w-[320px] lg:flex-1 lg:max-w-[380px]">
+          {/* Column 2: Quick Links */}
+          <div className="flex flex-col gap-[20px] w-full lg:flex-1 lg:min-w-[160px] lg:max-w-[220px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Quick Links</h4>
             <div className="flex flex-col gap-[10px] text-white/70 font-sans text-[14px] font-medium leading-[22px]">
               <Link to="/" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Home</Link>
@@ -63,7 +63,7 @@ export const Footer = () => {
           </div>
 
           {/* Column 3: Contact Info */}
-          <div className="flex flex-col gap-[20px] w-full sm:max-w-[340px]">
+          <div className="flex flex-col gap-[20px] w-full lg:flex-1 lg:min-w-[240px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Contact Info</h4>
             <div className="flex flex-col gap-[12px] text-white/70 font-sans text-[14px] leading-[26px]">
               <p>DMCC Business Centre, Level No 1 Jewellery & Gemplex 3, Dubai - UAE</p>
@@ -91,8 +91,8 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Column 4: Stay Tuned - reduced size */}
-          <div className="flex flex-col gap-[24px] w-full lg:min-w-0 lg:max-w-[260px] shrink-0">
+          {/* Column 4: Stay Tuned */}
+          <div className="flex flex-col gap-[24px] w-full lg:flex-1 lg:min-w-[220px] lg:max-w-[300px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Stay tuned for more updates</h4>
             <div className="flex flex-col gap-3">
               <div className="flex items-center justify-between gap-2 border-b border-white/40 pb-2.5">
