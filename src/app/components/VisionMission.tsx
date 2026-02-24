@@ -19,20 +19,21 @@ export const VisionMission = () => {
             className="absolute max-w-none h-[169%] left-0 top-[-66%] w-full object-cover"
           />
         </motion.div>
+        <div className="absolute inset-0 bg-black/40" />
         <div
           className="absolute inset-0"
           style={{ backgroundImage: "linear-gradient(160.937deg, rgba(0,0,0,0) 32.933%, rgba(0,0,0,0.5) 67.854%)" }}
         />
       </div>
 
-      <div className="relative z-10 w-full flex flex-col lg:flex-row gap-1 lg:pl-[30%] xl:pl-[24%] pb-0">
+      <div className="relative z-10 w-full flex flex-col lg:flex-row lg:items-stretch gap-1 lg:pl-[30%] xl:pl-[24%] pb-0">
         {/* Vision Card */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
-          className="flex-1 backdrop-blur-[10.7px] border border-white/20 flex flex-col gap-[20px] p-[22px] pt-[24px] pb-[28px] rounded-tl-[10px] lg:rounded-tl-[10px]"
+          className="flex-1 backdrop-blur-[10.7px] border border-white/20 flex flex-col gap-[20px] p-[22px] pt-[24px] pb-[28px] rounded-tl-[10px] lg:rounded-tl-[10px] min-h-0"
           style={{ backgroundImage: "linear-gradient(213.303deg, rgba(0,0,0,0) 58.539%, rgba(0,0,0,0.8) 88.96%), linear-gradient(90deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100%), linear-gradient(90deg, rgba(206,174,90,0.1) 0%, rgba(206,174,90,0.1) 100%)" }}
         >
           <div className="flex items-center gap-[27px]">
@@ -43,11 +44,11 @@ export const VisionMission = () => {
                 <path d={svgPaths.p2704b200} fill="#CEAE5A" />
               </svg>
             </div>
-            <span className="text-[#ceae5a] text-[15px] lg:text-[17px] font-semibold font-sans">
+            <span className="text-[#ceae5a] text-[17px] lg:text-[20px] font-semibold font-sans">
               Vision
             </span>
           </div>
-          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-sans">
+          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-sans flex-1 min-h-0">
             To become the first-choice partner for investors in the energy and precious metals sectors. Our long-term goal is to expand strategic corridors, lead in ethical sourcing, and enable access to essential commodities, especially across high-growth regions in the Middle East and Africa.
           </p>
         </motion.div>
@@ -58,7 +59,7 @@ export const VisionMission = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="flex-1 backdrop-blur-[10.7px] border border-white/20 flex flex-col gap-[20px] p-[22px] pt-[24px] pb-[28px] rounded-tr-[10px] lg:rounded-tr-[10px]"
+          className="flex-1 backdrop-blur-[10.7px] border border-white/20 flex flex-col gap-[20px] p-[22px] pt-[24px] pb-[28px] rounded-tr-[10px] lg:rounded-tr-[10px] min-h-0"
           style={{ backgroundImage: "linear-gradient(146.6deg, rgba(0,0,0,0) 58.578%, rgba(0,0,0,0.8) 97.515%), linear-gradient(90deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 100%), linear-gradient(90deg, rgba(206,174,90,0.1) 0%, rgba(206,174,90,0.1) 100%)" }}
         >
           <div className="flex items-center gap-[27px]">
@@ -68,11 +69,11 @@ export const VisionMission = () => {
                 <path d={svgPaths.p2866b800} fill="#CEAE5A" />
               </svg>
             </div>
-            <span className="text-[#ceae5a] text-[15px] lg:text-[17px] font-semibold font-sans">
+            <span className="text-[#ceae5a] text-[17px] lg:text-[20px] font-semibold font-sans">
               Mission
             </span>
           </div>
-          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-sans">
+          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-sans flex-1 min-h-0">
             To support the energy and precious metals sectors through an integrated business model that enhances sustainability, advances infrastructure, and maximizes value for every EDG partner—through strategic, intelligent solutions that deliver long-term growth and impact. We are driven by our dedication to operational efficiency, responsible sourcing, and long-term partnerships that empower global supply chains and energy access.
           </p>
         </motion.div>
