@@ -19,7 +19,7 @@ export const VisionMission = () => {
             className="absolute max-w-none h-[169%] left-0 top-[-66%] w-full object-cover"
           />
         </motion.div>
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/55" />
         <div
           className="absolute inset-0"
           style={{ backgroundImage: "linear-gradient(160.937deg, rgba(0,0,0,0) 32.933%, rgba(0,0,0,0.5) 67.854%)" }}
@@ -44,11 +44,11 @@ export const VisionMission = () => {
                 <path d={svgPaths.p2704b200} fill="#CEAE5A" />
               </svg>
             </div>
-            <span className="text-[#ceae5a] text-[17px] lg:text-[20px] font-semibold font-sans">
+            <span className="text-[#ceae5a] text-[20px] lg:text-[26px] font-semibold font-sans">
               Vision
             </span>
           </div>
-          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-sans flex-1 min-h-0">
+          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-sans lg:min-h-[200px]">
             To become the first-choice partner for investors in the energy and precious metals sectors. Our long-term goal is to expand strategic corridors, lead in ethical sourcing, and enable access to essential commodities, especially across high-growth regions in the Middle East and Africa.
           </p>
         </motion.div>
@@ -69,11 +69,11 @@ export const VisionMission = () => {
                 <path d={svgPaths.p2866b800} fill="#CEAE5A" />
               </svg>
             </div>
-            <span className="text-[#ceae5a] text-[17px] lg:text-[20px] font-semibold font-sans">
+            <span className="text-[#ceae5a] text-[20px] lg:text-[26px] font-semibold font-sans">
               Mission
             </span>
           </div>
-          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-sans flex-1 min-h-0">
+          <p className="text-[#f3f3f3] text-[12px] lg:text-[13px] leading-[22px] font-normal font-sans lg:min-h-[200px]">
             To support the energy and precious metals sectors through an integrated business model that enhances sustainability, advances infrastructure, and maximizes value for every EDG partner—through strategic, intelligent solutions that deliver long-term growth and impact. We are driven by our dedication to operational efficiency, responsible sourcing, and long-term partnerships that empower global supply chains and energy access.
           </p>
         </motion.div>
