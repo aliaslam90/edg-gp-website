@@ -51,19 +51,19 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Column 2: Quick Links */}
-          <div className="flex flex-col gap-[20px] w-full lg:min-w-[260px] lg:w-auto">
+          {/* Column 2: Quick Links - more width so links stay on one line */}
+          <div className="flex flex-col gap-[20px] w-full lg:min-w-[320px] lg:flex-1 lg:max-w-[380px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Quick Links</h4>
-            <div className="flex flex-col sm:flex-row gap-[20px] sm:gap-[36px] text-white/70 font-sans text-[14px] font-medium leading-[22px]">
+            <div className="flex flex-col sm:flex-row gap-[20px] sm:gap-[40px] text-white/70 font-sans text-[14px] font-medium leading-[22px]">
               <div className="flex flex-col gap-[10px]">
-                <Link to="/about/who-we-are" className="hover:text-[#CEAE5A] transition-colors duration-300">Who We Are</Link>
-                <Link to="/about/ceo-message" className="hover:text-[#CEAE5A] transition-colors duration-300">CEO Message</Link>
-                <Link to="/about/business-approach" className="hover:text-[#CEAE5A] transition-colors duration-300">Our Business Approach</Link>
-                <Link to="/services/petroleum-products" className="hover:text-[#CEAE5A] transition-colors duration-300">Petroleum Products</Link>
-                <Link to="/services/gold-trading" className="hover:text-[#CEAE5A] transition-colors duration-300">Precious metals, led by gold</Link>
+                <Link to="/about/who-we-are" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Who We Are</Link>
+                <Link to="/about/ceo-message" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">CEO Message</Link>
+                <Link to="/about/business-approach" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Our Business Approach</Link>
+                <Link to="/services/petroleum-products" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Petroleum Products</Link>
+                <Link to="/services/gold-trading" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Precious metals, led by gold</Link>
               </div>
               <div className="flex flex-col gap-[10px]">
-                <Link to="/contact" className="hover:text-[#CEAE5A] transition-colors font-normal text-[15px]">Contact Us</Link>
+                <Link to="/contact" className="hover:text-[#CEAE5A] transition-colors font-normal text-[15px] whitespace-nowrap">Contact Us</Link>
               </div>
             </div>
           </div>
@@ -97,20 +97,20 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Column 4: Stay Tuned */}
-          <div className="flex flex-col gap-[24px] w-full lg:min-w-[340px]">
+          {/* Column 4: Stay Tuned - reduced size */}
+          <div className="flex flex-col gap-[24px] w-full lg:min-w-0 lg:max-w-[260px] shrink-0">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Stay tuned for more updates</h4>
             <div className="flex flex-col gap-3">
-              <div className="flex items-center justify-between gap-3 border-b border-white/40 pb-2.5">
+              <div className="flex items-center justify-between gap-2 border-b border-white/40 pb-2.5">
                 <input 
                   type="email" 
                   placeholder="Your email" 
-                  className="bg-transparent border-none outline-none text-[14px] sm:text-[15px] font-normal placeholder:text-white/50 w-full"
+                  className="bg-transparent border-none outline-none text-[13px] sm:text-[14px] font-normal placeholder:text-white/50 w-full min-w-0"
                 />
-                <div className="flex items-center gap-2 cursor-pointer group">
-                  <span className="text-[12px] font-semibold uppercase tracking-[0.15em] group-hover:text-[#CEAE5A] transition-colors">Subscribe</span>
-                  <div className="w-[28px] h-[28px] bg-[#CEAE5A] rounded-full flex items-center justify-center group-hover:bg-[#B89B4F] transition-all shrink-0">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <div className="flex items-center gap-1.5 cursor-pointer group shrink-0">
+                  <span className="text-[11px] font-semibold uppercase tracking-[0.1em] group-hover:text-[#CEAE5A] transition-colors">Subscribe</span>
+                  <div className="w-[24px] h-[24px] bg-[#CEAE5A] rounded-full flex items-center justify-center group-hover:bg-[#B89B4F] transition-all shrink-0">
+                    <svg width="10" height="10" viewBox="0 0 12 12" fill="none">
                       <path d={svgPaths.p1e44af80} fill="black" />
                     </svg>
                   </div>
