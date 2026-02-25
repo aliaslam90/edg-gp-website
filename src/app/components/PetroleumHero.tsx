@@ -38,7 +38,7 @@ export const PetroleumHero = () => {
             Delivering world-class petroleum trading solutions—fueling industries, empowering nations, and ensuring excellence across every transaction.
           </p>
           
-          <button className="flex items-center gap-[18px] bg-[#A98C49] hover:bg-[#967a3f] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all group">
+          <button className="flex items-center gap-[18px] bg-[#A98C49] hover:bg-[#967a3f] text-white px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all group">
             <span>Contact Us</span>
             <div className="w-[30px] h-[30px] rounded-full bg-[#222222] flex items-center justify-center group-hover:scale-110 transition-transform">
               <ArrowRight className="size-4 text-white" strokeWidth={3} />

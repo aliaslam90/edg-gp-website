@@ -44,7 +44,7 @@ export const EmpoweringTrade = () => {
             At EDG Gold & Petroleum, our services are designed to meet the dynamic needs of today’s global markets. With a strong foundation in commodity trading and an unwavering commitment to excellence, we offer tailored solutions that span both the energy and precious metals sectors. Whether serving national governments, large enterprises, or strategic partners, we deliver performance with purpose and precision.
           </p>
           
-          <button className="flex items-center gap-[18px] bg-[#A98C49] hover:bg-[#967a3f] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all group w-fit">
+          <button className="flex items-center gap-[18px] bg-[#A98C49] hover:bg-[#967a3f] text-white px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all group w-fit">
             Read More
             <div className="w-[30px] h-[30px] rounded-full bg-[#222222] flex items-center justify-center group-hover:scale-110 transition-transform">
               <ArrowRight className="size-3.5 text-white" strokeWidth={3} />

@@ -59,7 +59,7 @@ export const EnergyDivision = () => {
             <motion.button
               whileHover={{ scale: 1.02, backgroundColor: "#967a3f" }}
               whileTap={{ scale: 0.98 }}
-              className="bg-[#A98C49] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-sans font-medium text-[14px] transition-all w-fit hover:bg-[#967a3f]"
+              className="bg-[#A98C49] text-white px-[28px] py-[12px] rounded-[12px] font-sans font-medium text-[14px] transition-all w-fit hover:bg-[#967a3f]"
             >
               Join as an Investor
             </motion.button>

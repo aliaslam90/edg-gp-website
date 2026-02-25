@@ -71,7 +71,7 @@ export const GoldOverview = () => {
               </p>
             </div>
             
-            <button className="flex items-center gap-[18px] bg-[#A98C49] hover:bg-[#967a3f] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all group w-fit">
+            <button className="flex items-center gap-[18px] bg-[#A98C49] hover:bg-[#967a3f] text-white px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all group w-fit">
               Explore More
               <div className="w-[30px] h-[30px] rounded-full bg-[#222222] flex items-center justify-center group-hover:scale-110 transition-transform">
                 <ArrowRight className="size-3.5 text-white" strokeWidth={3} />

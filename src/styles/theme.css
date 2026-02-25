@@ -137,10 +137,10 @@
   * Display headings use font-extralight (200) - "Bridging markets, Fueling prosperity" style
   */
 
-  /* CTA Button - consistent across site: gold bg #A98C49, dark text #222222 */
+  /* CTA Button - consistent across site: gold bg #A98C49, white text */
   .btn-cta {
     background-color: #A98C49;
-    color: #222222;
+    color: white;
     padding: 12px 28px;
     border-radius: 12px;
     font-size: 14px;

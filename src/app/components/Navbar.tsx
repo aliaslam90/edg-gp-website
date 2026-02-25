@@ -212,7 +212,7 @@ export const Navbar = () => {
 
           <div className="hidden sm:flex items-center gap-[18px] sm:gap-[24px]">
             <Link to="/contact">
-              <button className="bg-[#A98C49] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-sans font-medium text-[14px] text-center capitalize flex items-center justify-center hover:bg-[#967a3f] transition-all active:scale-95">
+              <button className="bg-[#A98C49] text-white px-[28px] py-[12px] rounded-[12px] font-sans font-medium text-[14px] text-center capitalize flex items-center justify-center hover:bg-[#967a3f] transition-all active:scale-95">
                 Contact us
               </button>
             </Link>
@@ -296,7 +296,7 @@ export const Navbar = () => {
 
               {/* Mobile contact button */}
               <Link to="/contact" onClick={closeMobileMenu} className="mt-2">
-                <button className="w-full bg-[#A98C49] text-[#222222] py-[12px] px-[28px] rounded-[12px] font-sans font-medium text-[14px] text-center capitalize flex items-center justify-center hover:bg-[#967a3f] transition-all active:scale-95">
+                <button className="w-full bg-[#A98C49] text-white py-[12px] px-[28px] rounded-[12px] font-sans font-medium text-[14px] text-center capitalize flex items-center justify-center hover:bg-[#967a3f] transition-all active:scale-95">
                   Contact us
                 </button>
               </Link>

@@ -55,7 +55,7 @@ export const IntroSection = () => {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="group inline-flex items-center gap-0 bg-[#A98C49] text-[#222222] pl-[28px] pr-2 py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all hover:bg-[#967a3f]"
+                className="group inline-flex items-center gap-0 bg-[#A98C49] text-white pl-[28px] pr-2 py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all hover:bg-[#967a3f]"
               >
                 Request A Quote
                 <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#222222] text-white ml-2 group-hover:bg-[#333] transition-colors">
