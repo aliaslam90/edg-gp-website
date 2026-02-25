@@ -25,7 +25,7 @@ export const StrategicRegions = () => {
       </div>
 
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px]">
-        <div className="flex flex-col lg:flex-row gap-10 lg:gap-[72px] items-end">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-[72px] items-start lg:items-end">
 
           {/* Regions + Button - second on mobile (order-2), first on desktop (order-1) */}
           <motion.div
