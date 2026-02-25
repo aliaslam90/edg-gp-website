@@ -58,10 +58,12 @@ export const BusinessIntro = () => {
           </motion.p>
           <Link
             to="/contact"
-            className="mt-auto inline-flex items-center gap-0 w-fit rounded-[12px] overflow-hidden bg-[#A98C49] text-white pl-[28px] pr-2 py-[12px] font-medium text-[14px] font-sans transition-all hover:bg-[#967a3f] group"
+            className="mt-auto inline-flex w-fit rounded-full overflow-hidden font-medium text-[14px] font-sans transition-all group"
           >
-            Contact Us
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#222222] text-white ml-2 group-hover:bg-[#333] transition-colors">
+            <span className="bg-[#A98C49] group-hover:bg-[#967a3f] pl-[28px] pr-4 py-[12px] text-white transition-colors">
+              Contact Us
+            </span>
+            <span className="flex items-center justify-center bg-[#222222] px-4 py-[12px] text-white group-hover:bg-[#333] transition-colors">
               <ArrowRight size={16} strokeWidth={2.5} />
             </span>
           </Link>
