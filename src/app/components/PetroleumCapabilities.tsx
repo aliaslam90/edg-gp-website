@@ -6,22 +6,22 @@ const capabilities = [
   {
     title: "Spot and Term Contracts:",
     desc: "Flexible trading agreements tailored to client needs— whether securing immediate supply or establishing long-term stability in pricing and delivery.",
-    icon: <FileText className="size-10" />
+    icon: <FileText className="size-12" strokeWidth={1.5} />
   },
   {
     title: "Bulk Storage & Tank Leasing Solutions:",
     desc: "Access to large- scale, strategically located storage facilities that ensure continuous product availability and safeguard against market disruptions.",
-    icon: <Database className="size-10" />
+    icon: <Database className="size-12" strokeWidth={1.5} />
   },
   {
     title: "Strategic Partnerships with Refineries & Trading Houses:",
     desc: "Strong alliances that give clients preferential access to refined products, competitive pricing, and enhanced supply security.",
-    icon: <Share2 className="size-10" />
+    icon: <Share2 className="size-12" strokeWidth={1.5} />
   },
   {
     title: "Regulatory & Customs Clearance Support:",
     desc: "Comprehensive handling of documentation and compliance, reducing administrative burdens and ensuring smooth cross-border transactions.",
-    icon: <ClipboardCheck className="size-10" />
+    icon: <ClipboardCheck className="size-12" strokeWidth={1.5} />
   }
 ];
 
@@ -29,33 +29,33 @@ export const PetroleumCapabilities = () => {
   return (
     <section className="bg-white py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12 border-b border-gray-200 pb-6">
+        <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-[#dce0e3] pb-6 mb-[30px]">
           <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
             Efficient. Reliable. Strategic.
           </span>
-          <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+          <span className="font-sans text-[12.9px] text-[#8c8c8c] tracking-[0.28px] uppercase">
             [ CAPABILITIES ]
           </span>
         </div>
 
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mb-[60px]">
-          <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16 flex-1">
-            <h2 className="font-sans font-bold text-[40px] lg:text-[50px] text-black leading-[52px] tracking-[-1px] max-w-[474px]">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mb-[92px]">
+          <div className="flex flex-col lg:flex-row lg:items-center flex-1">
+            <h2 className="font-sans font-bold text-[40px] lg:text-[50px] text-black leading-[52px] tracking-[-1px] w-full lg:w-[474px] shrink-0">
               Capabilities- Petroleum Division
             </h2>
-            <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-6 lg:pl-10 flex items-center">
+            <div className="border-l-3 border-[#ceae5a] h-[108px] flex items-center pl-[35px] mt-6 lg:mt-0">
               <p className="font-sans text-[18px] text-[#555] max-w-[840px] leading-[36px] tracking-[-0.48px]">
-                At EDG Gold & Petroleum, our petroleum division is designed to deliver efficiency, reliability, and value across every stage of the supply chain. We don’t just trade products—we provide strategic solutions that empower our clients to operate with confidence in volatile markets.
+                At EDG Gold & Petroleum, our petroleum division is designed to deliver efficiency, reliability, and value across every stage of the supply chain. We don't just trade products—we provide strategic solutions that empower our clients to operate with confidence in volatile markets.
               </p>
             </div>
           </div>
           
-          <div className="flex gap-2">
-            <button className="w-[54px] h-[54px] rounded-[8px] border border-[#ceae5a] flex items-center justify-center hover:bg-[#ceae5a] group transition-all">
-              <ChevronLeft className="size-6 text-black group-hover:text-white" />
+          <div className="flex gap-[5px] shrink-0">
+            <button className="w-[54px] h-[54px] rounded-[8px] border border-[#ceae5a] bg-white flex items-center justify-center hover:bg-[#ceae5a] group transition-all">
+              <ChevronLeft className="size-5 text-[#ceae5a] group-hover:text-white" />
             </button>
-            <button className="w-[54px] h-[54px] rounded-[8px] bg-[#ceae5a] flex items-center justify-center hover:bg-[#b89b4f] transition-all">
-              <ChevronRight className="size-6 text-white" />
+            <button className="w-[54px] h-[54px] rounded-[8px] bg-[#ceae5a] border border-[#ceae5a] flex items-center justify-center hover:bg-[#b89b4f] transition-all">
+              <ChevronRight className="size-5 text-white" />
             </button>
           </div>
         </div>
@@ -68,19 +68,22 @@ export const PetroleumCapabilities = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="bg-[#f2f5fb] rounded-[8px] p-6 sm:p-7 lg:p-8 flex flex-col gap-6 hover:shadow-xl transition-shadow min-h-0 lg:min-h-[428px]"
+              className="bg-[#f2f5fb] rounded-[8px] p-[27px] flex flex-col h-auto lg:h-[428px] hover:shadow-lg transition-shadow"
             >
               <h3 className="font-sans font-semibold text-[22px] lg:text-[25px] text-black leading-[31px] tracking-[-0.48px]">
                 {item.title}
               </h3>
-              <div className="border-b border-[#b7bacb] pb-6">
-                <div className="w-[123px] h-[123px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white">
-                  {item.icon}
+
+              <div className="mt-[36px] flex flex-col gap-[21px]">
+                <div className="border-b border-[#b7bacb] pb-[23px]">
+                  <div className="w-[100px] h-[100px] lg:w-[123px] lg:h-[123px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white">
+                    {item.icon}
+                  </div>
                 </div>
+                <p className="font-sans text-[16.9px] text-[#555] leading-[27px] tracking-[-0.18px]">
+                  {item.desc}
+                </p>
               </div>
-              <p className="font-sans text-[16.9px] lg:text-[17px] text-[#555] leading-[27px] tracking-[-0.18px]">
-                {item.desc}
-              </p>
             </motion.div>
           ))}
         </div>
