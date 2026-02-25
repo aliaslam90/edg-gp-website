@@ -103,7 +103,7 @@ export const ContactFormSection = () => {
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="bg-[#A98C49] text-white flex items-center gap-4 px-[28px] py-[12px]" rounded-[12px] font-medium text-[14px] font-sans self-start mt-4 hover:bg-[#967a3f] transition-all"
+                  className="bg-[#A98C49] text-white flex items-center gap-4 px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans self-start mt-4 hover:bg-[#967a3f] transition-all"
                 >
                   Submit
                   <div className="bg-[#222222] p-1.5 rounded-full">
