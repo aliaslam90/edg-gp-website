@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
-import imgBackground1 from "@/assets/d6476fda33009cbd54e41a9a5e032505b1113a18.png";
+import imgWhoWeAre from "@/assets/whoweare.png";
 import { ArrowRight } from "lucide-react";
 
 export const IntroSection = () => {
@@ -17,8 +16,8 @@ export const IntroSection = () => {
             className="flex flex-col gap-4"
           >
             <div className="rounded-[8px] overflow-hidden w-full">
-              <ImageWithFallback
-                src={imgBackground1}
+              <img
+                src={imgWhoWeAre}
                 alt="Who We Are"
                 className="w-full h-[220px] sm:h-[240px] lg:h-[260px] object-cover"
               />
