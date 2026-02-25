@@ -14,11 +14,11 @@ export const PetroleumOperations = () => {
       <div className="max-w-[1440px] mx-auto">
         <div className="relative h-auto min-h-[400px] lg:h-[774px] rounded-[10px] overflow-hidden group shadow-2xl flex items-center">
           <img src={imgPumpjack} alt="Oil Operations" className="absolute inset-0 max-w-none object-cover size-full transition-transform duration-1000 group-hover:scale-105" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
+          <div className="absolute inset-0 z-10 opacity-100" style={{ background: "linear-gradient(0deg, rgba(0,4,53,0.4) 6.65%, rgba(11,43,63,0) 53.18%), linear-gradient(90deg, rgba(0,4,53,0.4) 6.37%, rgba(0,4,53,0) 50.94%)" }} />
           
-          <div className="relative z-10 p-6 sm:p-10 lg:p-[72px] max-w-[700px]">
-            <h2 className="font-sans font-extralight text-[22px] sm:text-[26px] lg:text-[32px] text-white leading-[1.1] tracking-[-1px]">
-              Our petroleum division operates across key trade corridors in the Middle East, Africa, and Asia, ensuring: <span className="text-[#ceae5a]">.</span>
+          <div className="relative z-10 p-6 sm:p-10 lg:p-[72px] max-w-[678px]">
+            <h2 className="font-sans font-bold text-[28px] sm:text-[32px] lg:text-[35px] text-white leading-[48px] tracking-[-1px]">
+              Our petroleum division operates across key trade corridors in the Middle East, Africa, and Asia, ensuring: <span className="text-[#fbe87e]">.</span>
             </h2>
           </div>
 
@@ -31,13 +31,13 @@ export const PetroleumOperations = () => {
           >
             <div className="flex flex-col gap-0">
               {highlights.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-4 sm:gap-6 py-6 sm:py-10 border-b border-gray-100 last:border-0 group/item">
+                <div key={idx} className="flex items-center gap-4 sm:gap-6 py-9 sm:py-[45px] border-b border-[#dce0e3] last:border-0 group/item">
                   <div className="w-[14px] h-[14px] rounded-full bg-[#ceae5a] shrink-0" />
                   <div className="flex flex-col gap-2">
-                    <span className="font-sans font-semibold text-[14px] sm:text-[15px] lg:text-[17px] text-black">
+                    <span className="font-sans font-semibold text-[22px] lg:text-[25px] text-black leading-[48px]">
                       {item.label}
                     </span>
-                    <p className="font-sans text-[15px] sm:text-[17px] lg:text-[19px] text-[#555]">
+                    <p className="font-sans text-[18px] text-[#555] leading-[48px]">
                       {item.text}
                     </p>
                   </div>

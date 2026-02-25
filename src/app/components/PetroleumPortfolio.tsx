@@ -18,14 +18,24 @@ export const PetroleumPortfolio = () => {
   return (
     <section className="bg-[#f2f5fb] py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto">
+        {/* Top border labels */}
+        <div className="flex flex-col lg:flex-row lg:items-end justify-between border-b border-[#dce0e3] pb-6 mb-8">
+          <span className="font-sans text-[13px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+            Showcasing our engineering expertise
+          </span>
+          <span className="font-sans text-[12.9px] text-[#8c8c8c] tracking-[0.28px] uppercase">
+            [ Portfolio ]
+          </span>
+        </div>
+
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
-            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] max-w-[710px]">
+            <h2 className="font-sans font-bold text-[40px] lg:text-[50px] text-black leading-[52px] tracking-[-1px] max-w-[710px]">
               Petroleum Products Portfolio
             </h2>
             <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-6 lg:pl-10 flex items-center">
-              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] max-w-[776px] leading-relaxed">
+              <p className="font-sans text-[18px] text-[#555] max-w-[776px] leading-[36px] tracking-[-0.48px]">
                 At EDG Gold & Petroleum, we offer a comprehensive portfolio of petroleum products—designed to meet the diverse needs of governments, enterprises, and industrial clients. Each product is sourced, refined, and delivered with strict adherence to international quality standards and operational efficiency.
               </p>
             </div>
@@ -46,7 +56,7 @@ export const PetroleumPortfolio = () => {
           {/* Left Content (Blue Box) */}
           <div className="w-full lg:w-[65%] bg-[#000435] p-6 sm:p-8 lg:p-[60px] flex flex-col justify-center relative z-10">
             <div className="flex items-center justify-between mb-8 lg:mb-12">
-              <h3 className="font-sans font-bold text-[18px] lg:text-[22px] text-white">
+              <h3 className="font-sans font-bold text-[28px] lg:text-[37px] text-white tracking-[-1.32px] leading-[48px]">
                 Light Distillates
               </h3>
               <span className="text-[#ceae5a]/30 font-bold text-[60px] sm:text-[80px] lg:text-[141px] leading-none">01</span>
@@ -55,10 +65,10 @@ export const PetroleumPortfolio = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 lg:gap-x-[100px] gap-y-6 lg:gap-y-10">
               {portfolioItems.map((item, idx) => (
                 <div key={idx} className="flex flex-col gap-2">
-                  <h4 className="font-sans font-semibold text-[14px] lg:text-[16px] text-[#ceae5a]">
+                  <h4 className="font-sans font-semibold text-[20px] lg:text-[23px] text-[#ceae5a] leading-[36px]">
                     {item.label}
                   </h4>
-                  <p className="font-sans text-[17px] lg:text-[19px] text-white/80 leading-relaxed">
+                  <p className="font-sans text-[18px] text-white leading-[26px]">
                     {item.text}
                   </p>
                 </div>
@@ -72,16 +82,16 @@ export const PetroleumPortfolio = () => {
           </div>
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="font-sans text-[17px] lg:text-[19px] text-[#555]">
-            We turn your ideas to reality. We don’t stop until you’re satisfied.{" "}
-            <button className="inline-flex items-center gap-2 bg-[#A98C49] text-white px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans hover:bg-[#967a3f] transition-all ml-2 group">
-              Need to discuss
-              <div className="w-[30px] h-[30px] rounded-full bg-[#222222] flex items-center justify-center group-hover:scale-110 transition-transform">
-                <ChevronRight className="size-4 text-white" />
-              </div>
-            </button>
+        <div className="mt-12 flex flex-wrap items-center justify-center gap-2 py-[26px]">
+          <p className="font-sans text-[18px] text-[#555] leading-[27px] tracking-[-0.18px]">
+            We turn your ideas to reality. We don’t stop until you’re satisfied.
           </p>
+          <a href="#contact" className="inline-flex items-center gap-2 font-sans font-bold text-[16.6px] text-black tracking-[-0.18px] group">
+            Need to discuss
+            <span className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover:scale-110 transition-transform shrink-0">
+              <ChevronRight className="size-4 text-white" />
+            </span>
+          </a>
         </div>
       </div>
     </section>

@@ -13,9 +13,8 @@ export const PetroleumHero = () => {
         className="absolute inset-0 max-w-none object-cover size-full scale-105"
       />
       
-      {/* Overlays */}
-      <div className="absolute inset-0 bg-black/40 z-10" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40 z-10" />
+      {/* Overlays - navy blue per Figma */}
+      <div className="absolute inset-0 z-10 opacity-100" style={{ background: "linear-gradient(180deg, transparent 50.05%, rgba(0,4,53,0.5) 95.045%), linear-gradient(90deg, rgba(0,4,53,0.3) 0%, rgba(0,4,53,0.3) 100%)" }} />
 
       <div className="relative z-20 max-w-[1440px] mx-auto h-full px-4 sm:px-6 lg:px-[45px] flex flex-col justify-center">
         <motion.div
@@ -30,17 +29,17 @@ export const PetroleumHero = () => {
             </span>
           </div>
           
-          <h1 className="font-sans font-extralight text-[36px] sm:text-[44px] md:text-[52px] lg:text-[60px] text-white leading-[1.05] tracking-[-1.2px] mb-6">
+          <h1 className="font-sans font-bold text-[36px] sm:text-[44px] md:text-[50px] lg:text-[55px] text-white leading-[67px] tracking-[-1.2px] mb-6">
             Driving Energy Forward with Precision and Integrity
           </h1>
           
-          <p className="font-sans text-[15px] lg:text-[17px] text-white/90 leading-relaxed mb-10 max-w-[700px]">
+          <p className="font-sans text-[15px] lg:text-[18px] text-white/90 leading-[31.5px] mb-10 max-w-[700px]">
             Delivering world-class petroleum trading solutions—fueling industries, empowering nations, and ensuring excellence across every transaction.
           </p>
           
-          <button className="flex items-center gap-[18px] bg-[#A98C49] hover:bg-[#967a3f] text-white px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all group">
+          <button className="flex items-center gap-[18px] bg-white hover:bg-white/95 text-black px-[30px] py-[12px] rounded-[8px] font-semibold text-[14.9px] font-sans transition-all group">
             <span>Contact Us</span>
-            <div className="w-[30px] h-[30px] rounded-full bg-[#222222] flex items-center justify-center group-hover:scale-110 transition-transform">
+            <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover:scale-110 transition-transform">
               <ArrowRight className="size-4 text-white" strokeWidth={3} />
             </div>
           </button>
