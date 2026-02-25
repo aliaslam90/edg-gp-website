@@ -21,11 +21,11 @@ const partners = [
 
 const PartnerCard = ({ partner }: { partner: (typeof partners)[0] }) => (
   <div className="flex-shrink-0 px-2 sm:px-3">
-    <div className="bg-white rounded-[10px] p-4 flex items-center justify-center aspect-[212/129] w-[180px] sm:w-[200px] lg:w-[220px] shadow-sm hover:shadow-md transition-all duration-300 group">
+    <div className="bg-white rounded-[10px] p-3 flex items-center justify-center aspect-[212/129] w-[140px] sm:w-[160px] lg:w-[180px] shadow-sm hover:shadow-md transition-all duration-300 group">
       <img
         src={partner.logo}
         alt={partner.name}
-        className="max-w-[80%] max-h-[80%] object-contain grayscale group-hover:grayscale-0 transition-all duration-500"
+        className="max-w-[80%] max-h-[80%] object-contain"
       />
     </div>
   </div>
