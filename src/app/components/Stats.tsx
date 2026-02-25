@@ -26,7 +26,7 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
               <path d={iconPath} fill="#CEAE5A" />
             </svg>
           </div>
-          <span className={`text-[28px] sm:text-[34px] lg:text-[48px] leading-none font-normal tracking-[-2px] lg:tracking-[-2.5px] ${isDark ? "text-white" : "text-black"} font-sans`}>
+          <span className={`text-[28px] sm:text-[34px] lg:text-[48px] leading-none font-extralight tracking-[-2px] lg:tracking-[-2.5px] ${isDark ? "text-white" : "text-black"} font-sans`}>
             {value}
           </span>
         </div>

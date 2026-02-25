@@ -27,7 +27,7 @@ export const GoldOverview = () => {
               className="w-full sm:w-1/2 lg:w-[338px] h-[200px] sm:h-[260px] lg:h-[305px] rounded-[10px] bg-[#ffffef] flex items-center justify-center border border-[#ceae5a]/20 shadow-sm"
             >
               <div className="text-center p-8">
-                <div className="font-sans font-bold text-[24px] leading-tight mb-2">
+                <div className="font-sans font-extralight text-[28px] leading-[1.1] tracking-[-1px] mb-2">
                   Gold Trading <br />
                   <span className="text-[#ceae5a]">with Integrity</span>
                 </div>
@@ -53,7 +53,7 @@ export const GoldOverview = () => {
             viewport={{ once: true }}
             className="flex flex-col gap-10"
           >
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px]">
               Overview<span className="text-[#ceae5a]">.</span>
             </h2>
             

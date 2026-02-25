@@ -73,7 +73,7 @@ export const EnergyDivision = () => {
             transition={{ duration: 1, delay: 0.2 }}
             className="flex flex-col gap-[24px] lg:flex-1"
           >
-            <h2 className="font-sans font-medium text-[20px] md:text-[26px] lg:text-[32px] text-white leading-[1.2] tracking-[-0.6px]">
+            <h2 className="font-sans font-extralight text-[28px] md:text-[36px] lg:text-[42px] text-white leading-[1.1] tracking-[-1px]">
               Energy Division<br />
               Petroleum Trading Excellence
             </h2>

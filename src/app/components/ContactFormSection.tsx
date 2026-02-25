@@ -21,7 +21,7 @@ export const ContactFormSection = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-black text-[24px] md:text-[28px] font-bold font-sans leading-[1.1] tracking-tight"
+              className="text-black text-[28px] md:text-[36px] font-extralight font-sans leading-[1.1] tracking-[-1px]"
             >
               Feel free to reach out for collaborations or just to say hello!
             </motion.h2>
@@ -67,7 +67,7 @@ export const ContactFormSection = () => {
               viewport={{ once: true }}
               className="bg-[#FAFAFA] p-8 md:p-[60px] rounded-[10px]"
             >
-              <h3 className="text-black text-[20px] md:text-[24px] font-bold font-sans mb-12">
+              <h3 className="text-black text-[22px] md:text-[28px] font-extralight font-sans mb-12 leading-[1.1] tracking-[-1px]">
                 Leave a message
               </h3>
               

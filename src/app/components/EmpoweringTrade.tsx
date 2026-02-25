@@ -36,7 +36,7 @@ export const EmpoweringTrade = () => {
             <div className="w-full h-px bg-gray-200" />
           </div>
           
-          <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-[#151515] leading-tight">
+          <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-[#151515] leading-[1.1] tracking-[-1px]">
             Empowering Trade. Delivering Value. Fueling Progress.
           </h2>
           

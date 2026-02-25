@@ -21,7 +21,7 @@ export const PetroleumPortfolio = () => {
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[710px]">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] max-w-[710px]">
               Petroleum Products Portfolio
             </h2>
             <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-6 lg:pl-10 flex items-center">

@@ -134,15 +134,31 @@
   * Typography aligned with EDG Group reference: https://edggroup.co/
   * Font: Inter (primary), Plus Jakarta Sans (accent/buttons)
   * Scale: H1 large hero, H2 section, H3 card, H4 sub, body 16px, small 14px, label 12px
+  * Display headings use font-extralight (200) - "Bridging markets, Fueling prosperity" style
   */
+
+  /* Display heading - extralight, large - for hero and big section titles */
+  .heading-display {
+    font-family: var(--font-sans);
+    font-weight: 200;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+
+  .heading-section {
+    font-family: var(--font-sans);
+    font-weight: 200;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
 
   :root {
     --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
     --font-accent: 'Plus Jakarta Sans', var(--font-sans);
-    /* EDG Group typography scale */
-    --text-hero: clamp(2rem, 5vw, 3.5rem);      /* ~32–56px hero */
-    --text-h1: clamp(1.75rem, 4vw, 2.5rem);     /* ~28–40px section */
-    --text-h2: clamp(1.375rem, 3vw, 1.875rem);  /* ~22–30px */
+    /* EDG Group typography scale - extralight for display headings */
+    --text-hero: clamp(2.25rem, 5vw, 4.75rem);   /* ~36–76px hero */
+    --text-h1: clamp(2rem, 4vw, 3.5rem);        /* ~32–56px section */
+    --text-h2: clamp(1.75rem, 3vw, 2.5rem);    /* ~28–40px */
     --text-h3: clamp(1.125rem, 2vw, 1.375rem);  /* ~18–22px */
     --text-h4: 1rem;                             /* 16px */
     --text-body: 1rem;                           /* 16px */
@@ -158,24 +174,25 @@
 
   h1 {
     font-size: var(--text-h1);
-    font-weight: 600;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+    font-weight: 200;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
     font-family: var(--font-sans);
   }
 
   h2 {
     font-size: var(--text-h2);
-    font-weight: 600;
-    line-height: 1.25;
-    letter-spacing: -0.01em;
+    font-weight: 200;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
     font-family: var(--font-sans);
   }
 
   h3 {
     font-size: var(--text-h3);
-    font-weight: 600;
-    line-height: 1.35;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
     font-family: var(--font-sans);
   }
 

@@ -44,7 +44,7 @@ export const VisionMission = () => {
                 <path d={svgPaths.p2704b200} fill="#CEAE5A" />
               </svg>
             </div>
-            <span className="text-[#ceae5a] text-[20px] lg:text-[26px] font-semibold font-sans">
+            <span className="text-[#ceae5a] text-[22px] lg:text-[28px] font-extralight font-sans">
               Vision
             </span>
           </div>
@@ -69,7 +69,7 @@ export const VisionMission = () => {
                 <path d={svgPaths.p2866b800} fill="#CEAE5A" />
               </svg>
             </div>
-            <span className="text-[#ceae5a] text-[20px] lg:text-[26px] font-semibold font-sans">
+            <span className="text-[#ceae5a] text-[22px] lg:text-[28px] font-extralight font-sans">
               Mission
             </span>
           </div>

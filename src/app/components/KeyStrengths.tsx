@@ -60,7 +60,7 @@ export const KeyStrengths = () => {
             <span className="font-sans font-medium text-[20px] lg:text-[24px] text-[#ceae5a] block mb-4">
               Key Strengths
             </span>
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight max-w-[1010px]">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] max-w-[1010px]">
               Beyond bullet points, our strengths define our story.
             </h2>
           </motion.div>

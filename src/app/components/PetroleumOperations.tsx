@@ -17,7 +17,7 @@ export const PetroleumOperations = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent" />
           
           <div className="relative z-10 p-6 sm:p-10 lg:p-[72px] max-w-[700px]">
-            <h2 className="font-sans font-bold text-[16px] sm:text-[18px] lg:text-[22px] text-white leading-tight">
+            <h2 className="font-sans font-extralight text-[22px] sm:text-[26px] lg:text-[32px] text-white leading-[1.1] tracking-[-1px]">
               Our petroleum division operates across key trade corridors in the Middle East, Africa, and Asia, ensuring: <span className="text-[#ceae5a]">.</span>
             </h2>
           </div>

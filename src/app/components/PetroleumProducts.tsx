@@ -33,7 +33,7 @@ export const PetroleumProducts = () => {
           viewport={{ once: true }}
           className="text-center mb-[60px] lg:mb-[80px] max-w-[1119px]"
         >
-          <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black mb-6">
+          <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black mb-6 leading-[1.1] tracking-[-1px]">
             Our Products
           </h2>
           <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">

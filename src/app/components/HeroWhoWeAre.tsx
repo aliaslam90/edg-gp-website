@@ -34,7 +34,7 @@ export const HeroWhoWeAre = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="font-sans font-bold text-[28px] lg:text-[36px] text-white leading-tight mb-8">
+          <h1 className="font-sans font-extralight text-[36px] sm:text-[44px] md:text-[52px] lg:text-[60px] text-white leading-[1.05] tracking-[-1.2px] mb-8">
             Who We Are
           </h1>
           

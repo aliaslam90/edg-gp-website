@@ -28,7 +28,7 @@ export const GoldIntegrity = () => {
             <span className="font-sans text-[#ceae5a] text-[14px] uppercase tracking-widest font-bold">
               ETHICAL STANDARDS
             </span>
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px]">
               Gold Trading with Integrity and Precision
             </h2>
           </div>

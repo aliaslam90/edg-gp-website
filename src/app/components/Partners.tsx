@@ -37,7 +37,7 @@ export const Partners = () => {
       <div className="max-w-[1440px] mx-auto flex flex-col gap-[60px] lg:gap-[80px]">
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-12 px-6 sm:px-8 lg:px-[45px]">
-          <h2 className="font-sans font-bold text-[28px] md:text-[36px] lg:text-[42px] text-black leading-tight tracking-[-0.02em]">
+          <h2 className="font-sans font-extralight text-[32px] md:text-[40px] lg:text-[48px] text-black leading-[1.1] tracking-[-1px]">
             Partners
           </h2>
 

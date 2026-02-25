@@ -35,7 +35,7 @@ export const CTABanner = ({
           <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.4em] font-sans">
             {badge}
           </span>
-          <h2 className="text-[22px] md:text-[28px] font-bold text-white font-sans leading-tight tracking-tight max-w-[800px]">
+          <h2 className="text-[28px] md:text-[36px] font-extralight text-white font-sans leading-[1.1] tracking-[-1px] max-w-[800px]">
             {title}
           </h2>
           <p className="text-white/60 text-[15px] md:text-[16px] font-sans leading-[1.8] max-w-[800px]">

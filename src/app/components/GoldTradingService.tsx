@@ -35,7 +35,7 @@ export const GoldTradingService = () => {
       <div className="max-w-[1440px] mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-[60px] lg:mb-[80px]">
-          <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black">
+          <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px]">
             Gold Trading Service
           </h2>
           

@@ -10,7 +10,7 @@ export const PetroleumMarkets = () => {
         {/* Header Section */}
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-12">
           <div className="flex flex-col gap-4">
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black leading-tight">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px]">
               Bridging Markets. <br /> Fueling Prosperity.
             </h2>
           </div>

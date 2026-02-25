@@ -21,7 +21,7 @@ export const ChairmanMessage = () => {
           {/* Title block + Quote icon */}
           <div className="relative">
             <div className="flex flex-col gap-1">
-              <h2 className="text-[32px] md:text-[40px] lg:text-[48px] font-bold text-black leading-[1.1] font-sans">
+              <h2 className="text-[28px] md:text-[36px] lg:text-[44px] font-extralight text-black leading-[1.1] tracking-[-1px] font-sans">
                 Chairman
               </h2>
               <p className="text-[#555] text-[16px] lg:text-[18px] font-normal font-sans">

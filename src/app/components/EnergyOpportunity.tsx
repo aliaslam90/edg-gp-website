@@ -18,7 +18,7 @@ export const EnergyOpportunity = () => {
               <span className="text-[#CEAE5A] font-bold text-[11px] uppercase tracking-[0.3em] font-sans">
                 STRATEGIC VISION
               </span>
-              <h2 className="text-[24px] lg:text-[28px] font-bold text-[#0B2B3F] font-sans leading-tight tracking-tight">
+              <h2 className="text-[28px] lg:text-[36px] font-extralight text-[#0B2B3F] font-sans leading-[1.1] tracking-[-1px]">
                 Energy & Opportunity Aligned
               </h2>
             </div>

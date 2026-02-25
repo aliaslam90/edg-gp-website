@@ -48,7 +48,7 @@ export const PetroleumOverview = () => {
             viewport={{ once: true }}
             className="flex flex-col gap-10"
           >
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-black">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px]">
               Overview<span className="text-[#ceae5a]">.</span>
             </h2>
             

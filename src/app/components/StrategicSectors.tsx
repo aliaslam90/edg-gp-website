@@ -23,7 +23,7 @@ export const StrategicSectors = () => {
             viewport={{ once: true }}
             className="max-w-[700px]"
           >
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-white leading-tight mb-6">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-white leading-[1.1] tracking-[-1px] mb-6">
               Bridging Two Strategic Sectors
             </h2>
             <p className="font-sans text-[14px] lg:text-[15px] text-white/90 leading-relaxed">

@@ -54,7 +54,7 @@ export const GoldTrading = () => {
               </span>
             </div>
 
-            <h2 className="font-sans font-medium text-[20px] md:text-[26px] lg:text-[28px] text-[#ceae5a] leading-[1.25] tracking-[-0.5px]">
+            <h2 className="font-sans font-extralight text-[28px] md:text-[36px] lg:text-[42px] text-[#ceae5a] leading-[1.1] tracking-[-1px]">
               Gold Trading with Integrity
             </h2>
 

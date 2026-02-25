@@ -24,7 +24,7 @@ export const RegionalShowcase = () => {
               </span>
             </div>
             
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-white leading-tight mb-8">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-white leading-[1.1] tracking-[-1px] mb-8">
               The Global <br />
               Energy Epicenter
             </h2>
@@ -54,7 +54,7 @@ export const RegionalShowcase = () => {
               </span>
             </div>
             
-            <h2 className="font-sans font-bold text-[22px] lg:text-[28px] text-white leading-tight mb-8">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-white leading-[1.1] tracking-[-1px] mb-8">
               A Continent <br />
               of Emerging Potential
             </h2>
