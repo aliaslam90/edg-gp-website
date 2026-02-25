@@ -75,9 +75,9 @@ export const PetroleumPortfolio = () => {
         <div className="mt-12 text-center">
           <p className="font-sans text-[17px] lg:text-[19px] text-[#555]">
             We turn your ideas to reality. We don’t stop until you’re satisfied.{" "}
-            <button className="inline-flex items-center gap-2 font-bold text-black hover:text-[#ceae5a] transition-colors ml-2 group">
-              Need to discuss 
-              <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover:scale-110 transition-transform">
+            <button className="inline-flex items-center gap-2 bg-[#A98C49] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans hover:bg-[#967a3f] transition-all ml-2 group">
+              Need to discuss
+              <div className="w-[30px] h-[30px] rounded-full bg-[#222222] flex items-center justify-center group-hover:scale-110 transition-transform">
                 <ChevronRight className="size-4 text-white" />
               </div>
             </button>

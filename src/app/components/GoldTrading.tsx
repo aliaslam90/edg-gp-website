@@ -69,9 +69,9 @@ export const GoldTrading = () => {
           </div>
 
           <motion.button
-            whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
+            whileHover={{ scale: 1.02, backgroundColor: "#967a3f" }}
             whileTap={{ scale: 0.98 }}
-            className="bg-[#ceae5a] border border-[#ceae5a] px-[20px] py-[8px] rounded-[8px] font-sans font-medium text-[13px] lg:text-[14px] text-white leading-[22px] transition-all w-fit"
+            className="bg-[#A98C49] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-sans font-medium text-[14px] transition-all w-fit hover:bg-[#967a3f]"
           >
             Learn More
           </motion.button>

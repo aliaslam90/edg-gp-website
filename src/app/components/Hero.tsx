@@ -38,9 +38,9 @@ export const Hero = () => {
           </p>
 
           <motion.button
-            whileHover={{ scale: 1.02, backgroundColor: "#b89b4f" }}
+            whileHover={{ scale: 1.02, backgroundColor: "#967a3f" }}
             whileTap={{ scale: 0.98 }}
-            className="bg-[#ceae5a] border border-[#ceae5a] text-black px-[24px] py-[10px] rounded-[8px] font-medium text-[13px] md:text-[14px] leading-[22px] font-sans transition-all w-fit"
+            className="bg-[#A98C49] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all w-fit hover:bg-[#967a3f]"
           >
             Explore Our Resources
           </motion.button>

@@ -43,12 +43,10 @@ export const GoldHero = () => {
             Delivering excellence in precious metals trading—from ethical sourcing to global distribution, ensuring integrity at every step.
           </p>
           
-          <button className="flex items-center gap-[18px] bg-white hover:bg-[#ceae5a] hover:text-white transition-all px-[32px] py-[16px] rounded-[8px] group shadow-xl">
-            <span className="font-sans font-bold text-[15px] text-black group-hover:text-white transition-colors">
-              Contact Us
-            </span>
-            <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover:bg-white transition-colors">
-              <ArrowRight className="size-4 text-white group-hover:text-[#ceae5a]" strokeWidth={3} />
+          <button className="flex items-center gap-[18px] bg-[#A98C49] hover:bg-[#967a3f] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all group shadow-xl">
+            <span>Contact Us</span>
+            <div className="w-[30px] h-[30px] rounded-full bg-[#222222] flex items-center justify-center group-hover:scale-110 transition-transform">
+              <ArrowRight className="size-4 text-white" strokeWidth={3} />
             </div>
           </button>
         </motion.div>

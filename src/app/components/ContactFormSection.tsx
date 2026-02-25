@@ -103,10 +103,10 @@ export const ContactFormSection = () => {
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="bg-[#CEAE5A] text-white flex items-center gap-4 px-8 py-4 rounded-[8px] font-bold uppercase tracking-wider text-[14px] self-start mt-4"
+                  className="bg-[#A98C49] text-[#222222] flex items-center gap-4 px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans self-start mt-4 hover:bg-[#967a3f] transition-all"
                 >
                   Submit
-                  <div className="bg-[#0B2B3F] p-1.5 rounded-full">
+                  <div className="bg-[#222222] p-1.5 rounded-full">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1 11L11 1M11 1H3M11 1V9" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>

@@ -43,16 +43,16 @@ export const CTABanner = ({
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
             <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-white text-[#0B2B3F] px-[32px] py-[16px] rounded-[6px] font-bold text-[13px] uppercase tracking-wider transition-all shadow-xl"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="bg-white text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all"
             >
               Request A Call
             </motion.button>
             <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-[#CEAE5A] text-white px-[32px] py-[16px] rounded-[6px] font-bold text-[13px] uppercase tracking-wider transition-all shadow-xl"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="bg-[#A98C49] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all hover:bg-[#967a3f]"
             >
               Get A Quote
             </motion.button>

@@ -33,7 +33,7 @@ export const EnergyOpportunity = () => {
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="bg-[#CEAE5A] text-white px-[30px] py-[14px] rounded-[6px] font-bold text-[13px] uppercase tracking-wider w-fit transition-all hover:bg-[#B89B4F] shadow-lg shadow-[#CEAE5A]/20"
+              className="bg-[#A98C49] text-[#222222] px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans w-fit transition-all hover:bg-[#967a3f]"
             >
               View Our Service
             </motion.button>
