@@ -252,7 +252,7 @@ export const Navbar = () => {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="lg:hidden navbar-glass-menu mt-3 max-w-[1440px] mx-auto rounded-[20px] overflow-hidden"
+            className="lg:hidden navbar-glass-menu bg-black mt-3 max-w-[1440px] mx-auto rounded-[20px] overflow-hidden"
           >
             <div className="px-4 sm:px-6 py-6 flex flex-col gap-1">
               {navItems.map((item) => (
