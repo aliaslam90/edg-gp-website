@@ -62,14 +62,14 @@ export const Navbar = () => {
               >
                 <g id="LogoMain">
                   <path d={svgPaths.p3e70b880} fill="#CEAE5A" />
-                  <path d={svgPaths.p1d5b6a00} fill="white" />
-                  <path d={svgPaths.p3020dd80} fill="white" />
-                  <path d={svgPaths.p25e918c0} fill="white" />
-                  <path d={svgPaths.p6f02500} fill="white" />
-                  <path d={svgPaths.p21670600} fill="white" />
-                  <path d={svgPaths.p56fb180} fill="white" />
-                  <path d={svgPaths.pf418900} fill="white" />
-                  <path d={svgPaths.p3f451b00} fill="white" />
+                  <path d={svgPaths.p1d5b6a00} fill="#151515" />
+                  <path d={svgPaths.p3020dd80} fill="#151515" />
+                  <path d={svgPaths.p25e918c0} fill="#151515" />
+                  <path d={svgPaths.p6f02500} fill="#151515" />
+                  <path d={svgPaths.p21670600} fill="#151515" />
+                  <path d={svgPaths.p56fb180} fill="#151515" />
+                  <path d={svgPaths.pf418900} fill="#151515" />
+                  <path d={svgPaths.p3f451b00} fill="#151515" />
                   <path d={svgPaths.p2c72e700} fill="#CEAE5A" />
                   <path d={svgPaths.p333ef800} fill="#CEAE5A" />
                   <path d={svgPaths.p2b9f1600} fill="#CEAE5A" />
