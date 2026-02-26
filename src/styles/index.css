@@ -6,28 +6,24 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Navbar glassmorphism – blur value kept within browser limits so it actually applies */
+/* Navbar glass – dark tint */
 .navbar-glass-bar {
-  background: rgba(255, 255, 255, 0.55);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  isolation: isolate;
+  background: #0000008c;
+  border: 1px solid #fff6;
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.4);
   position: relative;
   overflow: visible;
-  isolation: isolate;
+  box-shadow: 0 4px 30px #00000014;
 }
 
-/* Mobile dropdown – same glass */
+/* Mobile dropdown – same */
 .navbar-glass-menu {
-  background: rgba(255, 255, 255, 0.55);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  isolation: isolate;
+  background: #0000008c;
+  border: 1px solid #fff6;
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.4);
   position: relative;
   overflow: hidden;
-  isolation: isolate;
+  box-shadow: 0 4px 30px #00000014;
 }
